@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Sun Oct 27 16:36:09 2024
+-->
+<synopsysFile name="synopsysRecentFiles" version="1.1">
+        <recentFiles>
+                <file view="PrimeSim_default" library="basic_cells" file="saeState" cell="test_inv_SPICE" mode="write"/>
+                <file view="schematic" library="basic_cells" file="schematic" cell="test_inv_SPICE" mode="write"/>
+                <file view="FineSimPro_FineSim_default" library="basic_cells" file="saeState" cell="test_inv_SPICE" mode="write"/>
+                <file view="schematic" library="basic_cells" file="schematic" cell="inv" mode="write"/>
+                <file view="FineSim_VCS_INV_SPICE" library="basic_cells" file="saeState" cell="test_inv_SPICE" mode="write"/>
+        </recentFiles>
+</synopsysFile>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Oct 27 16:30:02 2024-->
+<file-format name="stateData" version="1.0">
+ <attribute value="0" name="dcop_splitted" type="giBoolean"/>
+ <attribute value="" name="description" type="giString"/>
+ <attribute value="basic_cells/test_inv_SPICE/schematic" name="design" type="dmCellView"/>
+ <attribute value="1" name="enabled" type="giBoolean"/>
+ <attribute value="0" name="enabledJobClass" type="giBoolean"/>
+ <attribute value="PrimeSim" name="migratedSimulator" type="giString"/>
+ <attribute value="PrimeSim_default" name="name" type="giString"/>
+ <attribute value="basic_cells/test_inv_SPICE/PrimeSim_default" name="openaccessState" type="dmCellView"/>
+ <attribute value="HSPICE" name="simulator" type="giString"/>
+ <comment></comment>
+ <resultsDir>~/simulation</resultsDir>
+ <enableTestbenchHistory>0</enableTestbenchHistory>
+ <integration version="1"/>
+</file-format>

@@ -1,0 +1,24 @@
+#------------------------------------------------------------------------------
+# XFAB xh018 lib.defs file
+#    this file was automatically created by X-FAB Kit Flow software
+#    do not modify this file manually
+#------------------------------------------------------------------------------
+DEFINE PRIMLIB                  $FTK_KIT_DIR/xh018/synopsys/v9_0/PDK/CustomCompiler/v9_0_1/PRIMLIB_1141
+DEFINE TECH_XH018               $FTK_KIT_DIR/xh018/synopsys/v9_0/PDK/CustomCompiler/v9_0_1/TECH_XH018_1141
+DEFINE TECH_XH018_HD            $FTK_KIT_DIR/xh018/synopsys/v9_0/PDK/CustomCompiler/v9_0_1/TECH_XH018_HD_1141
+#--------------------------------------
+INCLUDE $SYNOPSYS_CUSTOM_INSTALL/samples/lib.defs
+#--------------------------------------
+# digital part
+#--------------------------------------
+DEFINE D_CELLS_HDLL             $FTK_KIT_DIR/xh018/diglibs/D_CELLS_HDLL/v3_0/synopsys_CC/v3_0_0/D_CELLS_HDLL
+DEFINE D_CELLS_HDMV             $FTK_KIT_DIR/xh018/diglibs/D_CELLS_HDMV/v2_2/synopsys_CC/v2_2_0/D_CELLS_HDMV
+DEFINE GATES_3V                 $FTK_KIT_DIR/xh018/diglibs/GATES_3V/v2_1/synopsys_CC/v2_1_1/GATES_3V
+DEFINE GATES_HD                 $FTK_KIT_DIR/xh018/diglibs/GATES_HD/v1_1/synopsys_CC/v1_1_1/GATES_HD
+DEFINE GATES_JI3V               $FTK_KIT_DIR/xh018/diglibs/GATES_JI3V/v1_1/synopsys_CC/v1_1_1/GATES_JI3V
+DEFINE GATES_JIHD               $FTK_KIT_DIR/xh018/diglibs/GATES_JIHD/v1_1/synopsys_CC/v1_1_0_1/GATES_JIHD
+DEFINE GATES_JISVT              $FTK_KIT_DIR/xh018/diglibs/GATES_JISVT/v2_0/synopsys_CC/v2_0_0/GATES_JISVT
+DEFINE GATES_SVT                $FTK_KIT_DIR/xh018/diglibs/GATES_SVT/v2_0/synopsys_CC/v2_0_1/GATES_SVT
+DEFINE IO_CELLS_FC1V8           $FTK_KIT_DIR/xh018/diglibs/IO_CELLS_FC1V8/v1_1/synopsys_CC/v1_1_2/IO_CELLS_FC1V8
+DEFINE IO_CELLS_FC3V            $FTK_KIT_DIR/xh018/diglibs/IO_CELLS_FC3V/v1_2/synopsys_CC/v1_2_2/IO_CELLS_FC3V
+DEFINE GATES_PCELL              $FTK_KIT_DIR/xh018/analoglibs/GATES_PCELL/v2_0/synopsys_CC/v2_0_4_2/GATES_PCELL
