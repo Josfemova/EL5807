@@ -9,6 +9,7 @@
 	<pref name="dbViewWordWrap" value="true"/>
 	<pref name="deActiveObjectToolbarProc" value="printInfo"/>
 	<pref name="deCrossCheckViews" value="cmos_sch schematic symbol hspice verilog veriloga"/>
+	<pref name="deDescendMode" value="edit"/>
 	<pref name="dmNewLibTechLib" value="TECH_XH018"/>
 	<pref name="dmNewLibTechType" value="lib"/>
 	<pref name="giShowFrameTabs" value="false"/>

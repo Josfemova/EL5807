@@ -1,0 +1,78 @@
+****** PrimeSim HSPICE -- U-2023.03-SP2 linux64 (Aug 24 2023 8388748) ******
+Input File: nmos_I-V_curve.spi
+lic:
+lic: FLEXlm: SDK_12.11.9.1
+lic: USER:   sfallas_II_2024_vlsi HOSTNAME: redhat003
+lic: HOSTID: 7f0100               PID:      963072
+lic: Using FLEXlm license file:
+lic: 27020@172.21.99.41
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 08-sep-2025/2024.09
+lic: 1(in_use)/100(total) FLOATING license(s) on SERVER 27020@172.21.99.41
+lic:
+
+ init: begin read circuit files, cpu clock= 9.55E-01
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/ad
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/behave
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/bjt
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/burr_brn
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/comlinear
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/dio
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/fet
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/lin_tech
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/pci
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/signet
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/ti
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/tline
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/xilinx
+       option parhier = local
+       option port_voltage_scale_to_2x =     1.00
+       option runlvl =     3.00
+       option s_elem_cache_dir = /home/sfallas_II_2024_vlsi/.synopsys_custom/sparam_dir
+       option pva_output_dir = /home/sfallas_II_2024_vlsi/.synopsys_custom/pva_dir
+       option wdf =     1.00
+       option parhier = local
+       option opfile =     1.00
+       option split_dp =     1.00
+       option probe =     1.00
+ init: end read circuit files, cpu clock= 9.73E-01 peak memory=     523 mb
+ init: begin check errors, cpu clock= 9.73E-01
+ init: end check errors, cpu clock= 9.77E-01 peak memory=     523 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 9.77E-01
+       establish matrix -- done, cpu clock= 9.78E-01 peak memory=     523 mb
+       re-order matrix -- done, cpu clock= 9.78E-01 peak memory=     523 mb
+ init: end setup matrix, cpu clock= 1.02E+00 peak memory=     523 mb
+ sweep: voltage         voltage1         begin, #sweeps =  10
+ voltage: v5              =    0.00E+00
+ sweep: dc dc1    begin, #sweeps= 181 cpu clock= 1.03E+00
+ sweep: dc dc1    end, cpu clock= 1.03E+00 peak memory=     523 mb
+ voltage: v5              =    2.00E-01
+ sweep: dc dc2    begin, #sweeps= 181 cpu clock= 1.04E+00
+ sweep: dc dc2    end, cpu clock= 1.04E+00 peak memory=     523 mb
+ voltage: v5              =    4.00E-01
+ sweep: dc dc3    begin, #sweeps= 181 cpu clock= 1.04E+00
+ sweep: dc dc3    end, cpu clock= 1.04E+00 peak memory=     523 mb
+ voltage: v5              =    6.00E-01
+ sweep: dc dc4    begin, #sweeps= 181 cpu clock= 1.04E+00
+ sweep: dc dc4    end, cpu clock= 1.05E+00 peak memory=     523 mb
+ voltage: v5              =    8.00E-01
+ sweep: dc dc5    begin, #sweeps= 181 cpu clock= 1.05E+00
+ sweep: dc dc5    end, cpu clock= 1.05E+00 peak memory=     523 mb
+ voltage: v5              =    1.00E+00
+ sweep: dc dc6    begin, #sweeps= 181 cpu clock= 1.05E+00
+ sweep: dc dc6    end, cpu clock= 1.06E+00 peak memory=     523 mb
+ voltage: v5              =    1.20E+00
+ sweep: dc dc7    begin, #sweeps= 181 cpu clock= 1.06E+00
+ sweep: dc dc7    end, cpu clock= 1.06E+00 peak memory=     523 mb
+ voltage: v5              =    1.40E+00
+ sweep: dc dc8    begin, #sweeps= 181 cpu clock= 1.06E+00
+ sweep: dc dc8    end, cpu clock= 1.07E+00 peak memory=     523 mb
+ voltage: v5              =    1.60E+00
+ sweep: dc dc9    begin, #sweeps= 181 cpu clock= 1.07E+00
+ sweep: dc dc9    end, cpu clock= 1.07E+00 peak memory=     523 mb
+ voltage: v5              =    1.80E+00
+ sweep: dc dc10   begin, #sweeps= 181 cpu clock= 1.07E+00
+ sweep: dc dc10   end, cpu clock= 1.08E+00 peak memory=     523 mb
+ sweep: voltage         voltage         1 end
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
