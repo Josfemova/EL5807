@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Tue Nov 26 17:46:17 2024
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file cell="test_compuesta" view="FineSim_VCS_default" library="tarea2" file="saeState" mode="write"/>
+                <file cell="test_compuesta" view="FineSim_VCS_default" library="tarea4" file="saeState" mode="write"/>
+                <file cell="test_compuesta" view="schematic" library="tarea4" file="schematic" mode="write"/>
+                <file cell="test_compleja" view="schematic" library="tarea4" file="schematic" mode="write"/>
+                <file cell="test_compleja" view="FineSim_VCS_default" library="tarea4" file="saeState" mode="write"/>
+        </recentFiles>
+</synopsysFile>
