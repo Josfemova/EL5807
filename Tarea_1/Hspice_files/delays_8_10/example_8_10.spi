@@ -1,0 +1,62 @@
+
+.option post
+
+.temp 70 
+.param SUPPLY=1.8
+.param H=4
+.param N1=4
+.param Ratio=2
+.option scale=90n
+
+
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/xh018.lib' tm
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/param.lib' 3s
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/config.lib' default
+
+
+.global vdd! gnd!
+
+
+.subckt inv in out N=4 P=8
+xm0 out in gnd! gnd! ne w='N' l=2
++ as='N*5' ad='N*5' ps='2*N+10' pd='2*N+10'
+xm1 out in vdd! vdd! pe w='P' l=2
++ as='P*5' ad='P*5' ps='2*P+10' pd='2*P+10'
+.ends inv
+
+
+
+Vdd vdd! gnd! 'SUPPLY'
+Vin a gnd! PULSE 0 'SUPPLY' 0ps 100ps 100ps 900ps 2000ps
+X1 a b inv N='N1'  P='N1*Ratio'                
+X2 b c inv N='N1'  P='N1*Ratio'  M='H'          
+X3 c d inv N='N1'  P='N1*Ratio'  M='H**2'      
+X4 d e inv N='N1'  P='N1*Ratio'  M='H**3'      
+X5 e f inv N='N1'  P='N1*Ratio'  M='H**4'      
+
+
+
+.tran 0.1ps 2ns sweep Ratio 1.5 7 0.1 
+
+.measure tpdr * rising prop delay
++ TRIG v(c) VAL='SUPPLY/2' FALL=1 
++ TARG v(d) VAL='SUPPLY/2' RISE=1
+.measure tpdf * falling prop delay
++ TRIG v(c) VAL='SUPPLY/2' RISE=1
++ TARG v(d) VAL='SUPPLY/2' FALL=1 
+.measure tpd param='(tpdr+tpdf)/2' * average prop delay
+.measure trise * rise time
++ TRIG v(d) VAL='0.2*SUPPLY' RISE=1
++ TARG v(d) VAL='0.8*SUPPLY' RISE=1
+.measure tfall * fall time
++ TRIG v(d) VAL='0.8*SUPPLY' FALL=1
++ TARG v(d) VAL='0.2*SUPPLY' FALL=1
+.measure diff param='tpdr-tpdf'
+
+
+.probe tran v(c) v(d)
+.measure power AVG 'P(Vdd)*-1' FROM=0 TO=2ns
+.option measform=1
+.option numdgt=6
+
+.end

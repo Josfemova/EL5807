@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<!-- created by PrimeWave Design Environment (TM), build #, on Sun Nov 24 16:33:59 2024
+<!-- created by Custom Compiler (TM), build #, on Sun Nov 24 19:54:57 2024
 -->
-<synopsysFile version="1.1" name="synopsysRecentFiles">
+<synopsysFile name="synopsysRecentFiles" version="1.1">
         <recentFiles>
-                <file library="basic_cells" file="saeState" view="PrimeSim_default" mode="write" cell="test_inv_SPICE"/>
-                <file library="basic_cells" file="schematic" view="schematic" mode="write" cell="test_inv_SPICE"/>
-                <file library="basic_cells" file="schematic" view="schematic" mode="write" cell="test_inv"/>
-                <file library="basic_cells" file="saeState" view="FineSimPro_FineSim_default" mode="write" cell="test_inv_SPICE"/>
-                <file library="basic_cells" file="schematic" view="schematic" mode="write" cell="inv"/>
+                <file view="schematic" file="schematic" library="basic_cells" cell="inv" mode="write"/>
+                <file view="PrimeSim_default" file="saeState" library="basic_cells" cell="test_inv_SPICE" mode="write"/>
+                <file view="schematic" file="schematic" library="basic_cells" cell="test_inv_SPICE" mode="write"/>
+                <file view="schematic" file="schematic" library="basic_cells" cell="test_inv" mode="write"/>
+                <file view="schematic" file="schematic" library="basic_cells" cell="test_vel_sat" mode="read"/>
         </recentFiles>
 </synopsysFile>

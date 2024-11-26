@@ -2469,3 +2469,4 @@ gi::setField {propertiesExpand} -value {false} -in [gi::getAssistants deProperty
 gi::executeAction giCloseWindow -in [gi::getWindows 127]
 gi::setActiveWindow 0
 gi::setActiveWindow 0 -raise true
+gi::executeAction giCloseWindow -in [gi::getWindows 0]

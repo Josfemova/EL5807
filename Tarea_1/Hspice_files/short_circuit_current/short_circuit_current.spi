@@ -1,0 +1,68 @@
+*  Generated for: PrimeSim
+*  Design library name: basic_cells
+*  Design cell name: test_inv_SPICE
+*  Design view name: schematic
+
+
+
+.option PARHIER = LOCAL
+.option PORT_VOLTAGE_SCALE_TO_2X = 1
+.option RUNLVL = 3
+.option S_ELEM_CACHE_DIR = "/home/sfallas_II_2024_vlsi/.synopsys_custom/sparam_dir"
+.option PVA_OUTPUT_DIR = "/home/sfallas_II_2024_vlsi/.synopsys_custom/pva_dir"
+
+
+.option WDF=1
+.temp 25
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/xh018.lib' tm
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/param.lib' 3s
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/config.lib' default
+
+*PrimeWave Design Environment Version U-2023.03-SP2
+*Sun Nov 24 12:47:08 2024
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : basic_cells
+* Cell             : inv
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt inv a q
+xm0 q a gnd! gnd! ne w=360n l=180n as=1.728e-13 ad=1.728e-13 ps=1.68e-06 pd=1.68e-06
++ nrs=0.75 nrd=0.75 m='1*1' par1='1*1' xf_subext=0
+xm2 q a vdd! vdd! pe w='w_p' l=180n as=8.64e-13 ad=8.64e-13 ps=4.56e-06 pd=4.56e-06
++ nrs=0.15 nrd=0.15 m='1*1' par1='1*1'
+.ends inv
+
+********************************************************************************
+* Library          : basic_cells
+* Cell             : test_inv_SPICE
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+v3 vdd! gnd! dc=1.8
+v1 a gnd! dc=0 pulse ( 0 1.8 0 '100ps' 100p '2ns' '4ns' )
+xi2 a q inv
+x1 a q inv w_p='w_p'
+c8 q gnd! c=6.7f
+
+.param w_p=360n
+.param w_p_start=360n
+.param w_p_stop=2340n
+.param w_p_step=180n
+
+
+.tran 1ps 3ns start=1ns sweep w_p w_p_start w_p_stop w_p_step
+.option opfile=1 split_dp=1
+.option probe=1
+.probe tran v(*) level=1
+.probe tran v(q) v(a)
+.probe tran isub(xm0.d)
+
+.measure tran current_at_vdd2 find i(v3) when v(q)=0.9
+
+
+.end
