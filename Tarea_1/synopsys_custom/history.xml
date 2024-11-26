@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Sun Nov 24 19:54:57 2024
+<!-- created by Custom Compiler (TM), build #, on Mon Nov 25 23:28:04 2024
 -->
 <synopsysFile name="synopsysRecentFiles" version="1.1">
         <recentFiles>
-                <file view="schematic" file="schematic" library="basic_cells" cell="inv" mode="write"/>
-                <file view="PrimeSim_default" file="saeState" library="basic_cells" cell="test_inv_SPICE" mode="write"/>
-                <file view="schematic" file="schematic" library="basic_cells" cell="test_inv_SPICE" mode="write"/>
-                <file view="schematic" file="schematic" library="basic_cells" cell="test_inv" mode="write"/>
-                <file view="schematic" file="schematic" library="basic_cells" cell="test_vel_sat" mode="read"/>
+                <file mode="write" file="schematic" cell="inv" library="basic_cells" view="schematic"/>
+                <file mode="write" file="saeState" cell="test_inv_SPICE" library="basic_cells" view="PrimeSim_default"/>
+                <file mode="write" file="schematic" cell="test_inv_SPICE" library="basic_cells" view="schematic"/>
+                <file mode="write" file="schematic" cell="test_inv" library="basic_cells" view="schematic"/>
+                <file mode="read" file="schematic" cell="test_vel_sat" library="basic_cells" view="schematic"/>
         </recentFiles>
 </synopsysFile>

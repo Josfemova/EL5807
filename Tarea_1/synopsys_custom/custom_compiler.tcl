@@ -54,3 +54,4 @@ gi::setActiveWindow 0
 gi::setActiveWindow 0 -raise true
 db::setAttr geometry -of [gi::getFrames 0] -value 600x300+701+427
 gi::executeAction giCloseWindow -in [gi::getWindows 0]
+gi::executeAction giCloseWindow -in [gi::getWindows 0]
