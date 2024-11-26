@@ -1,0 +1,6 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='U-2023.03-SP2 linux6' PARAM_COUNT=1
+$OPTION MEASFORM=1
+.TITLE ''
+h tpdr tpdf tpd trise tfall diff temper alter#
+   3.0000  1.127e-10  8.288e-11  9.777e-11  1.140e-10  7.430e-11  2.979e-11   70.0000 1
+   4.0000  1.414e-10  1.027e-10  1.221e-10  1.436e-10  9.444e-11  3.873e-11   70.0000 1
