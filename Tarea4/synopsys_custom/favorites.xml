@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Tue Nov 26 00:46:56 2024
+-->
+<synopsysFile version="1.0" name="synopsysFavoriteDevices">
+        <favoriteDevices viewType="maskLayout"/>
+        <favoriteDevices viewType="schematic">
+                <cellView cell="nor2out" library="tarea4" view="symbol">
+                        <alias name="nor2out"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="ne" library="PRIMLIB" view="symbol">
+                        <alias name="ne"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="pe" library="PRIMLIB" view="symbol">
+                        <alias name="pe"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="gnd" library="analogLib" view="symbol">
+                        <alias name="gnd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="vdd" library="analogLib" view="symbol">
+                        <alias name="vdd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+</synopsysFile>
