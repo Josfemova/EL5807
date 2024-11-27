@@ -1,0 +1,33 @@
+::sa::_backgroundSaeShell::signalProcessReady 1732671334 1547974
+::wf::updateViewerLicense 2
+::wf::updateViewerLicense 2
+::sa::_backgroundSaeShell::runScript /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/bg_script.tcl 0 sa::_testSuite::netlistAndRun::structNetlistingDone scriptDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic testSuiteName saeSession4 cmdArgs {default 1 1 0 1 1} taskId 4
+db::setAttr geometry -of [gi::getFrames 1] -value 1014x710+5+52
+::sa::_backgroundSaeShell::runScript /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession4 uniqueSessionName {} testbenchName default resultsDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results testSuiteDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal databaseName /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+::wf::viewerExited
+::wf::viewerExited
+::wf::updateViewerLicense 2
+::sa::_backgroundSaeShell::runScript /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/bg_script.tcl 0 sa::_testSuite::netlistAndRun::structNetlistingDone scriptDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic testSuiteName saeSession4 cmdArgs {default 1 1 0 1 0} taskId 5 isReRun 1
+::sa::_backgroundSaeShell::runScript /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession4 uniqueSessionName {} testbenchName default resultsDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results testSuiteDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal databaseName /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+::wf::viewerExited
+::wf::viewerExited
+::wf::updateViewerLicense 2
+::sa::_backgroundSaeShell::runScript /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/bg_script.tcl 0 sa::_testSuite::netlistAndRun::structNetlistingDone scriptDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic testSuiteName saeSession4 cmdArgs {default 1 1 0 1 0} taskId 6 isReRun 1
+::sa::_backgroundSaeShell::runScript /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession4 uniqueSessionName {} testbenchName default resultsDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results testSuiteDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal databaseName /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+::wf::viewerExited
+::wf::viewerExited
+::wf::updateViewerLicense 2
+::sa::_backgroundSaeShell::runScript /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/bg_script.tcl 0 sa::_testSuite::netlistAndRun::structNetlistingDone scriptDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic testSuiteName saeSession4 cmdArgs {default 1 1 0 1 0} taskId 7 isReRun 1
+::sa::_backgroundSaeShell::runScript /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession4 uniqueSessionName {} testbenchName default resultsDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results testSuiteDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal databaseName /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+::wf::viewerExited
+::sa::_backgroundSaeShell::parentRunning
+::wf::viewerExited
+::wf::updateViewerLicense 2
+::sa::_backgroundSaeShell::runScript /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/bg_script.tcl 0 sa::_testSuite::netlistAndRun::structNetlistingDone scriptDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic testSuiteName saeSession4 cmdArgs {default 1 1 0 1 0} taskId 8 isReRun 1
+::sa::_backgroundSaeShell::runScript /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/.bg_measurement_script.tcl 0 sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession4 uniqueSessionName {} testbenchName default resultsDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/results testSuiteDir /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal databaseName /home/sfallas_II_2024_vlsi/simulation/basic_cells,flip_flop_test_schematic,schematic/history_1/simulation/default/PrimeSimHSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1 saveImages true
+::wf::viewerExited
+::sa::_backgroundSaeShell::parentRunning
+::sa::_backgroundSaeShell::parentRunning
+::wf::viewerExited
+::wf::updateViewerLicense 2
+::sa::_backgroundSaeShell::exit

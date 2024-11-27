@@ -1,0 +1,152 @@
+Parsing option_file: xtract.tech (EX-304)
+Running Amd_64b    
+Initializing extraction ... (EX-724)
+Reading binary grd file
+/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/xt018_xx43_MET4_METMID_METTHK_typ.nxtgrd
+... (EX-135)
+Process 1R 1C
+use_partitioned_sig2idx is Inactive
+[XinLoad] Xin reading and cleaning duration is 0.02 seconds.
+Ary stats nx=16 ny=7 dx=9838 dy=10743 nentry=1801  max/cell=48 av/cell=16.0804
+ Stats DB 0 731 0 0 0 0 0 343 0 0
+----- Extracting 19 nets ----- 
+Completed   3%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Two different texts touching each other; text_id1=376  text_id2=376 (EX-504)
+Two different texts touching each other; text_id1=376  text_id2=376 (EX-504)
+Two different texts touching each other; text_id1=376  text_id2=376 (EX-504)
+Two different texts touching each other; text_id1=376  text_id2=376 (EX-504)
+Two different texts touching each other; text_id1=376  text_id2=376 (EX-504)
+Two different texts touching each other; text_id1=376  text_id2=376 (EX-504)
+Two different texts touching each other; text_id1=379  text_id2=379 (EX-504)
+Two different texts touching each other; text_id1=379  text_id2=379 (EX-504)
+Two different texts touching each other; text_id1=379  text_id2=379 (EX-504)
+Two different texts touching each other; text_id1=379  text_id2=379 (EX-504)
+Two different texts touching each other; text_id1=379  text_id2=379 (EX-504)
+Two different texts touching each other; text_id1=379  text_id2=379 (EX-504)
+Two different texts touching each other; text_id1=392  text_id2=392 (EX-504)
+Two different texts touching each other; text_id1=392  text_id2=392 (EX-504)
+Two different texts touching each other; text_id1=392  text_id2=392 (EX-504)
+Two different texts touching each other; text_id1=392  text_id2=392 (EX-504)
+Two different texts touching each other; text_id1=392  text_id2=392 (EX-504)
+Two different texts touching each other; text_id1=392  text_id2=392 (EX-504)
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Two different texts touching each other; text_id1=411  text_id2=411 (EX-504)
+Two different texts touching each other; text_id1=411  text_id2=411 (EX-504)
+Two different texts touching each other; text_id1=411  text_id2=411 (EX-504)
+Two different texts touching each other; text_id1=411  text_id2=411 (EX-504)
+Two different texts touching each other; text_id1=411  text_id2=411 (EX-504)
+Two different texts touching each other; text_id1=411  text_id2=411 (EX-504)
+Completed  13%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Two different texts touching each other; text_id1=434  text_id2=434 (EX-504)
+Two different texts touching each other; text_id1=434  text_id2=434 (EX-504)
+Two different texts touching each other; text_id1=434  text_id2=434 (EX-504)
+Two different texts touching each other; text_id1=434  text_id2=434 (EX-504)
+Two different texts touching each other; text_id1=434  text_id2=434 (EX-504)
+Two different texts touching each other; text_id1=434  text_id2=434 (EX-504)
+Completed  16%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Two different texts touching each other; text_id1=457  text_id2=457 (EX-504)
+Two different texts touching each other; text_id1=457  text_id2=457 (EX-504)
+Two different texts touching each other; text_id1=457  text_id2=457 (EX-504)
+Two different texts touching each other; text_id1=457  text_id2=457 (EX-504)
+Two different texts touching each other; text_id1=457  text_id2=457 (EX-504)
+Two different texts touching each other; text_id1=457  text_id2=457 (EX-504)
+Two different texts touching each other; text_id1=460  text_id2=460 (EX-504)
+Two different texts touching each other; text_id1=460  text_id2=460 (EX-504)
+Two different texts touching each other; text_id1=460  text_id2=460 (EX-504)
+Two different texts touching each other; text_id1=460  text_id2=460 (EX-504)
+Two different texts touching each other; text_id1=460  text_id2=460 (EX-504)
+Two different texts touching each other; text_id1=460  text_id2=460 (EX-504)
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Two different texts touching each other; text_id1=473  text_id2=473 (EX-504)
+Two different texts touching each other; text_id1=473  text_id2=473 (EX-504)
+Two different texts touching each other; text_id1=473  text_id2=473 (EX-504)
+Two different texts touching each other; text_id1=473  text_id2=473 (EX-504)
+Two different texts touching each other; text_id1=473  text_id2=473 (EX-504)
+Two different texts touching each other; text_id1=473  text_id2=473 (EX-504)
+Completed  23%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Two different texts touching each other; text_id1=489  text_id2=489 (EX-504)
+Two different texts touching each other; text_id1=489  text_id2=489 (EX-504)
+Two different texts touching each other; text_id1=489  text_id2=489 (EX-504)
+Two different texts touching each other; text_id1=489  text_id2=489 (EX-504)
+Two different texts touching each other; text_id1=489  text_id2=489 (EX-504)
+Two different texts touching each other; text_id1=489  text_id2=489 (EX-504)
+Completed  26%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Two different texts touching each other; text_id1=495  text_id2=495 (EX-504)
+Two different texts touching each other; text_id1=495  text_id2=495 (EX-504)
+Two different texts touching each other; text_id1=495  text_id2=495 (EX-504)
+Two different texts touching each other; text_id1=495  text_id2=495 (EX-504)
+Two different texts touching each other; text_id1=495  text_id2=495 (EX-504)
+Two different texts touching each other; text_id1=495  text_id2=495 (EX-504)
+Completed  30%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  33%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  36%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Two different texts touching each other; text_id1=513  text_id2=513 (EX-504)
+Two different texts touching each other; text_id1=513  text_id2=513 (EX-504)
+Two different texts touching each other; text_id1=513  text_id2=513 (EX-504)
+Two different texts touching each other; text_id1=513  text_id2=513 (EX-504)
+Two different texts touching each other; text_id1=513  text_id2=513 (EX-504)
+Two different texts touching each other; text_id1=513  text_id2=513 (EX-504)
+Two different texts touching each other; text_id1=516  text_id2=516 (EX-504)
+Two different texts touching each other; text_id1=516  text_id2=516 (EX-504)
+Two different texts touching each other; text_id1=516  text_id2=516 (EX-504)
+Two different texts touching each other; text_id1=516  text_id2=516 (EX-504)
+Two different texts touching each other; text_id1=516  text_id2=516 (EX-504)
+Two different texts touching each other; text_id1=516  text_id2=516 (EX-504)
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  43%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Two different texts touching each other; text_id1=521  text_id2=521 (EX-504)
+Two different texts touching each other; text_id1=521  text_id2=521 (EX-504)
+Two different texts touching each other; text_id1=521  text_id2=521 (EX-504)
+Two different texts touching each other; text_id1=521  text_id2=521 (EX-504)
+Two different texts touching each other; text_id1=521  text_id2=521 (EX-504)
+Two different texts touching each other; text_id1=521  text_id2=521 (EX-504)
+Two different texts touching each other; text_id1=524  text_id2=524 (EX-504)
+Two different texts touching each other; text_id1=524  text_id2=524 (EX-504)
+Two different texts touching each other; text_id1=524  text_id2=524 (EX-504)
+Two different texts touching each other; text_id1=524  text_id2=524 (EX-504)
+Two different texts touching each other; text_id1=524  text_id2=524 (EX-504)
+Two different texts touching each other; text_id1=524  text_id2=524 (EX-504)
+Completed  46%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  50%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  53%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Two different texts touching each other; text_id1=531  text_id2=531 (EX-504)
+Two different texts touching each other; text_id1=531  text_id2=531 (EX-504)
+Two different texts touching each other; text_id1=531  text_id2=531 (EX-504)
+Two different texts touching each other; text_id1=531  text_id2=531 (EX-504)
+Two different texts touching each other; text_id1=531  text_id2=531 (EX-504)
+Two different texts touching each other; text_id1=531  text_id2=531 (EX-504)
+Two different texts touching each other; text_id1=534  text_id2=534 (EX-504)
+Two different texts touching each other; text_id1=534  text_id2=534 (EX-504)
+Two different texts touching each other; text_id1=534  text_id2=534 (EX-504)
+Two different texts touching each other; text_id1=534  text_id2=534 (EX-504)
+Two different texts touching each other; text_id1=534  text_id2=534 (EX-504)
+Two different texts touching each other; text_id1=534  text_id2=534 (EX-504)
+Completed  56%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Two different texts touching each other; text_id1=539  text_id2=539 (EX-504)
+Two different texts touching each other; text_id1=539  text_id2=539 (EX-504)
+Two different texts touching each other; text_id1=539  text_id2=539 (EX-504)
+Two different texts touching each other; text_id1=539  text_id2=539 (EX-504)
+Suppression: Message (EX-504) suppressed beyond 100 times
+Completed  63%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+[NetExtr] Net extraction duration is 0.05 seconds.
+ Processing non-critical polygons ... 
+Completed  86%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+[NCExtr] Non-critical extraction duration is 0.01 seconds.
+ CapExtractionCounters CapEnvD=3373 CapEnvND=842 NumCap=57851 Area=6746
+[Extract] Core extraction duration is 0.05 seconds.
+----- Reducing 19 nets ----- 
+----- Floating fill reduction ----- 
+Extracted 1481 capacitors, 748 resistors, 613 nodes
+Reduced to 433 nodes,  (29.3638%)
+Reduced to 436 resistors,  (41.7112%)
+Reduced to 1059 capacitors: 626 Cc and 433 Cg (28.4943%)
+  
+xTractor      Elp=00:00:01 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=419.7 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=419.7 
+[Reduc] Fill and Net reduction duration is 0.01 seconds.
+[CircWrt] Final circuit write duration is 0.03 seconds.
+Partition 0 total time is 0.13 seconds.
+

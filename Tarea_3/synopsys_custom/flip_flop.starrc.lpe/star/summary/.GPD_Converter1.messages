@@ -1,0 +1,369 @@
+Parsing option_file: convert_gpd.tech (EX-304)
+Running Amd_64b    
+$LD_LIBRARY_PATH=/mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/lib:/mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/lib/std_oa/linux64/lib/opt:/mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/lib:/mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/lib/std_oa/linux64/lib/opt:/mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/lib:/mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/lib/std_oa/linux64/lib/opt:/usr/lib:.
+$TCL_LIBRARY=/mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/etc/auxx/tcllib/lib/tcl8.6
+loading /mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/lib/liboaStar-O.so
+OA lib version: 22.60.063
+OaOpenLibDefListObserver::onPostOpenLibs:
+Got Lib Def: Logical Library Name = PRIMLIB
+Got Lib Def: Logical Library Name = TECH_XT018
+Got Lib Def: Logical Library Name = TECH_XT018_HD
+Got Lib Def: Logical Library Name = snpsDefTechLib
+Got Lib Def: Logical Library Name = basic
+Got Lib Def: Logical Library Name = snpsDeviceLib
+Got Lib Def: Logical Library Name = analogLib
+Got Lib Def: Logical Library Name = verilogaLib
+Got Lib Def: Logical Library Name = sheets
+Got Lib Def: Logical Library Name = sample
+Got Lib Def: Logical Library Name = parasitics
+Got Lib Def: Logical Library Name = D_CELLS_HDLL
+Got Lib Def: Logical Library Name = D_CELLS_HDMV
+Got Lib Def: Logical Library Name = GATES_HD
+Got Lib Def: Logical Library Name = GATES_HD5V
+Got Lib Def: Logical Library Name = GATES_SVT
+Got Lib Def: Logical Library Name = IO_CELLS_FC1V8
+Got Lib Def: Logical Library Name = IO_CELLS_FC5V
+Got Lib Def: Logical Library Name = VLG_PRIMITIVES
+Got Lib Def: Logical Library Name = basic_cells
+lib dmSystemName: oaDMFileSys
+lib path: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/basic_cells
+Explicitly established the reference to the default tech lib snpsDefTechLib.
+unitStr: micron  m_gpdDbu: 10 techDbu: 1000 makersize: 100
+done init converter design ... init mappers
+OaParasiticViewWriter initMappers
+Parsing Device Cdf for cell ne in lib PRIMLIB
+Parsing Device Cdf for cell nesvt in lib PRIMLIB
+Parsing Device Cdf for cell ne5 in lib PRIMLIB
+Parsing Device Cdf for cell nn in lib PRIMLIB
+Parsing Device Cdf for cell nmva in lib PRIMLIB
+Parsing Device Cdf for cell nn in lib PRIMLIB
+Parsing Device Cdf for cell nmvaa in lib PRIMLIB
+Parsing Device Cdf for cell nmvab in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1_7 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1_10 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1_16c in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1b_2 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1b_4 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1b_5 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1b_7 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1b_8 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1b_10 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1a_13 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1a_16 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1a_20 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhsj1a_28 in lib PRIMLIB
+Parsing Device Cdf for cell nel in lib PRIMLIB
+Parsing Device Cdf for cell nd5 in lib PRIMLIB
+Parsing Device Cdf for cell pe in lib PRIMLIB
+Parsing Device Cdf for cell pesvt in lib PRIMLIB
+Parsing Device Cdf for cell pe5 in lib PRIMLIB
+Parsing Device Cdf for cell pmva in lib PRIMLIB
+Parsing Device Cdf for cell peti in lib PRIMLIB
+Parsing Device Cdf for cell pe5ti in lib PRIMLIB
+Parsing Device Cdf for cell pmvaa in lib PRIMLIB
+Parsing Device Cdf for cell pmvab in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1_7 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1_10 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1_16c in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1a_4 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1a_5 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1a_7 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1a_8 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1a_10 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1a_13 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1a_16 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1a_20 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj1a_31 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj2b_7 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj2b_8 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj2b_10 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj2b_13 in lib PRIMLIB
+,,,Parsing Device Cdf for cell phsj2b_16 in lib PRIMLIB
+Parsing Device Cdf for cell pel in lib PRIMLIB
+Parsing Device Cdf for cell pe_5 in lib PRIMLIB
+Parsing Device Cdf for cell pel_5 in lib PRIMLIB
+Parsing Device Cdf for cell pe5_5 in lib PRIMLIB
+Parsing Device Cdf for cell pesvt_5 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhvta in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhvtaa in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhvtb in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhvu in lib PRIMLIB
+,,,Parsing Device Cdf for cell ndhvt in lib PRIMLIB
+,,,Parsing Device Cdf for cell ndhvta in lib PRIMLIB
+,,,Parsing Device Cdf for cell ndhvtaa in lib PRIMLIB
+,,,Parsing Device Cdf for cell phvta in lib PRIMLIB
+,,,Parsing Device Cdf for cell phvtb in lib PRIMLIB
+,,,Parsing Device Cdf for cell phvu in lib PRIMLIB
+,,,Parsing Device Cdf for cell nisj1_16 in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhvra in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhvrb in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhvrc in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhvrd in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhvre in lib PRIMLIB
+,,,Parsing Device Cdf for cell nhvrf in lib PRIMLIB
+,,,Parsing Device Cdf for cell ndhvrd in lib PRIMLIB
+,,,Parsing Device Cdf for cell ndhvrf in lib PRIMLIB
+,,,Parsing Device Cdf for cell phvra in lib PRIMLIB
+,,,Parsing Device Cdf for cell phvrb in lib PRIMLIB
+,,,Parsing Device Cdf for cell phvrc in lib PRIMLIB
+,,,Parsing Device Cdf for cell phvrd in lib PRIMLIB
+,,,Parsing Device Cdf for cell phvre in lib PRIMLIB
+,,,Parsing Device Cdf for cell phvrf in lib PRIMLIB
+,,,Parsing Device Cdf for cell pmvb in lib PRIMLIB
+,,,Parsing Device Cdf for cell pmvd in lib PRIMLIB
+,,,Parsing Device Cdf for cell pmve in lib PRIMLIB
+,,,Parsing Device Cdf for cell pmvf in lib PRIMLIB
+,,,Parsing Device Cdf for cell nmvb in lib PRIMLIB
+,,,Parsing Device Cdf for cell nmvc in lib PRIMLIB
+,,,Parsing Device Cdf for cell nmvd in lib PRIMLIB
+,,,Parsing Device Cdf for cell nmve in lib PRIMLIB
+,,,Parsing Device Cdf for cell nmvf in lib PRIMLIB
+,,,Parsing Device Cdf for cell ndmvd in lib PRIMLIB
+,,,Parsing Device Cdf for cell ndmvf in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dn in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dnn in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dnw in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dp in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dn5 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dnn5 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dp5 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dnw5 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dn5ps in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell p_dn in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell p_dnn in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell p_dnw in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell p_dp in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell p_dn5 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell p_dnn5 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell p_dp5 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell p_dnw5 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell p_dn5ps in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell p_dnw5mva in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell ds5a in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dpp6 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dnp7 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dpp7 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell ds5b in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1_7 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1_10 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1_16c in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1a_13 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1a_16 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1a_20 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1a_28 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1b_2 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1b_4 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1b_5 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1b_7 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1b_8 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwnsj1b_10 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwdpa in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dhw2 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dhw2a in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dhw3 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dhw2b in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dhw2c in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dhw3c in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dhw4c in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dhw4d in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dhw5d in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dnpa in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dnpati in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dza in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dzati in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwdn5 in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dzbti in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dzcti in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwdnt in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwdnu in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwdnhc in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwdnhd in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwdnhe in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwdnhf in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwdnb in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwdnc in lib PRIMLIB
+Additional validation for pj=nil based on  pj>perimeter
+Parsing Device Cdf for cell dfwdnd in lib PRIMLIB
+Parsing Device Cdf for cell qpva in lib PRIMLIB
+Parsing Device Cdf for cell qpva5 in lib PRIMLIB
+Parsing Device Cdf for cell qpvb in lib PRIMLIB
+Parsing Device Cdf for cell qpvb5 in lib PRIMLIB
+Parsing Device Cdf for cell qpvc in lib PRIMLIB
+Parsing Device Cdf for cell qpvc5 in lib PRIMLIB
+Parsing Device Cdf for cell qpve in lib PRIMLIB
+Parsing Device Cdf for cell qpve5 in lib PRIMLIB
+Parsing Device Cdf for cell qpvf in lib PRIMLIB
+Parsing Device Cdf for cell qpvf5 in lib PRIMLIB
+Parsing Device Cdf for cell qpvg in lib PRIMLIB
+Parsing Device Cdf for cell qpvg5 in lib PRIMLIB
+Parsing Device Cdf for cell qnv5 in lib PRIMLIB
+Parsing Device Cdf for cell qpv5 in lib PRIMLIB
+Parsing Device Cdf for cell qnvha in lib PRIMLIB
+Parsing Device Cdf for cell qpvha in lib PRIMLIB
+Parsing Device Cdf for cell csf2p in lib PRIMLIB
+Parsing Device Cdf for cell csf3 in lib PRIMLIB
+Parsing Device Cdf for cell csf3a in lib PRIMLIB
+Parsing Device Cdf for cell csf3p in lib PRIMLIB
+Parsing Device Cdf for cell csf4 in lib PRIMLIB
+Parsing Device Cdf for cell csf4a in lib PRIMLIB
+Parsing Device Cdf for cell csft5 in lib PRIMLIB
+Parsing Device Cdf for cell csft5a in lib PRIMLIB
+Parsing Device Cdf for cell csandwt3 in lib PRIMLIB
+Parsing Device Cdf for cell csandwt4 in lib PRIMLIB
+Parsing Device Cdf for cell cif3 in lib PRIMLIB
+Parsing Device Cdf for cell cif4 in lib PRIMLIB
+Parsing Device Cdf for cell cift5 in lib PRIMLIB
+Parsing Device Cdf for cell cif3a in lib PRIMLIB
+Parsing Device Cdf for cell cif4a in lib PRIMLIB
+Parsing Device Cdf for cell cift5a in lib PRIMLIB
+Parsing Device Cdf for cell csp5tl_3 in lib PRIMLIB
+Parsing Device Cdf for cell csp5tla_3 in lib PRIMLIB
+Parsing Device Cdf for cell cdmmh4 in lib PRIMLIB
+Parsing Device Cdf for cell cdmm4 in lib PRIMLIB
+Parsing Device Cdf for cell cmm5t in lib PRIMLIB
+Parsing Device Cdf for cell cmmh5t in lib PRIMLIB
+Parsing Device Cdf for cell ctmmh5t in lib PRIMLIB
+Parsing Device Cdf for cell ctmm5t in lib PRIMLIB
+Parsing Device Cdf for cell cmm3 in lib PRIMLIB
+Parsing Device Cdf for cell cmmh3 in lib PRIMLIB
+Parsing Device Cdf for cell cmm4 in lib PRIMLIB
+Parsing Device Cdf for cell cmmh4 in lib PRIMLIB
+Parsing Device Cdf for cell cdmm5t in lib PRIMLIB
+Parsing Device Cdf for cell cdmmh5t in lib PRIMLIB
+Parsing Device Cdf for cell mosvc in lib PRIMLIB
+Parsing Device Cdf for cell mosvc5 in lib PRIMLIB
+Parsing Device Cdf for cell mosvcti in lib PRIMLIB
+Parsing Device Cdf for cell mosvc5ti in lib PRIMLIB
+Parsing Device Cdf for cell rdn in lib PRIMLIB
+Parsing Device Cdf for cell rdn5 in lib PRIMLIB
+Parsing Device Cdf for cell rdp in lib PRIMLIB
+Parsing Device Cdf for cell rdp5 in lib PRIMLIB
+Parsing Device Cdf for cell rnw in lib PRIMLIB
+Parsing Device Cdf for cell rnw5 in lib PRIMLIB
+Parsing Device Cdf for cell rm1 in lib PRIMLIB
+Parsing Device Cdf for cell rm2 in lib PRIMLIB
+Parsing Device Cdf for cell rm3 in lib PRIMLIB
+Parsing Device Cdf for cell rm4 in lib PRIMLIB
+Parsing Device Cdf for cell rmtp in lib PRIMLIB
+Parsing Device Cdf for cell rmtpl in lib PRIMLIB
+Parsing Device Cdf for cell rnp1 in lib PRIMLIB
+Parsing Device Cdf for cell rnp1_3 in lib PRIMLIB
+Parsing Device Cdf for cell rnp1a_3 in lib PRIMLIB
+Parsing Device Cdf for cell rpp1 in lib PRIMLIB
+Parsing Device Cdf for cell rpp1_3 in lib PRIMLIB
+Parsing Device Cdf for cell rpp1nw_3 in lib PRIMLIB
+Parsing Device Cdf for cell rpp1s in lib PRIMLIB
+Parsing Device Cdf for cell rpp1s_3 in lib PRIMLIB
+Parsing Device Cdf for cell rnp1h in lib PRIMLIB
+Parsing Device Cdf for cell rnp1h_3 in lib PRIMLIB
+Parsing Device Cdf for cell rpp1k1 in lib PRIMLIB
+Parsing Device Cdf for cell rpp1k1_3 in lib PRIMLIB
+Parsing Device Cdf for cell rpp1k1a in lib PRIMLIB
+Parsing Device Cdf for cell rpp1k1a_3 in lib PRIMLIB
+Parsing Device Cdf for cell pfuse in lib PRIMLIB
+Parsing Device Cdf for cell rxw2ti in lib PRIMLIB
+Parsing Device Cdf for cell rnw_scr in lib PRIMLIB
+Parsing Device Cdf for cell rnw5_scr in lib PRIMLIB
+Parsing Device Cdf for cell rdn5_pw4 in lib PRIMLIB
+Parsing Device Cdf for cell rdn5_dpc in lib PRIMLIB
+Parsing Device Cdf for cell presistor in lib analogLib
+Parsing Device Cdf for cell pcapacitor in lib analogLib
+Parsing Device Cdf for cell p_cap in lib PRIMLIB
+Parsing Device Cdf for cell tag_400v in lib PRIMLIB
+Parsing Device Cdf for cell tag_300v in lib PRIMLIB
+Parsing Device Cdf for cell tag_200v in lib PRIMLIB
+Parsing Device Cdf for cell tag_100v in lib PRIMLIB
+Parsing Device Cdf for cell tag_60v in lib PRIMLIB
+Parsing Device Cdf for cell tag_25v in lib PRIMLIB
+Parsing Device Cdf for cell tag_m400v in lib PRIMLIB
+Parsing Device Cdf for cell tag_m300v in lib PRIMLIB
+Parsing Device Cdf for cell tag_m200v in lib PRIMLIB
+Parsing Device Cdf for cell tag_m100v in lib PRIMLIB
+Parsing Device Cdf for cell tag_m60v in lib PRIMLIB
+Parsing Device Cdf for cell tag_m25v in lib PRIMLIB
+Writing tech command to OA view...
+Done writing tech command.
+Parasitic device model pres[starrc] is not defined, the default model pres will be used.
+Parasitic device model pcap[starrc] is not defined, the default model pcap will be used.
+G2OConverter constructor
+Parasitic device model pres[starrc] is not defined, the default model pres will be used.
+Parasitic device model pcap[starrc] is not defined, the default model pcap will be used.
+G2OConverter constructor
+Process ports from input netlist
+Write TotalNetCap value to each net group.
+G2OConverter destructor
+Process ports from input netlist
+Write TotalNetCap value to each net group.
+G2OConverter destructor
+OaParasiticViewWriter destructor
+Merging xin and writting to OA...
+Dumping merged xin to OA
+Dumping merged xin to OA
+Done merging xin
+  
+xTractor      Elp=00:00:02 Cpu=00:00:00 Usr=0.3    Sys=0.2    Mem=490.2 
+  
+Done          Elp=00:00:02 Cpu=00:00:00 Usr=0.3    Sys=0.2    Mem=490.2 
+

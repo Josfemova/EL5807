@@ -1,0 +1,203 @@
+*  Generated for: FineSimPro
+*  Design library name: basic_cells
+*  Design cell name: flip_flop_test_delays
+*  Design view name: schematic
+
+.option finesim_output=wdf
+.option post
+
+
+.temp 25
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/Hspice/lp5mos/xt018.lib' tm
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/Hspice/lp5mos/param.lib' 3s
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/Hspice/lp5mos/config.lib' default
+
+*PrimeWave Design Environment Version U-2023.03-SP2
+*Tue Nov 26 21:29:21 2024
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : GATES_HD
+* Cell             : invr
+* View             : schematic
+* View Search List : hspice hspiceD schematic cmos_sch spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt invr in out vt_ground_gnd_gnd! vt_power_vdd_vdd! GT_PDL=180.00n GT_PUL=180.00n
++  lc=2.7e-07 sx=4.8e-07
+xne out in vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w='GT_PDW' l='GT_PDL' as='sx*GT_PDW'
++ ad='sx*GT_PDW' ps='2*(sx+GT_PDW)' pd='2*(sx+GT_PDW)' nrs='lc/GT_PDW' nrd='lc/GT_PDW'
++ m='1*1' par1='1*1' xf_subext=0
+xpe out in vt_power_vdd_vdd! vt_power_vdd_vdd! pe w='GT_PUW' l='GT_PUL' as='sx*GT_PUW'
++ ad='sx*GT_PUW' ps='2*(sx+GT_PUW)' pd='2*(sx+GT_PUW)' nrs='lc/GT_PUW' nrd='lc/GT_PUW'
++ m='1*1' par1='1*1' xf_subext=0
+.ends invr
+
+********************************************************************************
+* Library          : basic_cells
+* Cell             : flip_flop
+* View             : schematic
+* View Search List : hspice hspiceD schematic cmos_sch spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt flip_flop cn d q qn vt_ground_gnd_gnd! vt_power_vdd_vdd!
+xm18 mqib cib net64 vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13
++ ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm17 mqi mqib vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm15 net64 d vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm46 sqib ci net62 vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13
++ ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm19 mqib ci net67 vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13
++ ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm51 sqib cib net60 vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13
++ ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm50 net60 sqi vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm49 sqi sqib vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=480.0n l=210.0n as=2.304e-13
++ ad=2.304e-13 ps=1.92e-06 pd=1.92e-06 nrs=0.5625 nrd=0.5625 m='1*1' par1='1*1'
++ xf_subext=0
+xm47 net62 mqi vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm61 net67 mqi vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xinvr_3 sqi qn vt_ground_gnd_gnd! vt_power_vdd_vdd! invr GT_PDL=210.00n GT_PDW=420.00n
++  GT_PUL=210.00n GT_PUW=720.00n
+xinvr_4 sqib q vt_ground_gnd_gnd! vt_power_vdd_vdd! invr GT_PDL=210.00n GT_PDW=420.0n
++  GT_PUL=210.00n GT_PUW=720.00n
+xinvr_2 ci cib vt_ground_gnd_gnd! vt_power_vdd_vdd! invr GT_PDL=210.00n GT_PDW=420.0n
++  GT_PUL=210.00n GT_PUW=720.00n
+xinvr_1 cn ci vt_ground_gnd_gnd! vt_power_vdd_vdd! invr GT_PDL=210.00n GT_PDW=420.0n
++  GT_PUL=210.00n GT_PUW=720.00n
+xm24 mqib ci net65 vt_power_vdd_vdd! pe w=705.00n l=210.0n as=3.384e-13 ad=3.384e-13
++ ps=2.37e-06 pd=2.37e-06 nrs=0.382979 nrd=0.382979 m='1*1' par1='1*1'
++ xf_subext=0
+xm56 mqi mqib vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=720.0n l=210.0n as=3.456e-13
++ ad=3.456e-13 ps=2.4e-06 pd=2.4e-06 nrs=0.375 nrd=0.375 m='1*1' par1='1*1'
++ xf_subext=0
+xm30 net63 mqi vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=715.00n l=210.0n as=3.432e-13
++ ad=3.432e-13 ps=2.39e-06 pd=2.39e-06 nrs=0.377622 nrd=0.377622 m='1*1' par1='1*1'
++ xf_subext=0
+xm23 net65 d vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=705.00n l=210.0n as=3.384e-13
++ ad=3.384e-13 ps=2.37e-06 pd=2.37e-06 nrs=0.382979 nrd=0.382979 m='1*1' par1='1*1'
++ xf_subext=0
+xm59 sqi sqib vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=695.00n l=210.0n as=3.336e-13
++ ad=3.336e-13 ps=2.35e-06 pd=2.35e-06 nrs=0.388489 nrd=0.388489 m='1*1' par1='1*1'
++ xf_subext=0
+xm36 net66 sqi vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm35 sqib ci net66 vt_power_vdd_vdd! pe w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13
++ ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm34 mqib cib net58 vt_power_vdd_vdd! pe w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13
++ ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm33 sqib cib net63 vt_power_vdd_vdd! pe w=715.00n l=210.0n as=3.432e-13 ad=3.432e-13
++ ps=2.39e-06 pd=2.39e-06 nrs=0.377622 nrd=0.377622 m='1*1' par1='1*1'
++ xf_subext=0
+xm28 net58 mqi vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+.ends flip_flop
+
+********************************************************************************
+* Library          : D_CELLS_HDLL
+* Cell             : INHDLLX1
+* View             : cmos_sch
+* View Search List : hspice hspiceD schematic cmos_sch spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt inhdllx1 a q vt_ground_gnd_gnd! vt_power_vdd_vdd!
+xinvr_1 a q vt_ground_gnd_gnd! vt_power_vdd_vdd! invr GT_PDL=210.00n GT_PDW=580.00n
++  GT_PUL=210.000n GT_PUW=1.41u
+.ends inhdllx1
+
+********************************************************************************
+* Library          : D_CELLS_HDLL
+* Cell             : INHDLLX4
+* View             : cmos_sch
+* View Search List : hspice hspiceD schematic cmos_sch spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt inhdllx4 a q vt_ground_gnd_gnd! vt_power_vdd_vdd!
+xinvr_1 a q vt_ground_gnd_gnd! vt_power_vdd_vdd! invr GT_PDL=210.00n GT_PDW=2.4u
++  GT_PUL=210.00n GT_PUW=5.88u
+.ends inhdllx4
+
+********************************************************************************
+* Library          : basic_cells
+* Cell             : inv_clk
+* View             : schematic
+* View Search List : hspice hspiceD schematic cmos_sch spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt inv_clk clk vt_ground_gnd_gnd! vt_power_vdd_vdd!
+xi0 net5 net4 vt_ground_gnd_gnd! vt_power_vdd_vdd! inhdllx1
+xi1 net4 clk vt_ground_gnd_gnd! vt_power_vdd_vdd! inhdllx4
+v2 net5 gnd! dc=0 pulse ( 0 1.8 0 10p 10p 4.99n 10n )
+.ends inv_clk
+
+********************************************************************************
+* Library          : basic_cells
+* Cell             : flip_flop_test_delays
+* View             : schematic
+* View Search List : hspice hspiceD schematic cmos_sch spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 clk d q qn gnd! vdd! flip_flop
+xi11 clk gnd! vdd! inv_clk
+v3 d gnd! dc=0 pulse ( 1.8 0 0 100p 100p 'data_time' 20n )
+v5 vdd! gnd! dc=1.8
+c10 q gnd! c=1f
+c9 qn gnd! c=1f
+
+
+
+.param data_time=14n
+
+
+
+
+
+
+
+.tran 1p 20n start=12n sweep data_time 14n 15.5n 10p
+
+
+
+.measure tDC *Data to Clock
++ TRIG v(d) VAL=0.9 RISE=1
++ TARG v(clk) VAL=0.9 FALL=1
+
+.measure tCQ *Clock to Q
++ TRIG v(clk) VAL=0.9 FALL=1
++ TARG v(q) VAL=1.79 RISE=1
+
+.measure tDQ *Data to Q
++ TRIG v(d) VAL=0.9 RISE=1
++ TARG v(q) VAL=1.79 RISE=1
+
+
+
+.probe tran v(*) level=1
+.probe tran v(clk) v(d) v(q) v(qn)
+
+.option PARHIER = LOCAL
+.option finesim_mode = spicead
+.option runlvl = 3
+.option s_elem_cache_dir = "/home/sfallas_II_2024_vlsi/.synopsys_custom/sparam_dir"
+.option pva_output_dir = "/home/sfallas_II_2024_vlsi/.synopsys_custom/pva_dir"
+
+
+.option measform=1
+.option numdgt=6
+
+
+
+
+.end

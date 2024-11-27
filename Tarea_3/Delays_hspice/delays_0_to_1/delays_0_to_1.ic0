@@ -1,0 +1,34 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "U-2023.03-SP2 linux64"
+* "format" "HSP"
+* "rundate" "23:27:26 11/26/2024 "
+* "netlist" "delays_0_to_1.spi "
+* "runtitle" "*  generated for: finesimpro"
+* time =    0.            
+* temperature =   25.000000      
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.000000p     
+.nodeset
++ clk = 694.500224p     
++ d =   1.800000      
++ q =  14.022771n     
++ qn =   1.800000      
++ vdd! =   1.800000      
++ xi0.ci =   1.800000      
++ xi0.cib =   3.285268n     
++ xi0.mqi = 789.993420m     
++ xi0.mqib = 827.319236m     
++ xi0.net58 =   1.225618      
++ xi0.net60 =  14.053344m     
++ xi0.net62 = 788.378743m     
++ xi0.net63 =   1.669025      
++ xi0.net64 = 108.968732p     
++ xi0.net65 =   1.791622      
++ xi0.net66 =   1.800000      
++ xi0.net67 = 737.075866m     
++ xi0.sqi =  12.287581n     
++ xi0.sqib =   1.620286      
++ xi11.net4 =   1.800000      
++ xi11.net5 =   0.            
+***   END: Saved Operating Point ***                     

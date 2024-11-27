@@ -1,0 +1,10 @@
+flip_flop
+	Cell Level Device Counts
+		NMOS[ne] = 14
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 14
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = flip_flop  *******
+		NMOS[ne] = 14
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 14
