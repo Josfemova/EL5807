@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Wed Nov 27 00:58:07 2024
+<!-- created by PrimeWave Design Environment (TM), build #, on Wed Nov 27 16:21:39 2024
 -->
-<synopsysFile name="synopsysRecentFiles" version="1.1">
+<synopsysFile version="1.1" name="synopsysRecentFiles">
         <recentFiles>
-                <file library="basic_cells" mode="write" cell="flip_flop" file="maskLayout" view="layout"/>
-                <file library="basic_cells" mode="write" cell="flip_flop_test_delays" file="saeState" view="FineSim_default"/>
-                <file library="basic_cells" mode="write" cell="flip_flop_test_delays" file="config.xml" view="config"/>
-                <file library="basic_cells" mode="write" cell="flip_flop_test_delays" file="saeState" view="HSPICE_default"/>
-                <file library="basic_cells" mode="write" cell="flip_flop_test_schematic" file="schematic" view="schematic"/>
+                <file cell="flip_flop" library="basic_cells" view="schematic" file="schematic" mode="write"/>
+                <file cell="flip_flop_test_delays" library="basic_cells" view="schematic" file="schematic" mode="write"/>
+                <file cell="flip_flop" library="basic_cells" view="layout" file="maskLayout" mode="write"/>
+                <file cell="flip_flop_test_delays" library="basic_cells" view="FineSim_default" file="saeState" mode="write"/>
+                <file cell="flip_flop_test_delays" library="basic_cells" view="config" file="config.xml" mode="write"/>
         </recentFiles>
 </synopsysFile>

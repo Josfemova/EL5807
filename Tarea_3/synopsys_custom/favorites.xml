@@ -1,26 +1,26 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Wed Nov 27 00:58:12 2024
+<!-- created by Custom Compiler (TM), build #, on Wed Nov 27 14:45:25 2024
 -->
 <synopsysFile name="synopsysFavoriteDevices" version="1.0">
         <favoriteDevices viewType="maskLayout"/>
         <favoriteDevices viewType="schematic">
-                <cellView library="analogLib" cell="gnd" view="symbol">
+                <cellView view="symbol" library="analogLib" cell="gnd">
                         <alias name="gnd"/>
                         <category name="Recently Placed"/>
                 </cellView>
-                <cellView library="analogLib" cell="vsource" view="symbol">
+                <cellView view="symbol" library="analogLib" cell="vsource">
                         <alias name="vsource"/>
                         <category name="Recently Placed"/>
                 </cellView>
-                <cellView library="analogLib" cell="vdd" view="symbol">
+                <cellView view="symbol" library="analogLib" cell="vdd">
                         <alias name="vdd"/>
                         <category name="Recently Placed"/>
                 </cellView>
-                <cellView library="analogLib" cell="cap" view="symbol">
+                <cellView view="symbol" library="analogLib" cell="cap">
                         <alias name="cap"/>
                         <category name="Recently Placed"/>
                 </cellView>
-                <cellView library="basic_cells" cell="inv_clk" view="symbol">
+                <cellView view="symbol" library="basic_cells" cell="inv_clk">
                         <alias name="inv_clk"/>
                         <category name="Recently Placed"/>
                 </cellView>
