@@ -152,7 +152,7 @@ v2 net5 gnd! dc=0 pulse ( 0 1.8 0 10p 10p 4.99n 10n )
 ********************************************************************************
 xi0 clk d q qn gnd! vdd! flip_flop
 xi11 clk gnd! vdd! inv_clk
-v3 d gnd! dc=0 pulse ( 1.8 0 0 100p 100p 14.9n 'data_time' )
+v3 d gnd! dc=0 pulse ( 1.8 0 0 100p 100p 14.5n 'data_time' )
 v5 vdd! gnd! dc=1.8
 c10 net18 gnd! c=4f
 c9 net19 gnd! c=4f
@@ -162,14 +162,14 @@ xi12 q net18 gnd! vdd! inhdllx4
 
 
 
-.param data_time=15.1n
+.param data_time=14.9n
 
 
 
 
 
 
-.tran 1p 20n start=12n sweep data_time 15.1n 15.3n 5p
+.tran 1p 20n start=12n sweep data_time 14.9n 15.3n 10p
 
 
 
