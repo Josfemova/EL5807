@@ -1,6 +1,3 @@
-set wt [gi::getWindowTypes seSchematic]
-db::setAttr wt.geometry -value "1632x947+50+100"
-db::setAttr wt.maximized -value "false"
 set wt [gi::getWindowTypes giConsole]
 db::setAttr wt.geometry -value "600x300+5+699"
 db::setAttr wt.maximized -value "false"

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Wed Nov 27 18:28:04 2024
+<!-- created by Custom Compiler (TM), build #, on Wed Nov 27 20:03:45 2024
 -->
-<synopsysFile name="synopsysRecentFiles" version="1.1">
+<synopsysFile version="1.1" name="synopsysRecentFiles">
         <recentFiles>
-                <file library="basic_cells" cell="flip_flop" file="schematic" view="schematic" mode="write"/>
-                <file library="basic_cells" cell="flip_flop_test_delays" file="schematic" view="schematic" mode="write"/>
-                <file library="basic_cells" cell="flip_flop" file="maskLayout" view="layout" mode="write"/>
-                <file library="basic_cells" cell="flip_flop_test_delays" file="saeState" view="FineSim_default" mode="write"/>
-                <file library="basic_cells" cell="flip_flop_test_delays" file="config.xml" view="config" mode="write"/>
+                <file cell="flip_flop" view="schematic" library="basic_cells" mode="write" file="schematic"/>
+                <file cell="flip_flop_test_delays" view="schematic" library="basic_cells" mode="write" file="schematic"/>
+                <file cell="flip_flop" view="layout" library="basic_cells" mode="write" file="maskLayout"/>
+                <file cell="flip_flop_test_delays" view="FineSim_default" library="basic_cells" mode="write" file="saeState"/>
+                <file cell="flip_flop_test_delays" view="config" library="basic_cells" mode="write" file="config.xml"/>
         </recentFiles>
 </synopsysFile>
