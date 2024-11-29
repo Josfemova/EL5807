@@ -1,0 +1,12 @@
+Parsing option_file: xtract.tech (EX-304)
+Initializing extraction ... (EX-724)
+Reading binary grd file
+/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/xt018_xx43_MET4_METMID_METTHK_typ.nxtgrd
+... (EX-135)
+Extracted 90 capacitors, 0 resistors, 141 nodes
+Reduced to 0 nodes,  (100%)
+Reduced to 74 capacitors: 74 Cc and 0 Cg (17.7778%)
+  
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=419.7 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=419.7 

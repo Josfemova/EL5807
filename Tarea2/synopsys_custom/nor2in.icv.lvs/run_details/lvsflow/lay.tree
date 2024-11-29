@@ -1,0 +1,28 @@
+nor2in Level=0 Count=1
+   PRIMLIB.ne.layout Level=1 Count=2
+   PRIMLIB.pe.layout Level=1 Count=2
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = nor2in
+	Flat Placements      =	1
+
+CELL = PRIMLIB.ne.layout
+	Flat Placements      =	2
+
+CELL = PRIMLIB.pe.layout
+	Flat Placements      =	2
+
+TOP CELL = nor2in
+	Ports                =	5
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[NE] = 4
+	PMOS[PE] = 8
+	NP[P_DNW] = 1

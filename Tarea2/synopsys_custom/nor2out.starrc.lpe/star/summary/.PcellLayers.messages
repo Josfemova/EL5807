@@ -1,0 +1,236 @@
+create_xin_writer; sort_xin_in_memory YES cut_trap NO track_fill_detection NO
+Size: 365 : 5000, 5000
+Size: 366 : 5000, 5000
+Size: 330 : 100, 100
+Size: 332 : 100, 100
+Size: 333 : 100, 100
+Size: 331 : 100, 100
+Size: 368 : 100, 100
+Size: 329 : 100, 100
+Size: 357 : 5000, 5000
+Size: 358 : 5000, 5000
+Size: 326 : 100, 100
+Size: 327 : 100, 100
+Size: 328 : 100, 100
+Size: 349 : 5000, 5000
+Size: 350 : 5000, 5000
+Size: 272 : 100, 100
+Size: 273 : 100, 100
+Size: 271 : 100, 100
+Size: 297 : 10, 10
+Size: 298 : 10, 10
+Size: 299 : 10, 10
+Size: 300 : 10, 10
+Size: 296 : 10, 10
+Size: 291 : 10, 10
+Size: 292 : 10, 10
+Size: 293 : 10, 10
+Size: 294 : 10, 10
+Size: 295 : 10, 10
+Size: 314 : 100, 100
+Size: 351 : 5000, 5000
+Size: 352 : 5000, 5000
+Size: 353 : 5000, 5000
+Size: 354 : 5000, 5000
+Size: 355 : 5000, 5000
+Size: 356 : 5000, 5000
+Size: 322 : 100, 100
+Size: 323 : 100, 100
+Size: 324 : 100, 100
+Size: 325 : 100, 100
+Size: 317 : 100, 100
+Size: 316 : 100, 100
+Size: 341 : 5000, 5000
+Size: 342 : 5000, 5000
+Size: 344 : 5000, 5000
+Size: 345 : 5000, 5000
+Size: 346 : 5000, 5000
+Size: 347 : 5000, 5000
+Size: 348 : 5000, 5000
+Size: 367 : 100, 100
+Size: 321 : 100, 100
+Size: 275 : 100, 100
+Size: 276 : 100, 100
+Size: 274 : 100, 100
+Size: 281 : 10, 10
+Size: 282 : 10, 10
+Size: 283 : 10, 10
+Size: 284 : 10, 10
+Size: 285 : 10, 10
+Size: 277 : 10, 10
+Size: 278 : 10, 10
+Size: 279 : 10, 10
+Size: 280 : 10, 10
+Size: 288 : 10, 10
+Size: 289 : 10, 10
+Size: 290 : 10, 10
+Size: 286 : 10, 10
+Size: 287 : 10, 10
+Size: 315 : 100, 100
+Size: 359 : 5000, 5000
+Size: 360 : 5000, 5000
+Size: 361 : 5000, 5000
+Size: 362 : 5000, 5000
+Size: 363 : 5000, 5000
+Size: 364 : 5000, 5000
+Size: 318 : 100, 100
+Size: 319 : 100, 100
+Size: 320 : 100, 100
+Size: 334 : 5000, 5000
+Size: 335 : 5000, 5000
+Size: 336 : 5000, 5000
+Size: 337 : 5000, 5000
+Size: 338 : 5000, 5000
+Size: 339 : 5000, 5000
+Size: 340 : 5000, 5000
+BLOCK Boundary: 47 -13600 -15400 223600 63800
+BLOCK Boundary: 48 3750 42800 10950 49800
+BLOCK Boundary: 49 3750 24900 11950 42800
+BLOCK Boundary: 50 13750 24900 19150 32100
+BLOCK Boundary: 51 20400 44250 27600 49650
+BLOCK Boundary: 52 20950 24900 26350 32100
+BLOCK Boundary: 53 26200 -2900 33400 1800
+BLOCK Boundary: 54 28150 24900 33550 32100
+BLOCK Boundary: 55 26200 1800 34400 11100
+BLOCK Boundary: 56 33600 44250 40800 49650
+BLOCK Boundary: 57 35350 24900 40750 32100
+BLOCK Boundary: 58 36200 6900 42400 11100
+BLOCK Boundary: 59 40650 -4850 47850 550
+BLOCK Boundary: 60 42550 24900 47950 32100
+BLOCK Boundary: 61 44200 6900 50400 11100
+BLOCK Boundary: 62 49750 24900 55150 32100
+BLOCK Boundary: 63 52200 6900 58400 11100
+BLOCK Boundary: 64 53600 -4700 60800 700
+BLOCK Boundary: 65 55500 44250 62700 49650
+BLOCK Boundary: 66 56950 24900 62350 32100
+BLOCK Boundary: 67 60200 6900 66400 11100
+BLOCK Boundary: 68 64150 24900 69550 32100
+BLOCK Boundary: 69 69000 -4950 76200 450
+BLOCK Boundary: 70 68200 6900 74400 11100
+BLOCK Boundary: 71 71350 24900 76750 32100
+BLOCK Boundary: 72 76200 6900 82400 11100
+BLOCK Boundary: 73 78550 24900 83950 32100
+BLOCK Boundary: 74 84200 6900 90400 11100
+BLOCK Boundary: 75 85750 24900 91150 32100
+BLOCK Boundary: 76 92950 24900 97750 32100
+BLOCK Boundary: 77 92200 6900 97400 11100
+BLOCK Boundary: 78 106050 -2900 113250 1800
+BLOCK Boundary: 79 106650 24900 111450 32100
+BLOCK Boundary: 80 106700 44250 113900 49650
+BLOCK Boundary: 81 106050 1800 114250 11100
+BLOCK Boundary: 82 113250 24900 118650 32100
+BLOCK Boundary: 83 116050 6900 122250 11100
+BLOCK Boundary: 84 120450 24900 125850 32100
+BLOCK Boundary: 85 122950 -4700 130150 700
+BLOCK Boundary: 86 124050 6900 130250 11100
+BLOCK Boundary: 87 127650 24900 133050 32100
+BLOCK Boundary: 88 132050 6900 138250 11100
+BLOCK Boundary: 89 134850 24900 140250 32100
+BLOCK Boundary: 90 140050 6900 146250 11100
+BLOCK Boundary: 91 142050 24900 147450 32100
+BLOCK Boundary: 92 145400 -4700 152600 700
+BLOCK Boundary: 93 148050 6900 154250 11100
+BLOCK Boundary: 94 149250 24900 154650 32100
+BLOCK Boundary: 95 156450 24900 161850 32100
+BLOCK Boundary: 96 156050 6900 162250 11100
+BLOCK Boundary: 97 163650 24900 169050 32100
+BLOCK Boundary: 98 164050 6900 170250 11100
+BLOCK Boundary: 99 170850 24900 176250 32100
+BLOCK Boundary: 100 172050 6900 177250 11100
+BLOCK Boundary: 101 178050 24900 183450 32100
+BLOCK Boundary: 102 185250 24900 190650 32100
+BLOCK Boundary: 103 192450 24900 197250 32100
+pcell name :px_hwafer_t
+m_layerMap:px_hwafer_t:ndiff ndiff 1
+m_layerMap:px_hwafer_t:pdiff pdiff 1
+m_layerMap:px_hwafer_t:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_hwafer_t:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_hwafer_t:ntap ntap 1
+m_layerMap:px_hwafer_t:ptap ptap 1
+m_layerMap:px_hwafer_t:npdtap npdtap 1
+m_layerMap:px_hwafer_t:nwtrm nwtrm 1
+m_layerMap:px_hwafer_t:bulk bulk 1
+m_layerMap:px_hwafer_t:hwafer_t hwafer_t 1
+DELETE px_hwafer_t
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,372,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,372,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 423
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.6 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.6 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=498.0 
+Execute Command     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Flush Writer        Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+  
+Done          Elp=00:00:03 Cpu=00:00:00 Usr=0.0    Sys=0.1    Mem=563.4 
+pcell name :px_ndiff
+m_layerMap:px_ndiff:ndiff ndiff 1
+m_layerMap:px_ndiff:pdiff pdiff 1
+m_layerMap:px_ndiff:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_ndiff:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_ndiff:ntap ntap 1
+m_layerMap:px_ndiff:ptap ptap 1
+m_layerMap:px_ndiff:npdtap npdtap 1
+m_layerMap:px_ndiff:nwtrm nwtrm 1
+m_layerMap:px_ndiff:bulk bulk 1
+m_layerMap:px_ndiff:hwafer_t hwafer_t 1
+DELETE px_ndiff
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,369,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,369,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 570
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Execute Command     Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.8 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.8 
+  
+Done          Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.8 
+pcell name :px_pdiff
+m_layerMap:px_pdiff:ndiff ndiff 1
+m_layerMap:px_pdiff:pdiff pdiff 1
+m_layerMap:px_pdiff:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_pdiff:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_pdiff:ntap ntap 1
+m_layerMap:px_pdiff:ptap ptap 1
+m_layerMap:px_pdiff:npdtap npdtap 1
+m_layerMap:px_pdiff:nwtrm nwtrm 1
+m_layerMap:px_pdiff:bulk bulk 1
+m_layerMap:px_pdiff:hwafer_t hwafer_t 1
+DELETE px_pdiff
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,370,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,370,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 619
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.8 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.8 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.8 
+Execute Command     Elp=00:00:02 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.8 
+Flush Writer        Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.8 
+  
+Done          Elp=00:00:03 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.8 
+WARNING: Some blocking regions are not blocked any port, device terminal, or probe_text. (SX-3197)
+----------------------------------------------
+Blocking shape:px_hwafer_t (-13600 -15400 223600 63800)
+ Blocked layer name:hwafer_t
+ Net name:N__generated_102
+ ----------------------------------------------
+
+Pcell Layers Polygons Summary:
+
+Blocked Layer                           Count
+---------------------------------------------
+ndiff                                   63
+pdiff                                   39
+ntap                                    5
+ptap                                    7
+npdtap                                  3
+nwtrm                                   3
+bulk                                    5
+hwafer_t                                1
+---------------------------------------------
+BLOCKING_Layer: 126
+
+
+End Time: Thu Nov 28 03:08:53 2024
+

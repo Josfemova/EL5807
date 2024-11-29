@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"nor2out", "nor2out"}});
+
+/* Generated system equivalence points are listed in this section */

@@ -1,0 +1,217 @@
+create_xin_writer; sort_xin_in_memory YES cut_trap NO track_fill_detection NO
+Size: 365 : 5000, 5000
+Size: 366 : 5000, 5000
+Size: 330 : 100, 100
+Size: 332 : 100, 100
+Size: 333 : 100, 100
+Size: 331 : 100, 100
+Size: 368 : 100, 100
+Size: 329 : 100, 100
+Size: 357 : 5000, 5000
+Size: 358 : 5000, 5000
+Size: 326 : 100, 100
+Size: 327 : 100, 100
+Size: 328 : 100, 100
+Size: 349 : 5000, 5000
+Size: 350 : 5000, 5000
+Size: 272 : 100, 100
+Size: 273 : 100, 100
+Size: 271 : 100, 100
+Size: 297 : 10, 10
+Size: 298 : 10, 10
+Size: 299 : 10, 10
+Size: 300 : 10, 10
+Size: 296 : 10, 10
+Size: 291 : 10, 10
+Size: 292 : 10, 10
+Size: 293 : 10, 10
+Size: 294 : 10, 10
+Size: 295 : 10, 10
+Size: 314 : 100, 100
+Size: 351 : 5000, 5000
+Size: 352 : 5000, 5000
+Size: 353 : 5000, 5000
+Size: 354 : 5000, 5000
+Size: 355 : 5000, 5000
+Size: 356 : 5000, 5000
+Size: 322 : 100, 100
+Size: 323 : 100, 100
+Size: 324 : 100, 100
+Size: 325 : 100, 100
+Size: 317 : 100, 100
+Size: 316 : 100, 100
+Size: 341 : 5000, 5000
+Size: 342 : 5000, 5000
+Size: 344 : 5000, 5000
+Size: 345 : 5000, 5000
+Size: 346 : 5000, 5000
+Size: 347 : 5000, 5000
+Size: 348 : 5000, 5000
+Size: 367 : 100, 100
+Size: 321 : 100, 100
+Size: 275 : 100, 100
+Size: 276 : 100, 100
+Size: 274 : 100, 100
+Size: 281 : 10, 10
+Size: 282 : 10, 10
+Size: 283 : 10, 10
+Size: 284 : 10, 10
+Size: 285 : 10, 10
+Size: 277 : 10, 10
+Size: 278 : 10, 10
+Size: 279 : 10, 10
+Size: 280 : 10, 10
+Size: 288 : 10, 10
+Size: 289 : 10, 10
+Size: 290 : 10, 10
+Size: 286 : 10, 10
+Size: 287 : 10, 10
+Size: 315 : 100, 100
+Size: 359 : 5000, 5000
+Size: 360 : 5000, 5000
+Size: 361 : 5000, 5000
+Size: 362 : 5000, 5000
+Size: 363 : 5000, 5000
+Size: 364 : 5000, 5000
+Size: 318 : 100, 100
+Size: 319 : 100, 100
+Size: 320 : 100, 100
+Size: 334 : 5000, 5000
+Size: 335 : 5000, 5000
+Size: 336 : 5000, 5000
+Size: 337 : 5000, 5000
+Size: 338 : 5000, 5000
+Size: 339 : 5000, 5000
+Size: 340 : 5000, 5000
+BLOCK Boundary: 31 -13600 -15400 163600 63800
+BLOCK Boundary: 32 6800 -4800 14000 600
+BLOCK Boundary: 33 9100 42800 16300 49700
+BLOCK Boundary: 34 12100 6900 17300 11100
+BLOCK Boundary: 35 9100 24900 17300 42800
+BLOCK Boundary: 36 19100 24900 24500 32100
+BLOCK Boundary: 37 19400 -4750 26600 650
+BLOCK Boundary: 38 19100 6900 25300 11100
+BLOCK Boundary: 39 25300 44200 32500 49600
+BLOCK Boundary: 40 26300 24900 31700 32100
+BLOCK Boundary: 41 27100 6900 33300 11100
+BLOCK Boundary: 42 33500 24900 38900 32100
+BLOCK Boundary: 43 36100 -2900 40300 1800
+BLOCK Boundary: 44 35100 1800 41300 11100
+BLOCK Boundary: 45 38500 44200 45700 49600
+BLOCK Boundary: 46 40700 24900 46100 32100
+BLOCK Boundary: 47 43100 6900 49300 11100
+BLOCK Boundary: 48 47900 24900 53300 32100
+BLOCK Boundary: 49 51100 6900 57300 11100
+BLOCK Boundary: 50 55100 24900 59900 32100
+BLOCK Boundary: 51 59100 6900 64300 11100
+BLOCK Boundary: 52 60400 44200 67600 49600
+BLOCK Boundary: 53 81350 -5000 88550 400
+BLOCK Boundary: 54 87950 11200 93150 15400
+BLOCK Boundary: 55 88300 26400 93100 33600
+BLOCK Boundary: 56 94900 26400 100300 33600
+BLOCK Boundary: 57 94950 11200 101150 15400
+BLOCK Boundary: 58 102100 26400 107500 33600
+BLOCK Boundary: 59 102950 11200 109150 15400
+BLOCK Boundary: 60 109300 26400 114700 33600
+BLOCK Boundary: 61 110950 11200 117150 15400
+BLOCK Boundary: 62 114850 -4750 122050 650
+BLOCK Boundary: 63 118950 11200 125150 15400
+BLOCK Boundary: 64 126950 11200 133150 15400
+BLOCK Boundary: 65 131750 42800 138950 50000
+BLOCK Boundary: 66 116500 26400 138950 42800
+BLOCK Boundary: 67 134950 11200 140150 15400
+BLOCK Boundary: 68 137300 -4750 144500 650
+pcell name :px_hwafer_t
+m_layerMap:px_hwafer_t:ndiff ndiff 1
+m_layerMap:px_hwafer_t:pdiff pdiff 1
+m_layerMap:px_hwafer_t:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_hwafer_t:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_hwafer_t:ntap ntap 1
+m_layerMap:px_hwafer_t:ptap ptap 1
+m_layerMap:px_hwafer_t:npdtap npdtap 1
+m_layerMap:px_hwafer_t:nwtrm nwtrm 1
+m_layerMap:px_hwafer_t:bulk bulk 1
+m_layerMap:px_hwafer_t:hwafer_t hwafer_t 1
+DELETE px_hwafer_t
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,372,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,372,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 274
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.6 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.6 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=498.0 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.1    Mem=563.4 
+Flush Writer        Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.1    Mem=563.4 
+pcell name :px_ndiff
+m_layerMap:px_ndiff:ndiff ndiff 1
+m_layerMap:px_ndiff:pdiff pdiff 1
+m_layerMap:px_ndiff:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_ndiff:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_ndiff:ntap ntap 1
+m_layerMap:px_ndiff:ptap ptap 1
+m_layerMap:px_ndiff:npdtap npdtap 1
+m_layerMap:px_ndiff:nwtrm nwtrm 1
+m_layerMap:px_ndiff:bulk bulk 1
+m_layerMap:px_ndiff:hwafer_t hwafer_t 1
+DELETE px_ndiff
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,369,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,369,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 411
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+pcell name :px_pdiff
+m_layerMap:px_pdiff:ndiff ndiff 1
+m_layerMap:px_pdiff:pdiff pdiff 1
+m_layerMap:px_pdiff:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_pdiff:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_pdiff:ntap ntap 1
+m_layerMap:px_pdiff:ptap ptap 1
+m_layerMap:px_pdiff:npdtap npdtap 1
+m_layerMap:px_pdiff:nwtrm nwtrm 1
+m_layerMap:px_pdiff:bulk bulk 1
+m_layerMap:px_pdiff:hwafer_t hwafer_t 1
+DELETE px_pdiff
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,370,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,370,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 456
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+WARNING: Some blocking regions are not blocked any port, device terminal, or probe_text. (SX-3197)
+----------------------------------------------
+Blocking shape:px_hwafer_t (-13600 -15400 163600 63800)
+ Blocked layer name:hwafer_t
+ Net name:N__generated_48
+ ----------------------------------------------
+
+Pcell Layers Polygons Summary:
+
+Blocked Layer                           Count
+---------------------------------------------
+ndiff                                   67
+pdiff                                   27
+ntap                                    5
+ptap                                    6
+npdtap                                  3
+nwtrm                                   1
+bulk                                    5
+hwafer_t                                1
+---------------------------------------------
+BLOCKING_Layer: 115
+
+
+End Time: Thu Nov 28 08:38:48 2024
+

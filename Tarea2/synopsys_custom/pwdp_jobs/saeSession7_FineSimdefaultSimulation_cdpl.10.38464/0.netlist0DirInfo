@@ -1,0 +1,6 @@
+total 12
+drwxrwxr-x  4 jmorales_II_2024_vlsi jmorales_II_2024_vlsi   45 2024-11-28 09:23:54.072526377 -0600 ..
+drwxrwxr-x 10 jmorales_II_2024_vlsi jmorales_II_2024_vlsi 4096 2024-11-28 16:51:09.278211917 -0600 cnl
+drwxrwxr-x  3 jmorales_II_2024_vlsi jmorales_II_2024_vlsi   51 2024-11-28 17:01:33.838520398 -0600 .
+-rw-rw-r--  1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi 3186 2024-11-28 17:01:33.907521980 -0600 netlist
+-rw-rw-r--  1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi  709 2024-11-28 17:01:33.921522300 -0600 .simRun.xml

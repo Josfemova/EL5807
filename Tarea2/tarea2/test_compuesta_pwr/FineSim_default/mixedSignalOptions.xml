@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Nov 28 19:54:45 2024-->
+<file-format name="stateCategory" version="1.0">
+ <object name="mixedSignalOptions" version="1" type="saMixedSignalOptions">
+  <collection name="a2dInterfaceElements"/>
+  <attribute name="alwaysUsePortMapOption" value="0" type="giBoolean"/>
+  <attribute name="busFormat" value="[%d]" type="giString"/>
+  <attribute name="connectModulesInstallDirFilePatterns" value="" type="giString"/>
+  <attribute name="connectModulesInstallDirFiles" value="" type="giString"/>
+  <attribute name="connectModulesUserDir" value="" type="giString"/>
+  <attribute name="connectModulesUserDirFilePatterns" value="" type="giString"/>
+  <collection name="connectRuleElements"/>
+  <attribute name="connectRulesInstallDirFilePatterns" value="" type="giString"/>
+  <attribute name="connectRulesInstallDirFiles" value="" type="giString"/>
+  <attribute name="connectRulesUserDirFilePatterns" value="" type="giString"/>
+  <collection name="connectionModules"/>
+  <collection name="connectionRules"/>
+  <collection name="d2aInterfaceElements"/>
+  <attribute name="defaultNetDiscipline" value="ddiscrete" type="giString"/>
+  <attribute name="defaultResistanceMapFile" value="" type="giString"/>
+  <attribute name="disciplineResolution" value="basic" type="saDisciplineResolution"/>
+  <collection name="e2nInterfaceElements"/>
+  <collection name="e2rInterfaceElements"/>
+  <attribute name="enableRTVS" value="0" type="giBoolean"/>
+  <attribute name="existingControlFile" value="" type="giString"/>
+  <attribute name="extraOptions" value="" type="giString"/>
+  <attribute name="extraOptionsTop" value="" type="giString"/>
+  <attribute name="extraOptionsUcli" value="" type="giString"/>
+  <attribute name="extraOptionsUcliTop" value="" type="giString"/>
+  <attribute name="flowType" value="cosim" type="saMixedSignalFlow"/>
+  <collection name="forceDigitalNets"/>
+  <attribute name="ieReportAMS" value="0" type="giBoolean"/>
+  <attribute name="ieReportActivity" value="0" type="giBoolean"/>
+  <attribute name="mviewVlogNoPortSwap" value="0" type="giBoolean"/>
+  <collection name="n2eInterfaceElements"/>
+  <collection name="nodeResistanceOverrides"/>
+  <collection name="r2eInterfaceElements"/>
+  <collection name="resistanceMapConfigs"/>
+  <attribute name="resolveXInstPrefix" value="0" type="giBoolean"/>
+  <attribute name="spicePortOrderAsVlog" value="1" type="giBoolean"/>
+  <attribute name="spiceTopName" value="" type="giString"/>
+  <attribute name="useExistingControlFile" value="0" type="giBoolean"/>
+ </object>
+</file-format>

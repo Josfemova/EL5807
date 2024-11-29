@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version U-2023.03-SP2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtICVLiveICVControlVariablesTableConfig" value="1 100 0 100 0 100 1 100 1 100"/>
+	<pref name="xtICVLiveLayCell" value="not1out"/>
+	<pref name="xtICVLiveLayLCV" value="tarea2/not1out/layout"/>
+	<pref name="xtICVLiveLayOasisFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/not1out.icv.icvLive/not1out.custom_compiler.oas"/>
+	<pref name="xtICVLiveLayStreamFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/not1out.icv.icvLive/not1out.custom_compiler.gds"/>
+	<pref name="xtICVLiveRecipeChoice" value="&lt;No-Recipe&gt;"/>
+	<pref name="xtICVLiveRecipeRunHistory" value="&lt;No-Recipe&gt;"/>
+	<pref name="xtICVLiveReloadRecipeFiles" value="{}"/>
+	<pref name="xtICVLiveTool" value="IC Validator"/>
+</preferences>
+

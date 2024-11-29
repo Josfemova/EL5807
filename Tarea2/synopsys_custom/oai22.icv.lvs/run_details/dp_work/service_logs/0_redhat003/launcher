@@ -1,0 +1,33 @@
+[108312:2024-11-28 08:34:54.797] Starting service 'launcher' (Node ID=0, Host Name=redhat003)
+[108312:2024-11-28 08:34:54.798] Service Launcher starting
+[108312:2024-11-28 08:34:54.798] Starting service mapper
+[108312:2024-11-28 08:34:54.798] Started service mapper with PID 108313
+[108312:2024-11-28 08:34:54.798] Loading service mapper info
+[108312:2024-11-28 08:34:54.850] Starting services
+[108312:2024-11-28 08:34:54.851] Started service license_manager with PID 108319
+[108312:2024-11-28 08:34:54.851] Started service cluster with PID 108320
+[108312:2024-11-28 08:34:54.851] Started service hdb with PID 108321
+[108312:2024-11-28 08:34:54.852] Started service lock_manager with PID 108322
+[108312:2024-11-28 08:34:54.852] Started service log_manager with PID 108323
+[108312:2024-11-28 08:34:54.868] Service 'log_manager' with PID 108323 exited with exit status 33
+[108312:2024-11-28 08:35:23.833] Received signal 15. Shutting down.
+[108312:2024-11-28 08:35:23.833] Shutting down service 'cluster'
+[108312:2024-11-28 08:35:23.833]     Closing die FD
+[108312:2024-11-28 08:35:23.833] Shutting down service 'hdb'
+[108312:2024-11-28 08:35:23.833]     Closing die FD
+[108312:2024-11-28 08:35:23.833] Shutting down service 'license_manager'
+[108312:2024-11-28 08:35:23.833]     Closing die FD
+[108312:2024-11-28 08:35:23.833] Shutting down service 'lock_manager'
+[108312:2024-11-28 08:35:23.833]     Closing die FD
+[108312:2024-11-28 08:35:23.833] Waiting for service shutdown
+[108312:2024-11-28 08:35:23.834] Service 'cluster' with PID 108320 exited with exit status 0
+[108312:2024-11-28 08:35:23.835] Service 'lock_manager' with PID 108322 exited with exit status 0
+[108312:2024-11-28 08:35:23.835] Service 'hdb' with PID 108321 exited with exit status 0
+[108312:2024-11-28 08:35:23.836] Service 'license_manager' with PID 108319 exited with exit status 0
+[108312:2024-11-28 08:35:23.836] Waited 0 seconds on services to shutdown
+[108312:2024-11-28 08:35:23.836] Shutting down service 'mapper'
+[108312:2024-11-28 08:35:23.836]     Sending SIGTERM to PID 108313
+[108312:2024-11-28 08:35:23.836] Waiting for service shutdown
+[108312:2024-11-28 08:35:23.841] Service 'mapper' with PID 108313 exited with exit status 0
+[108312:2024-11-28 08:35:23.841] Waited 0 seconds on services to shutdown
+[108312:2024-11-28 08:35:23.841] Service Launcher exiting

@@ -1,0 +1,31 @@
+Parsing option_file: xtract.tech (EX-304)
+Running Amd_64b    
+Initializing extraction ... (EX-724)
+Reading binary grd file
+/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/xt018_xx43_MET4_METMID_METTHK_typ.nxtgrd
+... (EX-135)
+Process 1R 1C
+use_partitioned_sig2idx is Inactive
+[XinLoad] Xin reading and cleaning duration is 0.01 seconds.
+Ary stats nx=8 ny=5 dx=14651 dy=15841 nentry=576  max/cell=47 av/cell=14.4
+ Stats DB 0 241 0 0 0 0 0 157 0 0
+----- Extracting 3 nets ----- 
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+[NetExtr] Net extraction duration is 0.01 seconds.
+ Processing non-critical polygons ... 
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+ CapExtractionCounters CapEnvD=632 CapEnvND=52 NumCap=8330 Area=1264
+[Extract] Core extraction duration is 0.01 seconds.
+----- Reducing 3 nets ----- 
+----- Floating fill reduction ----- 
+Extracted 90 capacitors, 0 resistors, 141 nodes
+Reduced to 0 nodes,  (100%)
+Reduced to 74 capacitors: 74 Cc and 0 Cg (17.7778%)
+  
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=419.7 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=419.7 
+[CircWrt] Final circuit write duration is 0.02 seconds.
+Partition 0 total time is 0.06 seconds.
+

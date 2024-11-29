@@ -1,0 +1,4 @@
+PE { }
+not1out { P_DNW NE PE }
+NE { }
+P_DNW { }

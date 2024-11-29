@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep redhat003 > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 58548 
+else 
+ssh redhat003 kill 58548 
+ sleep 10 
+ssh redhat003 kill -9 58548 
+fi

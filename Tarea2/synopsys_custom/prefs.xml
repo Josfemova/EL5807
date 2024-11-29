@@ -4,11 +4,13 @@
 <preferences>
 	<pref name="dbExportNetlistViewSearchList" value="auCdl cmos_sch schematic"/>
 	<pref name="dbExportStreamLayerMapFile" value="./strmInOut.layertable"/>
-	<pref name="dbGenerateCellViewEditor" value="Layout Editor"/>
+	<pref name="dbGenerateCellViewEditor" value="Schematic Editor"/>
 	<pref name="dbImportStreamLayerMapFile" value="./strmInOut.layertable"/>
 	<pref name="dbViewWordWrap" value="true"/>
 	<pref name="deActiveObjectToolbarProc" value="printInfo"/>
+	<pref name="deConfigEditor" value="design"/>
 	<pref name="deCrossCheckViews" value="cmos_sch schematic symbol hspice verilog veriloga"/>
+	<pref name="deDescendRead" value="true"/>
 	<pref name="dmNewLibTechLib" value="TECH_XT018"/>
 	<pref name="dmNewLibTechType" value="lib"/>
 	<pref name="giShowFrameTabs" value="false"/>

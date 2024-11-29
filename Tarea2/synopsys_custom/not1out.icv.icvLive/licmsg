@@ -1,0 +1,45 @@
+11/26/2024 21:03:25 (icv) Updating license package priority based on cached license status
+  Previous value: ICValidator-Base,ICValidator-Elite,ICValidator-Apex
+  New value:      ICValidator-Apex,ICValidator-Base,ICValidator-Elite
+11/26/2024 21:03:25 (icv) Licensing related environment variables:
+
+  SNPSLMD_LICENSE_FILE = "27020@172.21.99.41"
+
+11/26/2024 21:03:25 License manager initialized. (Time=0:00:00)
+11/26/2024 21:03:25 Using license file: 27020@172.21.99.41
+11/26/2024 21:03:25 (icv) Checking (ICValidator2-GeometryEngine/2022.12)
+11/26/2024 21:03:25 (icv)   ICValidator2-GeometryEngine license is installed. (Time=0:00:00)
+11/26/2024 21:03:26 (icvl_manager_ig) Pre-Requesting (ICValidator-Live/2022.12)
+11/26/2024 21:03:26 (icvl_manager_ig)   27020@172.21.99.41: ICValidator-Live license obtained. (Time=0:00:00)
+11/26/2024 21:03:26 (icvl_manager_ig) Pre-Requesting (ICValidator2-GeometryEngine/2022.12)
+11/26/2024 21:03:26 (icvl_manager_ig)   27020@172.21.99.41: ICValidator2-GeometryEngine license obtained. (Time=0:00:00)
+11/26/2024 21:03:26 (icvl_manager_ig) Pre-Checking (ICValidator-Manager/2022.12)
+11/26/2024 21:03:26 (icvl_manager_ig)   ICValidator-Manager/2022.12 license not available. (Time=0:00:00)
+11/26/2024 21:03:26 (icvl_manager_ig) No such feature exists.
+Feature:       ICValidator-Manager
+License path:  27020@172.21.99.41:
+FlexNet Licensing error:-5,147
+SNPSLMD_LICENSE_FILE: 27020@172.21.99.41
+11/26/2024 21:03:26 Releasing (ICValidator2-GeometryEngine/2022.12)
+11/26/2024 21:03:26   ICValidator2-GeometryEngine/2022.12 released.
+11/26/2024 21:03:26 Releasing (ICValidator-Live/2022.12)
+11/26/2024 21:03:26   ICValidator-Live/2022.12 released.
+11/26/2024 21:03:26 License manager shutting down. (Time=0:00:00)
+11/26/2024 21:03:26 License manager initialized. (Time=0:00:00)
+11/26/2024 21:03:26 Using license file: 27020@172.21.99.41
+11/26/2024 21:03:26 (icvl_manager) Pre-Requesting (ICValidator-Live/2022.12)
+11/26/2024 21:03:26 (icvl_manager)   27020@172.21.99.41: ICValidator-Live license obtained. (Time=0:00:00)
+11/26/2024 21:03:26 (icvl_manager) Pre-Requesting (ICValidator2-GeometryEngine/2022.12)
+11/26/2024 21:03:26 (icvl_manager)   27020@172.21.99.41: ICValidator2-GeometryEngine license obtained. (Time=0:00:00)
+11/26/2024 21:03:26 (icvl_manager) Pre-Checking (ICValidator-Manager/2022.12)
+11/26/2024 21:03:26 (icvl_manager)   ICValidator-Manager/2022.12 license not available. (Time=0:00:00)
+11/26/2024 21:03:26 (icvl_manager) No such feature exists.
+Feature:       ICValidator-Manager
+License path:  27020@172.21.99.41:
+FlexNet Licensing error:-5,147
+SNPSLMD_LICENSE_FILE: 27020@172.21.99.41
+11/26/2024 21:03:27 Releasing (ICValidator2-GeometryEngine/2022.12)
+11/26/2024 21:03:27   ICValidator2-GeometryEngine/2022.12 released.
+11/26/2024 21:03:27 Releasing (ICValidator-Live/2022.12)
+11/26/2024 21:03:27   ICValidator-Live/2022.12 released.
+11/26/2024 21:03:27 License manager shutting down. (Time=0:00:00)
