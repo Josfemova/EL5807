@@ -23,3 +23,4 @@ gi::pressButton {ok} -in [gi::getDialogs {dbExportImage} -parent [gi::getWindows
 gi::executeAction giCloseWindow -in [gi::getWindows 1]
 gi::setActiveWindow 0
 gi::setActiveWindow 0 -raise true
+gi::executeAction giCloseWindow -in [gi::getWindows 0]
