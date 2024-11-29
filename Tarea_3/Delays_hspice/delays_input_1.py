@@ -33,9 +33,9 @@ y_tangent = tCQ_slope_neg1 + slope * (x_tangent - tDC_slope_neg1)
 
 # Graficar
 plt.figure(figsize=(8, 6))
-plt.plot(tDC, tCQ, marker='o', label='D rises, Q rises')
+plt.plot(tDC, tCQ, marker='o', label='tCQ: D rises, Q rises')
+plt.plot(tDC_hold, tCQ_hold, marker='o', label='tCQ: D falls, Q rises')
 plt.plot(tDC, tDQ, marker='o', label='tDQ')
-plt.plot(tDC_hold, tCQ_hold, marker='o', label='D falls, Q rises')
 
 # Graficar la línea tangente
 plt.plot(x_tangent, y_tangent, linestyle='--', color='red', label='Tangent (slope = -1)')
