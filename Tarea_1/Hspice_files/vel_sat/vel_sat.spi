@@ -1,0 +1,55 @@
+*  Generated for: PrimeSim
+*  Design library name: basic_cells
+*  Design cell name: test_vel_sat
+*  Design view name: schematic
+
+
+
+.option PARHIER = LOCAL
+.option PORT_VOLTAGE_SCALE_TO_2X = 1
+.option RUNLVL = 3
+.option S_ELEM_CACHE_DIR = "/home/sfallas_II_2024_vlsi/.synopsys_custom/sparam_dir"
+.option PVA_OUTPUT_DIR = "/home/sfallas_II_2024_vlsi/.synopsys_custom/pva_dir"
+
+.option WDF=1
+.temp 25
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/xh018.lib' tm
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/param.lib' 3s
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/config.lib' default
+
+*PrimeWave Design Environment Version U-2023.03-SP2
+*Sun Nov 24 13:55:11 2024
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : basic_cells
+* Cell             : test_vel_sat
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xm0 vdd! vdd! gnd! gnd! ne w=360n l=180n as=1.728e-13 ad=1.728e-13 ps=1.68e-06
++ pd=1.68e-06 nrs=0.75 nrd=0.75 m='1*1' par1='1*1' xf_subext=0
+v4 vdd! gnd! dc=1.8
+
+
+
+
+
+
+
+
+.dc v4 0 1.8 0.01
+.option opfile=1 split_dp=1
+.option probe=1
+.probe dc v(*) level=1
+.probe dc p(v4) isub(xm0.d)
+
+
+
+
+
+
+
+
+.end

@@ -1,0 +1,231 @@
+****** PrimeSim HSPICE -- U-2023.03-SP2 linux64 (Aug 24 2023 8388748) ******
+Input File: pn_ratio.spi
+lic:
+lic: FLEXlm: SDK_12.11.9.1
+lic: USER:   sfallas_II_2024_vlsi HOSTNAME: redhat003
+lic: HOSTID: 7f0100               PID:      989398
+lic: Using FLEXlm license file:
+lic: 27020@172.21.99.41
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 08-sep-2025/2024.09
+lic: 1(in_use)/100(total) FLOATING license(s) on SERVER 27020@172.21.99.41
+lic:
+
+ init: begin read circuit files, cpu clock= 1.17E+00
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/ad
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/behave
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/bjt
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/burr_brn
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/comlinear
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/dio
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/fet
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/lin_tech
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/pci
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/signet
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/ti
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/tline
+       option search = /mnt/vol_synopsys2023/synopsys/hspice/U-2023.03-SP2/hspice/parts/xilinx
+       option parhier = local
+       option port_voltage_scale_to_2x =     1.00
+       option runlvl =     3.00
+       option s_elem_cache_dir = /home/sfallas_II_2024_vlsi/.synopsys_custom/sparam_dir
+       option pva_output_dir = /home/sfallas_II_2024_vlsi/.synopsys_custom/pva_dir
+       option wdf =     1.00
+       option parhier = local
+       option opfile =     1.00
+       option split_dp =     1.00
+       option probe =     1.00
+ init: end read circuit files, cpu clock= 1.18E+00 peak memory=     518 mb
+ init: begin check errors, cpu clock= 1.18E+00
+ init: end check errors, cpu clock= 1.18E+00 peak memory=     519 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.18E+00
+       establish matrix -- done, cpu clock= 1.18E+00 peak memory=     519 mb
+       re-order matrix -- done, cpu clock= 1.18E+00 peak memory=     519 mb
+ init: end setup matrix, cpu clock= 1.19E+00 peak memory=     519 mb
+ sweep: parameter       parameter1       begin, #sweeps =  61
+ parameter: w_p             =    1.80E-06
+ sweep: dc dc1    begin, #sweeps= 181 cpu clock= 1.19E+00
+ sweep: dc dc1    end, cpu clock= 1.19E+00 peak memory=     519 mb
+ parameter: w_p             =    1.81E-06
+ sweep: dc dc2    begin, #sweeps= 181 cpu clock= 1.19E+00
+ sweep: dc dc2    end, cpu clock= 1.20E+00 peak memory=     519 mb
+ parameter: w_p             =    1.82E-06
+ sweep: dc dc3    begin, #sweeps= 181 cpu clock= 1.20E+00
+ sweep: dc dc3    end, cpu clock= 1.20E+00 peak memory=     519 mb
+ parameter: w_p             =    1.83E-06
+ sweep: dc dc4    begin, #sweeps= 181 cpu clock= 1.20E+00
+ sweep: dc dc4    end, cpu clock= 1.21E+00 peak memory=     519 mb
+ parameter: w_p             =    1.84E-06
+ sweep: dc dc5    begin, #sweeps= 181 cpu clock= 1.21E+00
+ sweep: dc dc5    end, cpu clock= 1.21E+00 peak memory=     519 mb
+ parameter: w_p             =    1.85E-06
+ sweep: dc dc6    begin, #sweeps= 181 cpu clock= 1.21E+00
+ sweep: dc dc6    end, cpu clock= 1.22E+00 peak memory=     519 mb
+ parameter: w_p             =    1.86E-06
+ sweep: dc dc7    begin, #sweeps= 181 cpu clock= 1.22E+00
+ sweep: dc dc7    end, cpu clock= 1.22E+00 peak memory=     519 mb
+ parameter: w_p             =    1.87E-06
+ sweep: dc dc8    begin, #sweeps= 181 cpu clock= 1.22E+00
+ sweep: dc dc8    end, cpu clock= 1.23E+00 peak memory=     519 mb
+ parameter: w_p             =    1.88E-06
+ sweep: dc dc9    begin, #sweeps= 181 cpu clock= 1.23E+00
+ sweep: dc dc9    end, cpu clock= 1.23E+00 peak memory=     519 mb
+ parameter: w_p             =    1.89E-06
+ sweep: dc dc10   begin, #sweeps= 181 cpu clock= 1.23E+00
+ sweep: dc dc10   end, cpu clock= 1.24E+00 peak memory=     519 mb
+ parameter: w_p             =    1.90E-06
+ sweep: dc dc11   begin, #sweeps= 181 cpu clock= 1.24E+00
+ sweep: dc dc11   end, cpu clock= 1.24E+00 peak memory=     519 mb
+ parameter: w_p             =    1.91E-06
+ sweep: dc dc12   begin, #sweeps= 181 cpu clock= 1.24E+00
+ sweep: dc dc12   end, cpu clock= 1.25E+00 peak memory=     519 mb
+ parameter: w_p             =    1.92E-06
+ sweep: dc dc13   begin, #sweeps= 181 cpu clock= 1.25E+00
+ sweep: dc dc13   end, cpu clock= 1.25E+00 peak memory=     519 mb
+ parameter: w_p             =    1.93E-06
+ sweep: dc dc14   begin, #sweeps= 181 cpu clock= 1.25E+00
+ sweep: dc dc14   end, cpu clock= 1.25E+00 peak memory=     519 mb
+ parameter: w_p             =    1.94E-06
+ sweep: dc dc15   begin, #sweeps= 181 cpu clock= 1.26E+00
+ sweep: dc dc15   end, cpu clock= 1.26E+00 peak memory=     519 mb
+ parameter: w_p             =    1.95E-06
+ sweep: dc dc16   begin, #sweeps= 181 cpu clock= 1.26E+00
+ sweep: dc dc16   end, cpu clock= 1.26E+00 peak memory=     519 mb
+ parameter: w_p             =    1.96E-06
+ sweep: dc dc17   begin, #sweeps= 181 cpu clock= 1.26E+00
+ sweep: dc dc17   end, cpu clock= 1.27E+00 peak memory=     519 mb
+ parameter: w_p             =    1.97E-06
+ sweep: dc dc18   begin, #sweeps= 181 cpu clock= 1.27E+00
+ sweep: dc dc18   end, cpu clock= 1.27E+00 peak memory=     519 mb
+ parameter: w_p             =    1.98E-06
+ sweep: dc dc19   begin, #sweeps= 181 cpu clock= 1.27E+00
+ sweep: dc dc19   end, cpu clock= 1.28E+00 peak memory=     519 mb
+ parameter: w_p             =    1.99E-06
+ sweep: dc dc20   begin, #sweeps= 181 cpu clock= 1.28E+00
+ sweep: dc dc20   end, cpu clock= 1.28E+00 peak memory=     519 mb
+ parameter: w_p             =    2.00E-06
+ sweep: dc dc21   begin, #sweeps= 181 cpu clock= 1.28E+00
+ sweep: dc dc21   end, cpu clock= 1.29E+00 peak memory=     519 mb
+ parameter: w_p             =    2.01E-06
+ sweep: dc dc22   begin, #sweeps= 181 cpu clock= 1.29E+00
+ sweep: dc dc22   end, cpu clock= 1.29E+00 peak memory=     519 mb
+ parameter: w_p             =    2.02E-06
+ sweep: dc dc23   begin, #sweeps= 181 cpu clock= 1.29E+00
+ sweep: dc dc23   end, cpu clock= 1.30E+00 peak memory=     519 mb
+ parameter: w_p             =    2.03E-06
+ sweep: dc dc24   begin, #sweeps= 181 cpu clock= 1.30E+00
+ sweep: dc dc24   end, cpu clock= 1.30E+00 peak memory=     519 mb
+ parameter: w_p             =    2.04E-06
+ sweep: dc dc25   begin, #sweeps= 181 cpu clock= 1.30E+00
+ sweep: dc dc25   end, cpu clock= 1.31E+00 peak memory=     519 mb
+ parameter: w_p             =    2.05E-06
+ sweep: dc dc26   begin, #sweeps= 181 cpu clock= 1.31E+00
+ sweep: dc dc26   end, cpu clock= 1.31E+00 peak memory=     519 mb
+ parameter: w_p             =    2.06E-06
+ sweep: dc dc27   begin, #sweeps= 181 cpu clock= 1.31E+00
+ sweep: dc dc27   end, cpu clock= 1.31E+00 peak memory=     519 mb
+ parameter: w_p             =    2.07E-06
+ sweep: dc dc28   begin, #sweeps= 181 cpu clock= 1.31E+00
+ sweep: dc dc28   end, cpu clock= 1.32E+00 peak memory=     519 mb
+ parameter: w_p             =    2.08E-06
+ sweep: dc dc29   begin, #sweeps= 181 cpu clock= 1.32E+00
+ sweep: dc dc29   end, cpu clock= 1.32E+00 peak memory=     519 mb
+ parameter: w_p             =    2.09E-06
+ sweep: dc dc30   begin, #sweeps= 181 cpu clock= 1.32E+00
+ sweep: dc dc30   end, cpu clock= 1.33E+00 peak memory=     519 mb
+ parameter: w_p             =    2.10E-06
+ sweep: dc dc31   begin, #sweeps= 181 cpu clock= 1.33E+00
+ sweep: dc dc31   end, cpu clock= 1.33E+00 peak memory=     519 mb
+ parameter: w_p             =    2.11E-06
+ sweep: dc dc32   begin, #sweeps= 181 cpu clock= 1.33E+00
+ sweep: dc dc32   end, cpu clock= 1.34E+00 peak memory=     519 mb
+ parameter: w_p             =    2.12E-06
+ sweep: dc dc33   begin, #sweeps= 181 cpu clock= 1.34E+00
+ sweep: dc dc33   end, cpu clock= 1.34E+00 peak memory=     519 mb
+ parameter: w_p             =    2.13E-06
+ sweep: dc dc34   begin, #sweeps= 181 cpu clock= 1.34E+00
+ sweep: dc dc34   end, cpu clock= 1.35E+00 peak memory=     519 mb
+ parameter: w_p             =    2.14E-06
+ sweep: dc dc35   begin, #sweeps= 181 cpu clock= 1.35E+00
+ sweep: dc dc35   end, cpu clock= 1.35E+00 peak memory=     519 mb
+ parameter: w_p             =    2.15E-06
+ sweep: dc dc36   begin, #sweeps= 181 cpu clock= 1.35E+00
+ sweep: dc dc36   end, cpu clock= 1.36E+00 peak memory=     519 mb
+ parameter: w_p             =    2.16E-06
+ sweep: dc dc37   begin, #sweeps= 181 cpu clock= 1.36E+00
+ sweep: dc dc37   end, cpu clock= 1.36E+00 peak memory=     519 mb
+ parameter: w_p             =    2.17E-06
+ sweep: dc dc38   begin, #sweeps= 181 cpu clock= 1.36E+00
+ sweep: dc dc38   end, cpu clock= 1.37E+00 peak memory=     519 mb
+ parameter: w_p             =    2.18E-06
+ sweep: dc dc39   begin, #sweeps= 181 cpu clock= 1.37E+00
+ sweep: dc dc39   end, cpu clock= 1.37E+00 peak memory=     519 mb
+ parameter: w_p             =    2.19E-06
+ sweep: dc dc40   begin, #sweeps= 181 cpu clock= 1.37E+00
+ sweep: dc dc40   end, cpu clock= 1.37E+00 peak memory=     519 mb
+ parameter: w_p             =    2.20E-06
+ sweep: dc dc41   begin, #sweeps= 181 cpu clock= 1.37E+00
+ sweep: dc dc41   end, cpu clock= 1.38E+00 peak memory=     519 mb
+ parameter: w_p             =    2.21E-06
+ sweep: dc dc42   begin, #sweeps= 181 cpu clock= 1.38E+00
+ sweep: dc dc42   end, cpu clock= 1.38E+00 peak memory=     519 mb
+ parameter: w_p             =    2.22E-06
+ sweep: dc dc43   begin, #sweeps= 181 cpu clock= 1.38E+00
+ sweep: dc dc43   end, cpu clock= 1.39E+00 peak memory=     519 mb
+ parameter: w_p             =    2.23E-06
+ sweep: dc dc44   begin, #sweeps= 181 cpu clock= 1.39E+00
+ sweep: dc dc44   end, cpu clock= 1.39E+00 peak memory=     519 mb
+ parameter: w_p             =    2.24E-06
+ sweep: dc dc45   begin, #sweeps= 181 cpu clock= 1.39E+00
+ sweep: dc dc45   end, cpu clock= 1.40E+00 peak memory=     519 mb
+ parameter: w_p             =    2.25E-06
+ sweep: dc dc46   begin, #sweeps= 181 cpu clock= 1.40E+00
+ sweep: dc dc46   end, cpu clock= 1.40E+00 peak memory=     519 mb
+ parameter: w_p             =    2.26E-06
+ sweep: dc dc47   begin, #sweeps= 181 cpu clock= 1.40E+00
+ sweep: dc dc47   end, cpu clock= 1.41E+00 peak memory=     519 mb
+ parameter: w_p             =    2.27E-06
+ sweep: dc dc48   begin, #sweeps= 181 cpu clock= 1.41E+00
+ sweep: dc dc48   end, cpu clock= 1.41E+00 peak memory=     519 mb
+ parameter: w_p             =    2.28E-06
+ sweep: dc dc49   begin, #sweeps= 181 cpu clock= 1.41E+00
+ sweep: dc dc49   end, cpu clock= 1.42E+00 peak memory=     519 mb
+ parameter: w_p             =    2.29E-06
+ sweep: dc dc50   begin, #sweeps= 181 cpu clock= 1.42E+00
+ sweep: dc dc50   end, cpu clock= 1.42E+00 peak memory=     519 mb
+ parameter: w_p             =    2.30E-06
+ sweep: dc dc51   begin, #sweeps= 181 cpu clock= 1.42E+00
+ sweep: dc dc51   end, cpu clock= 1.43E+00 peak memory=     519 mb
+ parameter: w_p             =    2.31E-06
+ sweep: dc dc52   begin, #sweeps= 181 cpu clock= 1.43E+00
+ sweep: dc dc52   end, cpu clock= 1.43E+00 peak memory=     519 mb
+ parameter: w_p             =    2.32E-06
+ sweep: dc dc53   begin, #sweeps= 181 cpu clock= 1.43E+00
+ sweep: dc dc53   end, cpu clock= 1.43E+00 peak memory=     519 mb
+ parameter: w_p             =    2.33E-06
+ sweep: dc dc54   begin, #sweeps= 181 cpu clock= 1.43E+00
+ sweep: dc dc54   end, cpu clock= 1.44E+00 peak memory=     519 mb
+ parameter: w_p             =    2.34E-06
+ sweep: dc dc55   begin, #sweeps= 181 cpu clock= 1.44E+00
+ sweep: dc dc55   end, cpu clock= 1.44E+00 peak memory=     519 mb
+ parameter: w_p             =    2.35E-06
+ sweep: dc dc56   begin, #sweeps= 181 cpu clock= 1.44E+00
+ sweep: dc dc56   end, cpu clock= 1.45E+00 peak memory=     519 mb
+ parameter: w_p             =    2.36E-06
+ sweep: dc dc57   begin, #sweeps= 181 cpu clock= 1.45E+00
+ sweep: dc dc57   end, cpu clock= 1.45E+00 peak memory=     519 mb
+ parameter: w_p             =    2.37E-06
+ sweep: dc dc58   begin, #sweeps= 181 cpu clock= 1.45E+00
+ sweep: dc dc58   end, cpu clock= 1.46E+00 peak memory=     519 mb
+ parameter: w_p             =    2.38E-06
+ sweep: dc dc59   begin, #sweeps= 181 cpu clock= 1.46E+00
+ sweep: dc dc59   end, cpu clock= 1.46E+00 peak memory=     519 mb
+ parameter: w_p             =    2.39E-06
+ sweep: dc dc60   begin, #sweeps= 181 cpu clock= 1.46E+00
+ sweep: dc dc60   end, cpu clock= 1.47E+00 peak memory=     519 mb
+ parameter: w_p             =    2.40E-06
+ sweep: dc dc61   begin, #sweeps= 181 cpu clock= 1.47E+00
+ sweep: dc dc61   end, cpu clock= 1.47E+00 peak memory=     519 mb
+ sweep: parameter       parameter       1 end
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

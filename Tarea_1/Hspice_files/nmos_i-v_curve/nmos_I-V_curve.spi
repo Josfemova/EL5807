@@ -1,0 +1,58 @@
+*  Generated for: PrimeSim
+*  Design library name: basic_cells
+*  Design cell name: test_nmos
+*  Design view name: schematic
+
+
+
+.option PARHIER = LOCAL
+.option PORT_VOLTAGE_SCALE_TO_2X = 1
+.option RUNLVL = 3
+.option S_ELEM_CACHE_DIR = "/home/sfallas_II_2024_vlsi/.synopsys_custom/sparam_dir"
+.option PVA_OUTPUT_DIR = "/home/sfallas_II_2024_vlsi/.synopsys_custom/pva_dir"
+
+.option WDF=1
+.temp 25
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/xh018.lib' tm
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/param.lib' 3s
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_1/Hspice/lpmos/config.lib' default
+
+*PrimeWave Design Environment Version U-2023.03-SP2
+*Sun Nov 24 11:34:23 2024
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : basic_cells
+* Cell             : test_nmos
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.param vgs_start=0
+.param vgs_stop=1.8
+.param vgs_step=0.2
+
+
+xm0 vdd! net7 gnd! gnd! ne w=360n l=180n as=1.728e-13 ad=1.728e-13 ps=1.68e-06
++ pd=1.68e-06 nrs=0.75 nrd=0.75 m='1*1' par1='1*1' xf_subext=0
+v5 net7 gnd! dc=0
+v4 vdd! gnd! dc=1.8
+
+
+
+
+
+.dc v4 0 1.8 0.01 sweep v5 vgs_start vgs_stop vgs_step
+.option opfile=1 split_dp=1
+.option probe=1
+.probe dc v(*)
+.probe dc isub(xm0.d)
+
+
+
+
+
+
+
+
+.end
