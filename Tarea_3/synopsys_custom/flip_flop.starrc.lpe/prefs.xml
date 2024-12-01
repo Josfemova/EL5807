@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version U-2023.03-SP2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtLPEEnableLPEJob" value="true"/>
+	<pref name="xtLPEEnableLVSJob" value="false"/>
+	<pref name="xtLPELPEJobName" value="LPE"/>
+	<pref name="xtLPELVSJobName" value="LVS"/>
+	<pref name="xtLPELayLCV" value="basic_cells/flip_flop/layout"/>
+	<pref name="xtLPEStarCornerFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/synopsys_custom/flip_flop.starrc.lpe/corners_file"/>
+	<pref name="xtLPEStarCoupleToGround" value="false"/>
+	<pref name="xtLPEStarCouplingMultiplier" value="1"/>
+	<pref name="xtLPEStarCouplingReportFile" value="/mnt/vol_NFS_rh003/profesores/jjmontero/2023/tutorial_analog/synopsys_custom/inverter.starrc.lpe/COUPLE_REPORT_file.txt"/>
+	<pref name="xtLPEStarCouplingReportNumber" value="10000"/>
+	<pref name="xtLPEStarExtractViaCaps" value="YES"/>
+	<pref name="xtLPEStarGPD" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/synopsys_custom/flip_flop.starrc.lpe/flip_flop.gpd"/>
+	<pref name="xtLPEStarHierarchicalSeparator" value="|"/>
+	<pref name="xtLPEStarHnNetlistModelName" value="{p_dnw5mva  dnw5mva} {p_dn   dn} {p_dnn   dnn} {p_dnw   dnw} {p_dp   dp} {p_dn5   dn5} {p_dnn5   dnn5} {p_dp5   dp5} {p_dnw5   dnw5} {p_dn5ps   dn5ps} {dn  DN} {dnn  DNN} {dnw  DNW} {dp  DP} {dn5  DN5} {dnn5  DNN5} {dp5  DP5} {dnw5  DNW5} {dn5ps  DN5PS}"/>
+	<pref name="xtLPEStarICVRunsetReportFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/synopsys_custom/flip_flop.icv.lvs/pex_runset_report"/>
+	<pref name="xtLPEStarNetlistGroundNodeName" value="gnd"/>
+	<pref name="xtLPEStarNetlistTailComments" value="YES"/>
+	<pref name="xtLPEStarOACellName" value="flip_flop"/>
+	<pref name="xtLPEStarOADeviceMappingFile" value="/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/OA_DEVICE_MAP"/>
+	<pref name="xtLPEStarOALayerMappingFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/synopsys_custom/flip_flop.icv.lvs/OA_LAYER_MAP"/>
+	<pref name="xtLPEStarOALibName" value="basic_cells"/>
+	<pref name="xtLPEStarOAViewName" value="starrc_RC"/>
+	<pref name="xtLPEStarOutputRunset" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/synopsys_custom/flip_flop.starrc.lpe/star_cmd.custom_compiler"/>
+	<pref name="xtLPEStarPowerNets" value="vdd! gnd!"/>
+	<pref name="xtLPEStarReduction" value="NO"/>
+	<pref name="xtLPEStarRemoveFloatingNets" value="false"/>
+	<pref name="xtLPEStarRunsetOptions" value="{BUS_BIT {[]} runset NO} {TARGET_ANALYSIS {NONE} runset NO} {NETLIST_PASSIVE_PARAMS {YES} runset NO} {CELL_TYPE {LAYOUT} runset NO} {NET_TYPE {LAYOUT} runset NO} {AUTO_RUNSET {YES} runset NO} {SKIP_PCELL_LAYERS_FILE {/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/skip_pcells} runset NO} {COUPLE_TO_PCELL_PINS {NO} runset NO}"/>
+	<pref name="xtLPEStarShowPdkConfigOptionsBool" value="false"/>
+	<pref name="xtLPEStarShowUserOptionsBool" value="false"/>
+	<pref name="xtLPEStarSkipCellList" value="!*"/>
+	<pref name="xtLPEStarSpiceSubcktFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/synopsys_custom/flip_flop.icv.lvs/flip_flop.icv.sp"/>
+	<pref name="xtLPEStarStarDirectory" value="./star"/>
+	<pref name="xtLPEStarTcadGrdFile" value="/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/xt018_xx43_MET4_METMID_METTHK_typ.nxtgrd"/>
+	<pref name="xtLPEStarTranslateRetainBulkLayers" value="YES"/>
+	<pref name="xtLPEStarXref" value="NO"/>
+	<pref name="xtLPETool" value="StarRC"/>
+</preferences>
+

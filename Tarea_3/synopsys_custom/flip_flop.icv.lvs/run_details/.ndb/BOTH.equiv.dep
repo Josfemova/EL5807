@@ -1,0 +1,4 @@
+PE::PE { }
+NE::NE { }
+flip_flop::flip_flop { P_DNW::P_DNW NE::NE PE::PE }
+P_DNW::P_DNW { }

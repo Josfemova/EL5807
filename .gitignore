@@ -160,3 +160,14 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+
+Tarea_3/synopsys_custom/flip_flop.icv.lvs/STARRC_XTR/XTR/flip_flop:1
+Tarea_3/synopsys_custom/flip_flop.icv.lvs/STARRC_XTR/XTR/ne:1
+Tarea_3/synopsys_custom/flip_flop.icv.lvs/STARRC_XTR/XTR/p_dnw:1
+Tarea_3/synopsys_custom/flip_flop.icv.lvs/STARRC_XTR/XTR/pe:1
+Tarea_3/synopsys_custom/flip_flop.starrc.lpe/star/btc/ndiff:d_csp5tl:csp5tl_3.xin.btc
+Tarea_3/synopsys_custom/flip_flop.starrc.lpe/star/btc/ndiff:d_csp5tla:csp5tla_3.xin.btc
+Tarea_3/synopsys_custom/flip_flop.starrc.lpe/star/ndiff:d_csp5tl:csp5tl_3.xin.pn
+Tarea_3/synopsys_custom/flip_flop.starrc.lpe/star/ndiff:d_csp5tla:csp5tla_3.xin.pn

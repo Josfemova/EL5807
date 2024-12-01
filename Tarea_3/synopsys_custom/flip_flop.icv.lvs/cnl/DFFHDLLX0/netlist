@@ -1,0 +1,59 @@
+********************************************************************************
+* Library          : D_CELLS_HDLL
+* Cell             : DFFHDLLX0
+* View             : cmos_sch
+* View Search List : auCdl cmos_sch schematic
+* View Stop List   : auCdl
+********************************************************************************
+.subckt DFFHDLLX0 CN D Q QN vt_ground_gnd_gnd! vt_power_vdd_vdd!
+*.PININFO CN:I D:I Q:O QN:O vt_ground_gnd_gnd!:B vt_power_vdd_vdd!:B
+MM18 MQIB CIB net64 vt_ground_gnd_gnd! NE W=420.0n L=210.0n M='1*1' AD=2.016e-13
++  AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+MM17 MQI MQIB vt_ground_gnd_gnd! vt_ground_gnd_gnd! NE W=420.0n L=210.0n M='1*1'
++  AD=2.016e-13 AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+MM15 net64 D vt_ground_gnd_gnd! vt_ground_gnd_gnd! NE W=420.0n L=210.0n M='1*1'
++ AD=2.016e-13 AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+MM46 SQIB CI net62 vt_ground_gnd_gnd! NE W=420.0n L=210.0n M='1*1' AD=2.016e-13
++ AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+MM19 MQIB CI net67 vt_ground_gnd_gnd! NE W=420.0n L=210.0n M='1*1' AD=2.016e-13
++ AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+MM51 SQIB CIB net60 vt_ground_gnd_gnd! NE W=420.0n L=210.0n M='1*1' AD=2.016e-13
++  AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+MM50 net60 SQI vt_ground_gnd_gnd! vt_ground_gnd_gnd! NE W=420.0n L=210.0n M='1*1'
++  AD=2.016e-13 AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+MM49 SQI SQIB vt_ground_gnd_gnd! vt_ground_gnd_gnd! NE W=480.0n L=210.0n M='1*1'
++  AD=2.304e-13 AS=2.304e-13 NRD=0.5625 NRS=0.5625 PD=1.92e-06 PS=1.92e-06
+MM47 net62 MQI vt_ground_gnd_gnd! vt_ground_gnd_gnd! NE W=420.0n L=210.0n M='1*1'
++  AD=2.016e-13 AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+MM61 net67 MQI vt_ground_gnd_gnd! vt_ground_gnd_gnd! NE W=420.0n L=210.0n M='1*1'
++  AD=2.016e-13 AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+Xinvr_3 SQI QN vt_ground_gnd_gnd! vt_power_vdd_vdd! / invr GT_PDL=210.00n
++ GT_PDW=420.00n GT_PUL=210.00n GT_PUW=720.00n lc=2.7e-07 sx=4.8e-07
+Xinvr_4 SQIB Q vt_ground_gnd_gnd! vt_power_vdd_vdd! / invr GT_PDL=210.00n
++ GT_PDW=420.0n GT_PUL=210.00n GT_PUW=720.00n lc=2.7e-07 sx=4.8e-07
+Xinvr_2 CI CIB vt_ground_gnd_gnd! vt_power_vdd_vdd! / invr GT_PDL=210.00n
++ GT_PDW=420.0n GT_PUL=210.00n GT_PUW=720.00n lc=2.7e-07 sx=4.8e-07
+Xinvr_1 CN CI vt_ground_gnd_gnd! vt_power_vdd_vdd! / invr GT_PDL=210.00n GT_PDW=420.0n
++  GT_PUL=210.00n GT_PUW=720.00n lc=2.7e-07 sx=4.8e-07
+MM24 MQIB CI net65 vt_power_vdd_vdd! PE W=705.00n L=210.0n M='1*1' AD=3.384e-13
++ AS=3.384e-13 NRD=0.382979 NRS=0.382979 PD=2.37e-06 PS=2.37e-06
+MM56 MQI MQIB vt_power_vdd_vdd! vt_power_vdd_vdd! PE W=720.0n L=210.0n M='1*1'
++ AD=3.456e-13 AS=3.456e-13 NRD=0.375 NRS=0.375 PD=2.4e-06 PS=2.4e-06
+MM30 net63 MQI vt_power_vdd_vdd! vt_power_vdd_vdd! PE W=715.00n L=210.0n M='1*1'
++  AD=3.432e-13 AS=3.432e-13 NRD=0.377622 NRS=0.377622 PD=2.39e-06 PS=2.39e-06
+MM23 net65 D vt_power_vdd_vdd! vt_power_vdd_vdd! PE W=705.00n L=210.0n M='1*1'
++ AD=3.384e-13 AS=3.384e-13 NRD=0.382979 NRS=0.382979 PD=2.37e-06 PS=2.37e-06
+MM59 SQI SQIB vt_power_vdd_vdd! vt_power_vdd_vdd! PE W=695.00n L=210.0n M='1*1'
++ AD=3.336e-13 AS=3.336e-13 NRD=0.388489 NRS=0.388489 PD=2.35e-06 PS=2.35e-06
+MM36 net66 SQI vt_power_vdd_vdd! vt_power_vdd_vdd! PE W=420.0n L=210.0n M='1*1'
++ AD=2.016e-13 AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+MM35 SQIB CI net66 vt_power_vdd_vdd! PE W=420.0n L=210.0n M='1*1' AD=2.016e-13
++ AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+MM34 MQIB CIB net58 vt_power_vdd_vdd! PE W=420.0n L=210.0n M='1*1' AD=2.016e-13
++ AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+MM33 SQIB CIB net63 vt_power_vdd_vdd! PE W=715.00n L=210.0n M='1*1' AD=3.432e-13
++  AS=3.432e-13 NRD=0.377622 NRS=0.377622 PD=2.39e-06 PS=2.39e-06
+MM28 net58 MQI vt_power_vdd_vdd! vt_power_vdd_vdd! PE W=420.0n L=210.0n M='1*1'
++ AD=2.016e-13 AS=2.016e-13 NRD=0.642857 NRS=0.642857 PD=1.8e-06 PS=1.8e-06
+.ends DFFHDLLX0
+

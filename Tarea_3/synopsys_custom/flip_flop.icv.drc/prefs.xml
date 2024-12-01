@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version U-2023.03-SP2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtDRCICVControlVariablesTableConfig" value="1 222 0 100 0 100 1 727 1 100"/>
+	<pref name="xtDRCLayCell" value="flip_flop"/>
+	<pref name="xtDRCLayLCV" value="basic_cells/flip_flop/layout"/>
+	<pref name="xtDRCLayOasisFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/synopsys_custom/flip_flop.icv.drc/flip_flop.custom_compiler.oas"/>
+	<pref name="xtDRCLayStreamFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/synopsys_custom/flip_flop.icv.drc/flip_flop.custom_compiler.gds"/>
+	<pref name="xtDRCTool" value="IC Validator"/>
+</preferences>
+

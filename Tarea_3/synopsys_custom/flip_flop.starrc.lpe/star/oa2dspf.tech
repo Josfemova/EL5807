@@ -1,0 +1,11 @@
+-oa2dspf
+-oa_lib_name basic_cells
+-oa_cell_name flip_flop
+-oa_view_name starrc_RC
+-o ../starrc_RC.dspf
+-oa_output_file ../starrc_RC.oa.out
+-netlist_header_file netlist.hdr
+-oa_lib_def /mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_3/synopsys_custom/flip_flop.starrc.lpe/lib.defs
+-layer_info layer_info
+-ground_node_name gnd
+-inter_pic_level_connections
