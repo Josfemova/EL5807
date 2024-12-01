@@ -1,0 +1,80 @@
+LAYER_FILE layers
+TCAD_FILE_NAME /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/xt018_xx43_MET4_METMID_METTHK_typ.nxtgrd
+OP bulk:pcap_tub1_bulkb:p_cap:%:pcap_tub1_bulkb:%::%:0 NOT dhw_nbur hwafer_b hwafer_t hwc_bs hwc_bs_marker bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => bulk:pcap_tub1_bulkb:p_cap:%:pcap_tub1_bulkb:%::%:0
+DELETE bulk:pcap_tub1_bulkb:p_cap:%:pcap_tub1_bulkb:%::%:0
+OP bulk:pcap_tub1_bulkt:p_cap:%:pcap_tub1_bulkt:%::%:0 NOT dhw_nbur hwafer_b hwafer_t hwc_bs hwc_bs_marker bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => bulk:pcap_tub1_bulkt:p_cap:%:pcap_tub1_bulkt:%::%:0
+DELETE bulk:pcap_tub1_bulkt:p_cap:%:pcap_tub1_bulkt:%::%:0
+OP hwafer_b:pcap_tub1_bulkb:p_cap:%:pcap_tub1_bulkb:%::%:0 NOT dhw_nbur hwafer_b hwafer_t hwc_bs hwc_bs_marker bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => hwafer_b:pcap_tub1_bulkb:p_cap:%:pcap_tub1_bulkb:%::%:0
+DELETE hwafer_b:pcap_tub1_bulkb:p_cap:%:pcap_tub1_bulkb:%::%:0
+OP hwafer_b:pcap_tub1_hvnwb:p_cap:%:pcap_tub1_hvnwb:%::%:0 NOT dhw_nbur hwafer_b hwafer_t hwc_bs hwc_bs_marker bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => hwafer_b:pcap_tub1_hvnwb:p_cap:%:pcap_tub1_hvnwb:%::%:0
+DELETE hwafer_b:pcap_tub1_hvnwb:p_cap:%:pcap_tub1_hvnwb:%::%:0
+OP hwafer_t:pcap_tub1_bulkt:p_cap:%:pcap_tub1_bulkt:%::%:0 NOT dhw_nbur hwafer_b hwafer_t hwc_bs hwc_bs_marker bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => hwafer_t:pcap_tub1_bulkt:p_cap:%:pcap_tub1_bulkt:%::%:0
+DELETE hwafer_t:pcap_tub1_bulkt:p_cap:%:pcap_tub1_bulkt:%::%:0
+OP hwafer_t:pcap_tub1_hvnwt:p_cap NOT dhw_nbur hwafer_b hwafer_t hwc_bs hwc_bs_marker bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => hwafer_t:pcap_tub1_hvnwt:p_cap
+DELETE hwafer_t:pcap_tub1_hvnwt:p_cap
+OP tub1_hvnw_t:pcap_tub1_hvnwb:p_cap:%:pcap_tub1_hvnwb:%::%:0 NOT dhw_nbur hwafer_b hwafer_t hwc_bs hwc_bs_marker bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => tub1_hvnw_t:pcap_tub1_hvnwb:p_cap:%:pcap_tub1_hvnwb:%::%:0
+DELETE tub1_hvnw_t:pcap_tub1_hvnwb:p_cap:%:pcap_tub1_hvnwb:%::%:0
+OP tub1_hvnw_t:pcap_tub1_hvnwt:p_cap NOT dhw_nbur hwafer_b hwafer_t hwc_bs hwc_bs_marker bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => tub1_hvnw_t:pcap_tub1_hvnwt:p_cap
+DELETE tub1_hvnw_t:pcap_tub1_hvnwt:p_cap
+OP dhw_nbur NOT bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => dhw_nbur
+DELETE dhw_nbur
+OP hwafer_b NOT bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => hwafer_b
+DELETE hwafer_b
+OP hwafer_t NOT bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => hwafer_t
+DELETE hwafer_t
+OP hwc_bs NOT bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => hwc_bs
+DELETE hwc_bs
+OP hwc_bs_marker NOT bulk dfwdn2_bulk hwntub hwptub tub1_hvnw_t dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => hwc_bs_marker
+DELETE hwc_bs_marker
+OP bulk NOT dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => bulk
+DELETE bulk
+OP dfwdn2_bulk NOT dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => dfwdn2_bulk
+DELETE dfwdn2_bulk
+OP hwntub NOT dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => hwntub
+DELETE hwntub
+OP hwptub NOT dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => hwptub
+DELETE hwptub
+OP tub1_hvnw_t NOT dfntrm dfptrm dfptrm1 dfwdnh_an nbase ndfmvtrm ndftrm nhv1_d nisj_d nwtrm pbase pdfmvtrm pdfntrm pdftrm phv1_d pw4trm rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => tub1_hvnw_t
+DELETE tub1_hvnw_t
+OP dfntrm NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => dfntrm
+DELETE dfntrm
+OP dfptrm NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => dfptrm
+DELETE dfptrm
+OP dfptrm1 NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => dfptrm1
+DELETE dfptrm1
+OP dfwdnh_an NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => dfwdnh_an
+DELETE dfwdnh_an
+OP nbase NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => nbase
+DELETE nbase
+OP ndfmvtrm NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => ndfmvtrm
+DELETE ndfmvtrm
+OP ndftrm NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => ndftrm
+DELETE ndftrm
+OP nhv1_d NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => nhv1_d
+DELETE nhv1_d
+OP nisj_d NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => nisj_d
+DELETE nisj_d
+OP nwtrm NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => nwtrm
+DELETE nwtrm
+OP pbase NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => pbase
+DELETE pbase
+OP pdfmvtrm NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => pdfmvtrm
+DELETE pdfmvtrm
+OP pdfntrm NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => pdfntrm
+DELETE pdfntrm
+OP pdftrm NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => pdftrm
+DELETE pdftrm
+OP phv1_d NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => phv1_d
+DELETE phv1_d
+OP pw4trm NOT rnw rnw_scr rnwm rnwm_scr rxw2ti cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => pw4trm
+DELETE pw4trm
+OP rnw NOT cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => rnw
+DELETE rnw
+OP rnw_scr NOT cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => rnw_scr
+DELETE rnw_scr
+OP rnwm NOT cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => rnwm
+DELETE rnwm
+OP rnwm_scr NOT cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => rnwm_scr
+DELETE rnwm_scr
+OP rxw2ti NOT cspnsd npdtap ntap ptap rdn rdn_g rdnm rdnm_dpc rdnm_g rdnm_pw4 rdp rdp_g rdpm rdpm_g => rxw2ti
+DELETE rxw2ti

@@ -1,0 +1,105 @@
+<module name="vsl: tarea4 flip_flop schematic vl: auCdl cmos_sch schematic">
+<scope name="Instance">
+<forward>
+<mapping dst="MM36" src="M36"/>
+<mapping dst="MM35" src="M35"/>
+<mapping dst="MM23" src="M23"/>
+<mapping dst="MM30" src="M30"/>
+<mapping dst="MM24" src="M24"/>
+<mapping dst="Xinvr_1" src="invr_1"/>
+<mapping dst="Xinvr_2" src="invr_2"/>
+<mapping dst="Xinvr_4" src="invr_4"/>
+<mapping dst="MM61" src="M61"/>
+<mapping dst="MM28" src="M28"/>
+<mapping dst="MM49" src="M49"/>
+<mapping dst="MM33" src="M33"/>
+<mapping dst="MM51" src="M51"/>
+<mapping dst="MM56" src="M56"/>
+<mapping dst="MM19" src="M19"/>
+<mapping dst="MM47" src="M47"/>
+<mapping dst="MM34" src="M34"/>
+<mapping dst="MM50" src="M50"/>
+<mapping dst="Xinvr_3" src="invr_3"/>
+<mapping dst="MM46" src="M46"/>
+<mapping dst="MM15" src="M15"/>
+<mapping dst="MM17" src="M17"/>
+<mapping dst="MM59" src="M59"/>
+<mapping dst="MM18" src="M18"/>
+</forward>
+<reverse>
+<mapping dst="M28" src="MM28"/>
+<mapping dst="M33" src="MM33"/>
+<mapping dst="M36" src="MM36"/>
+<mapping dst="M59" src="MM59"/>
+<mapping dst="M35" src="MM35"/>
+<mapping dst="M23" src="MM23"/>
+<mapping dst="M30" src="MM30"/>
+<mapping dst="M56" src="MM56"/>
+<mapping dst="M34" src="MM34"/>
+<mapping dst="M24" src="MM24"/>
+<mapping dst="invr_1" src="Xinvr_1"/>
+<mapping dst="invr_2" src="Xinvr_2"/>
+<mapping dst="invr_4" src="Xinvr_4"/>
+<mapping dst="invr_3" src="Xinvr_3"/>
+<mapping dst="M61" src="MM61"/>
+<mapping dst="M49" src="MM49"/>
+<mapping dst="M50" src="MM50"/>
+<mapping dst="M19" src="MM19"/>
+<mapping dst="M46" src="MM46"/>
+<mapping dst="M51" src="MM51"/>
+<mapping dst="M17" src="MM17"/>
+<mapping dst="M47" src="MM47"/>
+<mapping dst="M18" src="MM18"/>
+<mapping dst="M15" src="MM15"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward/>
+<reverse/>
+</scope>
+<scope name="simInfo">
+<forward>
+<mapping dst="CN D Q QN gnd! vdd!" src="&lt;unmappedTermOrder>"/>
+<mapping dst="CN D Q QN gnd! vdd!" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="CN D Q QN gnd! vdd!"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="invr">
+<instance name="invr_1"/>
+<instance name="invr_2"/>
+<instance name="invr_3"/>
+<instance name="invr_4"/>
+</instance_header>
+<instance_header master="ne">
+<instance name="M15"/>
+<instance name="M17"/>
+<instance name="M18"/>
+<instance name="M19"/>
+<instance name="M46"/>
+<instance name="M47"/>
+<instance name="M49"/>
+<instance name="M50"/>
+<instance name="M51"/>
+<instance name="M61"/>
+</instance_header>
+<instance_header master="pe">
+<instance name="M23"/>
+<instance name="M24"/>
+<instance name="M28"/>
+<instance name="M30"/>
+<instance name="M33"/>
+<instance name="M34"/>
+<instance name="M35"/>
+<instance name="M36"/>
+<instance name="M56"/>
+<instance name="M59"/>
+</instance_header>
+</master_instances>
+</module>

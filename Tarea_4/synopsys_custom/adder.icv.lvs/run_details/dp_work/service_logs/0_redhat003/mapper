@@ -1,0 +1,39 @@
+[793056:2024-12-01 13:33:37.441] Starting service 'mapper' (Node ID=0, Host Name=redhat003)
+[793056:2024-12-01 13:33:37.458] <Redis> 793057:C 01 Dec 2024 13:33:37.458 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[793056:2024-12-01 13:33:37.458] <Redis> 793057:C 01 Dec 2024 13:33:37.458 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=793057, just started
+[793056:2024-12-01 13:33:37.458] <Redis> 793057:C 01 Dec 2024 13:33:37.458 # Configuration loaded
+[793056:2024-12-01 13:33:37.460] <Redis> 793057:M 01 Dec 2024 13:33:37.460 * Running mode=standalone, port=38929.
+[793056:2024-12-01 13:33:37.460] <Redis> 793057:M 01 Dec 2024 13:33:37.460 # Server initialized
+[793056:2024-12-01 13:33:37.460] <Redis> 793057:M 01 Dec 2024 13:33:37.460 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[793056:2024-12-01 13:33:37.461] <Redis> 793057:M 01 Dec 2024 13:33:37.460 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo madvise > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled (set to 'madvise' or 'never').
+[793056:2024-12-01 13:33:37.462] <Redis> 793057:M 01 Dec 2024 13:33:37.462 * Ready to accept connections
+[793056:2024-12-01 13:33:37.462] Launched Redis process 793057 (Service Mapper) on address 127.0.0.1:38929. Attempting to connect...
+[793056:2024-12-01 13:33:37.462] Attempt #1 successfully connected to Redis at 127.0.0.1:38929
+[793056:2024-12-01 13:33:37.462] <Redis> 793057:M 01 Dec 2024 13:33:37.462 * The server is now ready to accept connections at /tmp/icv_OgUEiv/mapper
+[793056:2024-12-01 13:33:37.464] Wrote service info file to run_details/dp_work/service_info
+[793055:2024-12-01 13:33:47.466] [2024-12-01 13:33:37.483] Service 'launcher:0' registered on redhat003:51111
+[793065:2024-12-01 13:33:47.466] [2024-12-01 13:33:37.496] Service 'lock_manager' registered on redhat003:39319
+[793063:2024-12-01 13:33:47.466] [2024-12-01 13:33:37.498] Service 'cluster' registered on redhat003:50605
+[793062:2024-12-01 13:33:47.466] [2024-12-01 13:33:37.498] Service 'license_manager' registered on redhat003:59981
+[793064:2024-12-01 13:33:47.466] [2024-12-01 13:33:37.502] Service 'hdb' registered on redhat003:48331
+[793071:2024-12-01 13:33:47.467] [2024-12-01 13:33:37.745] Service 'memory_manager' registered on redhat003:53229
+[793072:2024-12-01 13:33:47.467] [2024-12-01 13:33:37.747] Service 'cleanup' registered on redhat003:46615
+[793098:2024-12-01 13:33:47.467] [2024-12-01 13:33:45.206] Per-host service 'worker_pool:redhat003' registered on redhat003:48051
+[793098:2024-12-01 13:33:47.467] [2024-12-01 13:33:45.206] Per-host service 'host_stats:redhat003' registered on redhat003:53885
+[793068:2024-12-01 13:33:47.467] [2024-12-01 13:33:45.207] Service 'add_host' registered on redhat003:38935
+[793071:2024-12-01 13:34:03.694] [2024-12-01 13:34:03.552] Removing service 'memory_manager'
+[793068:2024-12-01 13:34:03.694] [2024-12-01 13:34:03.584] Removing service 'add_host'
+[793055:2024-12-01 13:34:03.694] [2024-12-01 13:34:03.689] Removing service 'launcher:0'
+[793063:2024-12-01 13:34:03.694] [2024-12-01 13:34:03.689] Removing service 'cluster'
+[793064:2024-12-01 13:34:03.694] [2024-12-01 13:34:03.689] Removing service 'hdb'
+[793065:2024-12-01 13:34:03.694] [2024-12-01 13:34:03.689] Removing service 'lock_manager'
+[793062:2024-12-01 13:34:03.694] [2024-12-01 13:34:03.690] Removing service 'license_manager'
+[793098:2024-12-01 13:34:03.694] [2024-12-01 13:34:03.692] Removing service 'worker_pool:redhat003'
+[793098:2024-12-01 13:34:03.695] [2024-12-01 13:34:03.692] Removing service 'host_stats:redhat003'
+[793056:2024-12-01 13:34:03.695] Received signal 15 (Terminated). Exiting.
+[793056:2024-12-01 13:34:03.696] <Redis> 793057:M 01 Dec 2024 13:34:03.695 # User requested shutdown...
+[793056:2024-12-01 13:34:03.696] <Redis> 793057:M 01 Dec 2024 13:34:03.695 * Removing the unix socket file.
+[793056:2024-12-01 13:34:03.696] <Redis> 793057:M 01 Dec 2024 13:34:03.695 # Redis is now ready to exit, bye bye...
+[793056:2024-12-01 13:34:03.696] Pipe is closed from from Redis.
+[793056:2024-12-01 13:34:03.696] /tmp/icv_OgUEiv is removed
+[793056:2024-12-01 13:34:03.697] Service info file run_details/dp_work/service_info is removed.

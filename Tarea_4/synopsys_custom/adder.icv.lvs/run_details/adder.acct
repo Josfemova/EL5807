@@ -1,0 +1,10 @@
+adder
+	Cell Level Device Counts
+		NMOS[ne] = 14
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 14
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = adder  *******
+		NMOS[ne] = 14
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 14

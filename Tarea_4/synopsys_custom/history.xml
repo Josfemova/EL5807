@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Sun Dec  1 12:23:53 2024
+<!-- created by Custom Compiler (TM), build #, on Sun Dec  1 14:56:02 2024
 -->
-<synopsysFile name="synopsysRecentFiles" version="1.1">
+<synopsysFile version="1.1" name="synopsysRecentFiles">
         <recentFiles>
-                <file file="schematic" view="schematic" cell="add_test" library="tarea4" mode="write"/>
-                <file file="schematic" view="schematic" cell="flip_flop_1b_test" library="tarea4" mode="write"/>
-                <file file="schematic" view="schematic" cell="flip_flop_8b_test" library="tarea4" mode="read"/>
-                <file file="saeState" view="FineSim_schem_power" cell="flip_flop_8b_test" library="tarea4" mode="write"/>
-                <file file="saeState" view="FineSim_schem_power" cell="flip_flop_1b_test" library="tarea4" mode="write"/>
+                <file view="config" file="config.xml" mode="read" library="tarea4" cell="flip_flop_8b_test_layout"/>
+                <file view="schematic" file="schematic" mode="write" library="tarea4" cell="flip_flop_8b_test_layout"/>
+                <file view="schematic" file="schematic" mode="write" library="tarea4" cell="flip_flop_8b_test"/>
+                <file view="schematic" file="schematic" mode="write" library="tarea4" cell="flip_flop_1b_test"/>
+                <file view="schematic" file="schematic" mode="write" library="tarea4" cell="flip_flop_1b_test_layout"/>
         </recentFiles>
 </synopsysFile>

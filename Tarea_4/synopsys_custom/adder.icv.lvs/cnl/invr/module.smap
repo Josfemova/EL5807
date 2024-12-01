@@ -1,0 +1,43 @@
+<module name="vsl: GATES_HD invr schematic vl: auCdl cmos_sch schematic">
+<scope name="Instance">
+<forward>
+<mapping dst="Mpe" src="pe"/>
+<mapping dst="Mne" src="ne"/>
+</forward>
+<reverse>
+<mapping dst="pe" src="Mpe"/>
+<mapping dst="ne" src="Mne"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping dst="vt_power_vdd_vdd!" src="vdd!"/>
+<mapping dst="vt_ground_gnd_gnd!" src="gnd!"/>
+</forward>
+<reverse>
+<mapping dst="vdd!" src="vt_power_vdd_vdd!"/>
+<mapping dst="gnd!" src="vt_ground_gnd_gnd!"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward/>
+<reverse/>
+</scope>
+<scope name="simInfo">
+<forward>
+<mapping dst="in out vt_ground_gnd_gnd! vt_power_vdd_vdd!" src="&lt;unmappedTermOrder>"/>
+<mapping dst="in out vt_ground_gnd_gnd! vt_power_vdd_vdd!" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="in out vt_ground_gnd_gnd! vt_power_vdd_vdd!"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="ne">
+<instance name="ne"/>
+</instance_header>
+<instance_header master="pe">
+<instance name="pe"/>
+</instance_header>
+</master_instances>
+</module>
