@@ -1,19 +1,27 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Sat Nov 30 22:42:03 2024
+<!-- created by Custom Compiler (TM), build #, on Sun Dec  1 12:24:05 2024
 -->
-<synopsysFile version="1.0" name="synopsysFavoriteDevices">
+<synopsysFile name="synopsysFavoriteDevices" version="1.0">
         <favoriteDevices viewType="maskLayout"/>
         <favoriteDevices viewType="schematic">
-                <cellView view="symbol" cell="add_stimulus" library="tarea4">
-                        <alias name="add_stimulus"/>
+                <cellView view="symbol" cell="DFFHDLLX0" library="D_CELLS_HDLL">
+                        <alias name="DFFHDLLX0"/>
                         <category name="Recently Placed"/>
                 </cellView>
-                <cellView view="symbol" cell="FAHDLLX0" library="D_CELLS_HDLL">
-                        <alias name="FAHDLLX0"/>
+                <cellView view="symbol" cell="vdd" library="analogLib">
+                        <alias name="vdd"/>
                         <category name="Recently Placed"/>
                 </cellView>
-                <cellView view="symbol" cell="adder" library="tarea4">
-                        <alias name="adder"/>
+                <cellView view="symbol" cell="vsource" library="analogLib">
+                        <alias name="vsource"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" cell="cap" library="analogLib">
+                        <alias name="cap"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView view="symbol" cell="gnd" library="analogLib">
+                        <alias name="gnd"/>
                         <category name="Recently Placed"/>
                 </cellView>
         </favoriteDevices>
