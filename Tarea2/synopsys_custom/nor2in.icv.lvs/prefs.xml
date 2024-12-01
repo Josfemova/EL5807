@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version U-2023.03-SP2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtLVSCalibreUseSVRFTranscript" value="true"/>
+	<pref name="xtLVSICVControlVariablesTableConfig" value="1 275 0 100 0 100 1 840 1 100"/>
+	<pref name="xtLVSLayCell" value="nor2in"/>
+	<pref name="xtLVSLayInputNetlist" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/nor2in.icv.lvs/nor2in.net"/>
+	<pref name="xtLVSLayLCV" value="tarea2/nor2in/layout"/>
+	<pref name="xtLVSLayOasisFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/nor2in.icv.lvs/nor2in.custom_compiler.oas"/>
+	<pref name="xtLVSLayStreamFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/nor2in.icv.lvs/nor2in.custom_compiler.gds"/>
+	<pref name="xtLVSSchCell" value="nor2in"/>
+	<pref name="xtLVSSchInputNetlist" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/nor2in.icv.lvs/nor2in.icv.sp"/>
+	<pref name="xtLVSSchLCV" value="tarea2/nor2in/schematic"/>
+	<pref name="xtLVSSchOutputNetlist" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/nor2in.icv.lvs/nor2in.icv.sp"/>
+	<pref name="xtLVSTool" value="IC Validator"/>
+</preferences>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Nov 28 03:03:50 2024-->
+<file-format name="netlisting-timestamps" version="2.0">
+<module viewSearchList="auCdl cmos_sch schematic" isSubcircuit="1" contextID="switched: PRIMLIB ne auCdl vl: auCdl cmos_sch schematic sl: auCdl" timestamp="52" viewStopList="auCdl">
+<LineageParams/>
+<ParentParams/>
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="378"/>
+<lib_parameters timestamp="17"/>
+<Terms timestamp="49"/>
+<PortOrder><![CDATA[DGSB]]></PortOrder>
+<ShortOptions timestamp="1009512283"/>
+</module>
+</file-format>

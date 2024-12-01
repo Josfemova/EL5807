@@ -1,0 +1,3 @@
+INCLUDE /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/lib.defs
+DEFINE SNPS_CC_ICV /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/not1out.icv.icvLive/SNPS_CC_ICV
+ASSIGN SNPS_CC_ICV libMode shared

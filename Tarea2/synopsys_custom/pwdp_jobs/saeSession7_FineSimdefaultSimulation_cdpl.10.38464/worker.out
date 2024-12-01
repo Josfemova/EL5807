@@ -1,0 +1,30 @@
+Running pwcdpl_worker -i /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/pwdp_jobs/saeSession7_FineSimdefaultSimulation_cdpl.10.38464 -t 10000
+
+ cdpl worker started signal... /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/pwdp_jobs/saeSession7_FineSimdefaultSimulation_cdpl.10.38464 10000
+
+ PWDP: cdpl worker flow start...
+
+PWDP: job [0] exit code :[8].worker W1 task time :6.
+ cdpl worker end
+
+ PWDP: cdpl worker flow quit.
+Running pwcdpl_worker -i /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/pwdp_jobs/saeSession7_FineSimdefaultSimulation_cdpl.10.38464 -t 10000
+
+ cdpl worker started signal... /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/pwdp_jobs/saeSession7_FineSimdefaultSimulation_cdpl.10.38464 10000
+
+ PWDP: cdpl worker flow start...
+
+PWDP: job [1] exit code :[8].worker W2 task time :5.
+ cdpl worker end
+
+ PWDP: cdpl worker flow quit.
+Running pwcdpl_worker -i /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/pwdp_jobs/saeSession7_FineSimdefaultSimulation_cdpl.10.38464 -t 10000
+
+ cdpl worker started signal... /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/pwdp_jobs/saeSession7_FineSimdefaultSimulation_cdpl.10.38464 10000
+
+ PWDP: cdpl worker flow start...
+
+PWDP: job [2] exit code :[8].worker W3 task time :4.
+ cdpl worker end
+
+ PWDP: cdpl worker flow quit.

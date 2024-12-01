@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version U-2023.03-SP2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtDRCICVControlVariablesTableConfig" value="1 222 0 100 0 100 1 727 1 100"/>
+	<pref name="xtDRCLayCell" value="oai22"/>
+	<pref name="xtDRCLayLCV" value="tarea2/oai22/layout"/>
+	<pref name="xtDRCLayOasisFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/oai22.icv.drc/oai22.custom_compiler.oas"/>
+	<pref name="xtDRCLayStreamFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/oai22.icv.drc/oai22.custom_compiler.gds"/>
+	<pref name="xtDRCTool" value="IC Validator"/>
+</preferences>
+

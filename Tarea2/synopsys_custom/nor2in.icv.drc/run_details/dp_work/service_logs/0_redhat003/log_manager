@@ -1,0 +1,2 @@
+[58546:2024-11-27 23:35:44.826] Starting service 'log_manager' (Node ID=0, Host Name=redhat003)
+[58546:2024-11-27 23:35:44.826] Unable to exec unknown service 'log_manager'

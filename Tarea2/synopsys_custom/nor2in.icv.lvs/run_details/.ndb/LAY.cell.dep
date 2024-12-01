@@ -1,0 +1,3 @@
+PRIMLIB.pe.layout { }
+PRIMLIB.ne.layout { }
+nor2in { PRIMLIB.pe.layout PRIMLIB.ne.layout }

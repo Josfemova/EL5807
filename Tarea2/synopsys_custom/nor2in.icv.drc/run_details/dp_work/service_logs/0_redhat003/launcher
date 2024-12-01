@@ -1,0 +1,33 @@
+[58535:2024-11-27 23:35:44.762] Starting service 'launcher' (Node ID=0, Host Name=redhat003)
+[58535:2024-11-27 23:35:44.762] Service Launcher starting
+[58535:2024-11-27 23:35:44.762] Starting service mapper
+[58535:2024-11-27 23:35:44.762] Started service mapper with PID 58536
+[58535:2024-11-27 23:35:44.762] Loading service mapper info
+[58535:2024-11-27 23:35:44.814] Starting services
+[58535:2024-11-27 23:35:44.815] Started service license_manager with PID 58542
+[58535:2024-11-27 23:35:44.815] Started service cluster with PID 58543
+[58535:2024-11-27 23:35:44.815] Started service hdb with PID 58544
+[58535:2024-11-27 23:35:44.815] Started service lock_manager with PID 58545
+[58535:2024-11-27 23:35:44.815] Started service log_manager with PID 58546
+[58535:2024-11-27 23:35:44.828] Service 'log_manager' with PID 58546 exited with exit status 33
+[58535:2024-11-27 23:36:14.308] Received signal 15. Shutting down.
+[58535:2024-11-27 23:36:14.309] Shutting down service 'cluster'
+[58535:2024-11-27 23:36:14.309]     Closing die FD
+[58535:2024-11-27 23:36:14.309] Shutting down service 'hdb'
+[58535:2024-11-27 23:36:14.309]     Closing die FD
+[58535:2024-11-27 23:36:14.309] Shutting down service 'license_manager'
+[58535:2024-11-27 23:36:14.309]     Closing die FD
+[58535:2024-11-27 23:36:14.309] Shutting down service 'lock_manager'
+[58535:2024-11-27 23:36:14.309]     Closing die FD
+[58535:2024-11-27 23:36:14.309] Waiting for service shutdown
+[58535:2024-11-27 23:36:14.310] Service 'lock_manager' with PID 58545 exited with exit status 0
+[58535:2024-11-27 23:36:14.310] Service 'cluster' with PID 58543 exited with exit status 0
+[58535:2024-11-27 23:36:14.310] Service 'hdb' with PID 58544 exited with exit status 0
+[58535:2024-11-27 23:36:14.312] Service 'license_manager' with PID 58542 exited with exit status 0
+[58535:2024-11-27 23:36:14.312] Waited 0 seconds on services to shutdown
+[58535:2024-11-27 23:36:14.312] Shutting down service 'mapper'
+[58535:2024-11-27 23:36:14.312]     Sending SIGTERM to PID 58536
+[58535:2024-11-27 23:36:14.312] Waiting for service shutdown
+[58535:2024-11-27 23:36:14.317] Service 'mapper' with PID 58536 exited with exit status 0
+[58535:2024-11-27 23:36:14.317] Waited 0 seconds on services to shutdown
+[58535:2024-11-27 23:36:14.317] Service Launcher exiting

@@ -1,0 +1,32 @@
+** preprocess_pcell_shapes **
+OP ndiff AND px_pdiff => px_pdiff:ndiff
+OP ndiff NOT px_pdiff => ndiff
+DELETE ndiff
+OP pdiff AND px_pdiff => px_pdiff:pdiff
+OP pdiff NOT px_pdiff => pdiff
+DELETE pdiff
+OP ndiff:d_csp5tl:csp5tl_3 AND px_pdiff => px_pdiff:ndiff:d_csp5tl:csp5tl_3
+OP ndiff:d_csp5tl:csp5tl_3 NOT px_pdiff => ndiff:d_csp5tl:csp5tl_3
+DELETE ndiff:d_csp5tl:csp5tl_3
+OP ndiff:d_csp5tla:csp5tla_3 AND px_pdiff => px_pdiff:ndiff:d_csp5tla:csp5tla_3
+OP ndiff:d_csp5tla:csp5tla_3 NOT px_pdiff => ndiff:d_csp5tla:csp5tla_3
+DELETE ndiff:d_csp5tla:csp5tla_3
+OP ntap AND px_pdiff => px_pdiff:ntap
+OP ntap NOT px_pdiff => ntap
+DELETE ntap
+OP ptap AND px_pdiff => px_pdiff:ptap
+OP ptap NOT px_pdiff => ptap
+DELETE ptap
+OP npdtap AND px_pdiff => px_pdiff:npdtap
+OP npdtap NOT px_pdiff => npdtap
+DELETE npdtap
+OP nwtrm AND px_pdiff => px_pdiff:nwtrm
+OP nwtrm NOT px_pdiff => nwtrm
+DELETE nwtrm
+OP bulk AND px_pdiff => px_pdiff:bulk
+OP bulk NOT px_pdiff => bulk
+DELETE bulk
+OP hwafer_t AND px_pdiff => px_pdiff:hwafer_t
+OP hwafer_t NOT px_pdiff => hwafer_t
+DELETE hwafer_t
+DELETE px_pdiff

@@ -1,0 +1,28 @@
+PRIMLIB.ne.layout
+	Cell Level Device Counts
+		NMOS[ne] = 8
+		DIODE[p_dnw] = 0
+		PMOS[pe] = 0
+	Flat Device Counts
+		NMOS[ne] = 8
+		DIODE[p_dnw] = 0
+		PMOS[pe] = 0
+PRIMLIB.pe.layout
+	Cell Level Device Counts
+		NMOS[ne] = 0
+		DIODE[p_dnw] = 0
+		PMOS[pe] = 11
+	Flat Device Counts
+		NMOS[ne] = 0
+		DIODE[p_dnw] = 0
+		PMOS[pe] = 11
+nor2out
+	Cell Level Device Counts
+		NMOS[ne] = 0
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 2
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = nor2out  *******
+		NMOS[ne] = 16
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 24

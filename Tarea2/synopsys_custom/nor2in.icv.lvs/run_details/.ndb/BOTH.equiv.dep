@@ -1,0 +1,4 @@
+PE::PE { }
+NE::NE { }
+P_DNW::P_DNW { }
+nor2in::nor2in { P_DNW::P_DNW NE::NE PE::PE }

@@ -1,0 +1,10 @@
+not1out
+	Cell Level Device Counts
+		NMOS[ne] = 7
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 7
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = not1out  *******
+		NMOS[ne] = 7
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 7

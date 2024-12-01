@@ -1,0 +1,1 @@
+-oa_dm6 -I /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/. -oa_view layout  -oa_layer_map /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/strmInOut.layertable

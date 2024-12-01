@@ -1,0 +1,13 @@
+Command Line Summary:
+icv
+-everest_calc_md5 /dev/shm/ICVL_jmorales_II_2024_vlsi_1633579/ICVL_jmorales_II_2024_vlsi_1633579_cache_files/md5_result
+-f GDSII
+-oa_dm6
+-oa_layer_map /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/strmInOut.layertable
+-oa_view layout
+-I /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/.
+/mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/ICValidator/v12_1_1/xt018_1243_DRC_LP5MOS_MET4_METMID_METTHK.rs
+
+CLF Files:
+  /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/not1out.icv.icvLive/compile.clf
+  

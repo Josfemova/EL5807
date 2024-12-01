@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Nov 27 02:38:59 2024-->
+<file-format version="2.0" name="netlisting-timestamps">
+<module viewStopList="auCdl" contextID="switched: tarea2 not1out schematic_eco vl: auCdl cmos_sch schematic sl: auCdl" isSubcircuit="1" timestamp="419" viewSearchList="auCdl cmos_sch schematic">
+<LineageParams/>
+<ParentParams/>
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="4"/>
+<lib_parameters timestamp="1"/>
+<Terms timestamp="16"/>
+<PortOrder><![CDATA[AQ]]></PortOrder>
+<ShortOptions timestamp="1009512283"/>
+</module>
+</file-format>

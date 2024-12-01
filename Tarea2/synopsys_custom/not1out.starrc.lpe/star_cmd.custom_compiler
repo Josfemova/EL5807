@@ -1,0 +1,155 @@
+**---------------------------------------------------------------------------**
+** NOTICE: This StarRC command file was automatically generated
+**         by: Custom Compiler U-2023.03-SP2
+**
+** Original command file = /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/star_cmd
+**---------------------------------------------------------------------------**
+
+**---------------------------------------------------------------------------**
+** NOTICE: This StarRC command file was automatically generated
+**         by: Custom Compiler U-2023.03-SP2
+**
+** Original command file = /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/star_cmd
+**---------------------------------------------------------------------------**
+
+* TechReport
+* BLOCK: cell_name
+* BLOCK: inverter
+BLOCK: not1out
+* MILKYWAY_EXTRACT_VIEW: YES
+HIERARCHICAL_SEPARATOR: |
+BUS_BIT: []
+* TCAD_GRD_FILE: ./star_rcxt/xt018_xx21_MET2_METMID_typ.nxtgrd
+* ICV_RUNSET_REPORT_FILE: ./pex_runset_report
+* EXTRACTION: RC
+EXTRACTION: C
+TARGET_ANALYSIS: NONE
+* REDUCTION: NO
+COUPLE_TO_GROUND: NO
+COUPLING_MULTIPLIER: 1
+EXTRA_GEOMETRY_INFO: NONE
+STAR_DIRECTORY:./star
+* POWER_NETS: power_gnd_list
+SKIP_CELLS: !*
+TRANSLATE_RETAIN_BULK_LAYERS: YES
+* COUPLING_REPORT_FILE: COUPLE_REPORT_file.txt
+COUPLING_REPORT_FILE: /mnt/vol_NFS_rh003/profesores/jjmontero/2023/tutorial_analog/synopsys_custom/inverter.starrc.lpe/COUPLE_REPORT_file.txt
+COUPLING_REPORT_NUMBER: 10000
+
+* NETLIST_FORMAT: SPF
+NETLIST_FORMAT: OA
+NETLIST_TAIL_COMMENTS: YES
+NETLIST_PASSIVE_PARAMS: YES
+XREF: NO
+CELL_TYPE: LAYOUT
+NET_TYPE: LAYOUT
+AUTO_RUNSET:YES
+CASE_SENSITIVE: YES
+* NETLIST_FILE: ./starRCXT.sp
+NETLIST_GROUND_NODE_NAME: gnd
+POWER_EXTRACT: NO
+REMOVE_FLOATING_NETS: NO
+EXTRACT_VIA_CAPS:  YES
+
+* SKIP_PCELL_LAYERS_FILE: ./skip_pcells
+* SKIP_PCELL_LAYERS_FILE: /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/skip_pcells
+SKIP_PCELL_LAYERS_FILE: /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/skip_pcells
+COUPLE_TO_PCELL_PINS :  NO
+
+* HN_NETLIST_MODEL_NAME: p_dn	  dn
+* HN_NETLIST_MODEL_NAME: p_dnn	  dnn
+* HN_NETLIST_MODEL_NAME: p_dnw	  dnw
+* HN_NETLIST_MODEL_NAME: p_dp	  dp
+* HN_NETLIST_MODEL_NAME: p_dn5	  dn5
+* HN_NETLIST_MODEL_NAME: p_dnn5	  dnn5
+* HN_NETLIST_MODEL_NAME: p_dp5	  dp5
+* HN_NETLIST_MODEL_NAME: p_dnw5	  dnw5
+* HN_NETLIST_MODEL_NAME: p_dn5ps	  dn5ps
+HN_NETLIST_MODEL_NAME: p_dnw5mva  dnw5mva
+* HN_NETLIST_MODEL_NAME: p_dnw5mvaa dnw5mvaa
+
+
+* HN_NETLIST_MODEL_NAME: dn	 DN
+* HN_NETLIST_MODEL_NAME: dnn	 DNN
+* HN_NETLIST_MODEL_NAME: dnw	 DNW
+* HN_NETLIST_MODEL_NAME: dp	 DP
+* HN_NETLIST_MODEL_NAME: dn5	 DN5
+* HN_NETLIST_MODEL_NAME: dnn5	 DNN5
+* HN_NETLIST_MODEL_NAME: dp5	 DP5
+* HN_NETLIST_MODEL_NAME: dnw5	 DNW5
+* HN_NETLIST_MODEL_NAME: dn5ps	 DN5PS
+* HN_NETLIST_MODEL_NAME: dnw5mva   DNW5MVA
+* HN_NETLIST_MODEL_NAME: dnw5mvaa  DNW5MVAA
+
+* NETLIST_TAIL_COMMENTS: YES
+* EXTRA_GEOMETRY_INFO: NODE
+* NETLIST_NODE_SECTION:YES
+* CAPACITOR_TAIL_COMMENTS: YES
+
+
+**---------------------------------------------------------------------------**
+** Overrides added by: Custom Compiler
+
+COUPLING_ABS_THRESHOLD: 3e-15
+COUPLING_REL_THRESHOLD: 0.03
+COUPLING_THRESHOLD_OPERATION: AND
+DENSITY_BASED_THICKNESS: YES
+DPT: NO
+HN_NETLIST_MODEL_NAME: p_dn   dn
+HN_NETLIST_MODEL_NAME: p_dnn   dnn
+HN_NETLIST_MODEL_NAME: p_dnw   dnw
+HN_NETLIST_MODEL_NAME: p_dp   dp
+HN_NETLIST_MODEL_NAME: p_dn5   dn5
+HN_NETLIST_MODEL_NAME: p_dnn5   dnn5
+HN_NETLIST_MODEL_NAME: p_dp5   dp5
+HN_NETLIST_MODEL_NAME: p_dnw5   dnw5
+HN_NETLIST_MODEL_NAME: p_dn5ps   dn5ps
+HN_NETLIST_MODEL_NAME: dn  DN
+HN_NETLIST_MODEL_NAME: dnn  DNN
+HN_NETLIST_MODEL_NAME: dnw  DNW
+HN_NETLIST_MODEL_NAME: dp  DP
+HN_NETLIST_MODEL_NAME: dn5  DN5
+HN_NETLIST_MODEL_NAME: dnn5  DNN5
+HN_NETLIST_MODEL_NAME: dp5  DP5
+HN_NETLIST_MODEL_NAME: dnw5  DNW5
+HN_NETLIST_MODEL_NAME: dn5ps  DN5PS
+* ICV_RUNSET_REPORT_FILE: /mnt/vol_NFS_rh003/profesores/jjmontero/2023/tutorial_analog/synopsys_custom/inverter.icv.lvs/pex_runset_report
+ICV_RUNSET_REPORT_FILE: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/not1out.icv.lvs/pex_runset_report
+IGNORE_CAPACITANCE: ALL
+KEEP_VIA_NODES: NO
+MAGNIFY_DEVICE_PARAMS: YES
+MODEL_TYPE: LAYOUT
+MOS_GATE_DELTA_RESISTANCE: NO
+NETLIST_CONNECT_OPENS: *
+NETLIST_COUPLE_UNSELECTED_NETS: NO
+NETLIST_INSTANCE_SECTION: SELECTED
+NETLIST_MINCAP_THRESHOLD: 0.0
+NETLIST_MINRES_THRESHOLD: 0.0
+NETLIST_PARASITIC_RESISTOR_MODEL: NO
+NETLIST_TOTALCAP_THRESHOLD: 0.0
+* OA_CELL_NAME: inverter
+OA_CELL_NAME: not1out
+OA_DEVICE_MAPPING_FILE: /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/OA_DEVICE_MAP
+* OA_LAYER_MAPPING_FILE: /mnt/vol_NFS_rh003/profesores/jjmontero/2023/tutorial_analog/synopsys_custom/inverter.icv.lvs/OA_LAYER_MAP
+OA_LAYER_MAPPING_FILE: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/not1out.icv.lvs/OA_LAYER_MAP
+* OA_LIB_DEF: /mnt/vol_NFS_rh003/profesores/jjmontero/2023/tutorial_analog/synopsys_custom/inverter.starrc.lpe/lib.defs
+OA_LIB_DEF: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/not1out.starrc.lpe/lib.defs
+* OA_LIB_NAME: tutorial1
+OA_LIB_NAME: tarea2
+OA_MARKER_SIZE: 0.1
+* OA_VIEW_NAME: starrc_RC
+OA_VIEW_NAME: starrc_C
+* REDUCTION: LAYER
+REDUCTION: NO
+REDUCTION_MAX_DELAY_ERROR: 1e-12
+REMOVE_DANGLING_NETS: NO
+SHORT_PINS: YES
+* TCAD_GRD_FILE: /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/xt018_xx51_MET5_METMID_typ.nxtgrd
+TCAD_GRD_FILE: /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/xt018_xx43_MET4_METMID_METTHK_typ.nxtgrd
+
+
+**---------------------------------------------------------------------------**
+** Overrides added by: Custom Compiler
+
+POWER_NETS: vdd! gnd!
+

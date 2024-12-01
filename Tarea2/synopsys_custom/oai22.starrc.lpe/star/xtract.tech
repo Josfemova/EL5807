@@ -1,0 +1,109 @@
+-abs_cap_threshold_xt 3e-15
+-rel_cap_threshold_xt 0.03
+-disable_skip_pcell_tcap_filter
+-ground_small_net_ccap
+-abutment_merge_mode 3
+-group_grd_layers_in_cleaner 2
+-clean_ctext
+-layer_based_nxtgrd_read
+-noncritical_min_area 0.25
+-noncritical_min_length 0.25
+-new_dp_stitching_in_extraction 3
+-local_nodeids
+-new_cap_environment 6
+-extra_area_caps 1
+-new_cap_environment_nondominant 1
+-new_cap_model 1
+-fill_walks 50000
+-new_etch_behavior
+-enhanced_3d_overlap 1
+-new_cap_extract_noncritical
+-high_capacitance_precision_mode
+-thickness_var_threshold 0.0
+-thickness_var_threshold_discard 0.0
+-new_cap_plane_limit -1.0
+-new_cap_simple_via_pad_model 0
+-disable_second_neighbor_pruning
+-envcbycell_second_neighbor_prune_nocap 0
+-no_colored_patterns 1
+-fill_pattern_generation_mode 0
+-new_cap_fill_extract_iterations 0
+-fnr_preserve_node 1
+-use_effective_edge_cap_to_ground
+-use_partition_based_density
+-ignore_reconnected_fill_in_ip_location
+-tight_negative_cap
+-stage_id 1
+-o xout
+-is_xtor_level
+-clean_via
+-gpd_netlist_flow
+-gpd_tx_text_map
+-gpd_min_cap_threshold
+-netlist_cap_threshold 0
+-handle_45_polygons
+-nonmanhattan_ratio 0.95
+-nonmanhattan_tolerance 5
+-enhanced_via_model_for_via_coverage
+-adjust_rpv_by_via_count
+-fs_assisted
+-num_cores 1
+-ignore_ek_stub_for_ip
+-filter
+-fsd 25
+-dsd 25
+-message_suppression_limit  100
+-i xin
+-tcad_file /mnt/vol_synopsys2023/pdks/xfab/design/xkit/xt018/synopsys/v12_1/StarRC/v12_1_1/xt018_xx43_MET4_METMID_METTHK_typ.nxtgrd
+-layer_info layer_info
+-extract_via_caps 
+-nvc
+-ignore_cap_mode 0 
+-netlist_res_threshold 0
+-e 1e-12
+-enable_tall_contact_modeling
+-extraction C
+-rfuzz 1000000
+-r 1
+-suppress_file xtract.sup
+-extra_geometry_info node
+-vert_parts
+-cut_thickness 1
+-overlap_dist 2
+-trench_contact_virtual_via_segmentation_ratio 2.0
+-trench_contact_virtual_via_segmentation_ratio_for_power 1
+-max_virtual_via_segmentation_number 1000000
+-net_segment_cut_length 20
+-stop_extraction_on_numerous_shorts 
+-inter_pic_level_connections
+-pcellinfo pcellinfo
+-new_pcell_overlap_handling
+-remove_pcell_instance_ports
+-fine_dbu
+-calc_text_count
+-envcbycell 0
+-net_command_file select_nets
+-small_net_delay_threshold 0.25
+-random_access_xout
+-lateral_cap_scaling_mode 2
+-stitch_overlap_dist 1
+-netlist_tail_comment 1
+-new_current_direction_for_em
+-em_extraction
+-dont_merge_via_nodes
+-gpd_dir ../oai22.gpd
+-direct_gpd
+-nco_setup_file gpd_connect_open_nets
+-apply_min_cg_threshold
+-enhanced_via_extraction
+-native_nm
+-smart_opens
+-smart_opens_node_limit 2147483647
+-smart_opens_rcg_limit 1000
+-vertical_gate_resistance
+-persistent_extractor_mode 3
+-enhanced_obs_short_reporting
+-warning_mos_gate_delta_for_via_on_gate 
+-enhanced_evws_resistance_accuracy
+-enhanced_evws_resistance_accuracy_max_coor_size 8
+-prefer_fill_style_pn_over_xin_pn

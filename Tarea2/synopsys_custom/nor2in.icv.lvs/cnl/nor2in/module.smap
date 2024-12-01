@@ -1,0 +1,43 @@
+<module name="vsl: tarea2 nor2in schematic vl: auCdl cmos_sch schematic">
+<scope name="Instance">
+<forward>
+<mapping dst="MM1" src="M1"/>
+<mapping dst="MM2" src="M2"/>
+<mapping dst="MM0" src="M0"/>
+<mapping dst="MM3" src="M3"/>
+</forward>
+<reverse>
+<mapping dst="M1" src="MM1"/>
+<mapping dst="M2" src="MM2"/>
+<mapping dst="M0" src="MM0"/>
+<mapping dst="M3" src="MM3"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward/>
+<reverse/>
+</scope>
+<scope name="simInfo">
+<forward>
+<mapping dst="A B Q" src="&lt;unmappedTermOrder>"/>
+<mapping dst="A B Q" src="&lt;termOrder>"/>
+</forward>
+<reverse>
+<mapping dst="&lt;unmappedTermOrder>" src="A B Q"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="ne">
+<instance name="M0"/>
+<instance name="M3"/>
+</instance_header>
+<instance_header master="pe">
+<instance name="M1"/>
+<instance name="M2"/>
+</instance_header>
+</master_instances>
+</module>

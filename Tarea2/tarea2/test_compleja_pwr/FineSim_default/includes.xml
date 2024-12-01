@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Nov 28 17:22:50 2024-->
+<file-format name="stateCategory" version="1.0">
+ <object name="includes" version="1" type="saIncludeFileSetup">
+  <collection name="includeFiles"/>
+  <attribute name="includeGlobal" value="1" type="giBoolean"/>
+  <collection name="includeGroupDefs"/>
+  <collection name="includeGroups"/>
+  <attribute name="includePath" value="" type="giString"/>
+ </object>
+</file-format>

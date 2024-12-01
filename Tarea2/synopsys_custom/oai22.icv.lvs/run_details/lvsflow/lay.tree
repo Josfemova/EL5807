@@ -1,0 +1,28 @@
+oai22 Level=0 Count=1
+   PRIMLIB.ne.layout.0 Level=1 Count=2
+   PRIMLIB.ne.layout Level=1 Count=2
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = oai22
+	Flat Placements      =	1
+
+CELL = PRIMLIB.ne.layout
+	Flat Placements      =	2
+
+CELL = PRIMLIB.ne.layout.0
+	Flat Placements      =	2
+
+TOP CELL = oai22
+	Ports                =	7
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[NE] = 12
+	PMOS[PE] = 12
+	NP[P_DNW] = 1

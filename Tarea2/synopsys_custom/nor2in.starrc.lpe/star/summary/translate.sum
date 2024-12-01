@@ -1,0 +1,10 @@
+  
+ReadHNdb      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+NetSelect     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+CellSelect    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+PlaceTerm     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+PlaceText     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+Db2Xin        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+Translate     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 

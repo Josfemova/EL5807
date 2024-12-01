@@ -1,0 +1,33 @@
+[80240:2024-11-28 02:50:59.350] Starting service 'launcher' (Node ID=0, Host Name=redhat003)
+[80240:2024-11-28 02:50:59.350] Service Launcher starting
+[80240:2024-11-28 02:50:59.350] Starting service mapper
+[80240:2024-11-28 02:50:59.350] Started service mapper with PID 80241
+[80240:2024-11-28 02:50:59.350] Loading service mapper info
+[80240:2024-11-28 02:50:59.402] Starting services
+[80240:2024-11-28 02:50:59.403] Started service license_manager with PID 80247
+[80240:2024-11-28 02:50:59.403] Started service cluster with PID 80248
+[80240:2024-11-28 02:50:59.403] Started service hdb with PID 80249
+[80240:2024-11-28 02:50:59.403] Started service lock_manager with PID 80250
+[80240:2024-11-28 02:50:59.404] Started service log_manager with PID 80251
+[80240:2024-11-28 02:50:59.417] Service 'log_manager' with PID 80251 exited with exit status 33
+[80240:2024-11-28 02:51:29.913] Received signal 15. Shutting down.
+[80240:2024-11-28 02:51:29.914] Shutting down service 'cluster'
+[80240:2024-11-28 02:51:29.914]     Closing die FD
+[80240:2024-11-28 02:51:29.914] Shutting down service 'hdb'
+[80240:2024-11-28 02:51:29.914]     Closing die FD
+[80240:2024-11-28 02:51:29.914] Shutting down service 'license_manager'
+[80240:2024-11-28 02:51:29.914]     Closing die FD
+[80240:2024-11-28 02:51:29.914] Shutting down service 'lock_manager'
+[80240:2024-11-28 02:51:29.914]     Closing die FD
+[80240:2024-11-28 02:51:29.914] Waiting for service shutdown
+[80240:2024-11-28 02:51:29.915] Service 'lock_manager' with PID 80250 exited with exit status 0
+[80240:2024-11-28 02:51:29.915] Service 'cluster' with PID 80248 exited with exit status 0
+[80240:2024-11-28 02:51:29.916] Service 'hdb' with PID 80249 exited with exit status 0
+[80240:2024-11-28 02:51:29.918] Service 'license_manager' with PID 80247 exited with exit status 0
+[80240:2024-11-28 02:51:29.918] Waited 0 seconds on services to shutdown
+[80240:2024-11-28 02:51:29.918] Shutting down service 'mapper'
+[80240:2024-11-28 02:51:29.918]     Sending SIGTERM to PID 80241
+[80240:2024-11-28 02:51:29.918] Waiting for service shutdown
+[80240:2024-11-28 02:51:29.923] Service 'mapper' with PID 80241 exited with exit status 0
+[80240:2024-11-28 02:51:29.923] Waited 0 seconds on services to shutdown
+[80240:2024-11-28 02:51:29.923] Service Launcher exiting

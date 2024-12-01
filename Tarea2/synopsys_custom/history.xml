@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Thu Nov 28 20:05:01 2024
+-->
+<synopsysFile name="synopsysRecentFiles" version="1.1">
+        <recentFiles>
+                <file mode="write" file="schematic" cell="test_compuesta" view="schematic" library="tarea2"/>
+                <file mode="write" file="schematic" cell="test_compuesta_pwr" view="schematic" library="tarea2"/>
+                <file mode="write" file="config.xml" cell="test_compleja_pwr" view="config" library="tarea2"/>
+                <file mode="write" file="schematic" cell="test_compleja_pwr" view="schematic" library="tarea2"/>
+                <file mode="write" file="schematic" cell="test_compleja" view="schematic" library="tarea2"/>
+        </recentFiles>
+</synopsysFile>

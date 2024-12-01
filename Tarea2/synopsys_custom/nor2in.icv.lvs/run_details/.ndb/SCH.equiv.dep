@@ -1,0 +1,4 @@
+PE { }
+nor2in { P_DNW NE PE }
+NE { }
+P_DNW { }

@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"not1out", "not1out"}});
+
+/* Generated system equivalence points are listed in this section */

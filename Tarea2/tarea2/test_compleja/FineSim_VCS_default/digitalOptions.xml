@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Nov 25 20:12:57 2024-->
+<file-format version="1.0" name="stateCategory">
+ <collection name="digitalOptions">
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="plusargs" name="name" type="giString"/>
+   <attribute value="" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="vpdnocompress" name="name" type="giString"/>
+   <attribute value="false" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="false" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="vpdnostrengths" name="name" type="giString"/>
+   <attribute value="false" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="false" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="vcs_flush_log" name="name" type="giString"/>
+   <attribute value="false" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="false" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="vcs_flush_dump" name="name" type="giString"/>
+   <attribute value="false" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="false" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="vcs_flush_fopen" name="name" type="giString"/>
+   <attribute value="false" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="false" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="vcs_flush_all" name="name" type="giString"/>
+   <attribute value="false" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="false" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="vcs_initreg" name="name" type="giString"/>
+   <attribute value="" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="vcs_initreg_seed" name="name" type="giString"/>
+   <attribute value="" name="simDefault" type="giString"/>
+   <attribute value="ignored" name="state" type="giString"/>
+   <attribute value="" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="simulation_verbosity" name="name" type="giString"/>
+   <attribute value="" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="elaboration_verbosity" name="name" type="giString"/>
+   <attribute value="" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="boundscheck" name="name" type="giString"/>
+   <attribute value="false" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="false" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="noerrorIOPCWM" name="name" type="giString"/>
+   <attribute value="false" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="false" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="timescale_time_unit" name="name" type="giString"/>
+   <attribute value="1ns" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="1ns" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="timescale_time_precision" name="name" type="giString"/>
+   <attribute value="1ps" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="1ps" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="unit_timescale_time_unit" name="name" type="giString"/>
+   <attribute value="" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="unit_timescale_time_precision" name="name" type="giString"/>
+   <attribute value="" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="override_timescale_time_unit" name="name" type="giString"/>
+   <attribute value="" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="override_timescale_time_precision" name="name" type="giString"/>
+   <attribute value="" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="base_time" name="name" type="giString"/>
+   <attribute value="ns" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="ns" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="time_res" name="name" type="giString"/>
+   <attribute value="" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="debug" name="name" type="giString"/>
+   <attribute value="post-process" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="post-process" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="dumpvars" name="name" type="giString"/>
+   <attribute value="false" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="false" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="xzcheck" name="name" type="giString"/>
+   <attribute value="false" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="false" name="value" type="giString"/>
+  </object>
+  <object version="1" name="digitalOptions" type="saOption">
+   <attribute value="no" name="enabled" type="giString"/>
+   <attribute value="0" name="hasIntegrationDefault" type="giBoolean"/>
+   <attribute value="0" name="localized" type="giBoolean"/>
+   <attribute value="nofalseneg" name="name" type="giString"/>
+   <attribute value="false" name="simDefault" type="giString"/>
+   <attribute value="used" name="state" type="giString"/>
+   <attribute value="false" name="value" type="giString"/>
+  </object>
+ </collection>
+</file-format>

@@ -1,0 +1,23 @@
+total 48
+drwxrwxr-x 6 jmorales_II_2024_vlsi jmorales_II_2024_vlsi 4096 2024-11-28 16:59:41.922955677 -0600 ..
+lrwxrwxrwx 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi   76 2024-11-28 17:02:59.062475419 -0600 netlist -> ../../../../../netlist/tarea2/test_compleja_pwr/schematic/FineSimPro/netlist
+lrwxrwxrwx 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi   72 2024-11-28 17:02:59.062475419 -0600 cnl -> ../../../../../netlist/tarea2/test_compleja_pwr/schematic/FineSimPro/cnl
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi  129 2024-11-28 17:02:59.388482907 -0600 .netlistHeader
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi   27 2024-11-28 17:02:59.389482931 -0600 .optionsFormat
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi    0 2024-11-28 17:02:59.390482953 -0600 .optionsSearch
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi  220 2024-11-28 17:03:01.265526027 -0600 .globalOptions
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi  284 2024-11-28 17:03:01.273526211 -0600 .modelFiles
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi    0 2024-11-28 17:03:01.273526211 -0600 .designVariables
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi    0 2024-11-28 17:03:01.276526280 -0600 .convergence
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi   73 2024-11-28 17:03:01.285526486 -0600 .analyses
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi   49 2024-11-28 17:03:01.324527383 -0600 .outputs
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi    8 2024-11-28 17:03:01.325527405 -0600 .temperature
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi    0 2024-11-28 17:03:01.326527429 -0600 .variation
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi    0 2024-11-28 17:03:01.327527451 -0600 .circuitCheck
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi    0 2024-11-28 17:03:01.331527543 -0600 .dataBlock
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi    0 2024-11-28 17:03:01.332527566 -0600 .endOfNetlist
+lrwxrwxrwx 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi    9 2024-11-28 17:03:01.333527589 -0600 .netlist -> ./netlist
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi 4006 2024-11-28 17:03:01.336527658 -0600 finesim.spi
+-rwxrw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi  476 2024-11-28 17:03:01.595533608 -0600 runSimulation
+drwxrwxr-x 2 jmorales_II_2024_vlsi jmorales_II_2024_vlsi 4096 2024-11-28 17:03:02.128545852 -0600 .
+-rw-rw-r-- 1 jmorales_II_2024_vlsi jmorales_II_2024_vlsi  544 2024-11-28 17:03:02.805561405 -0600 .simRun.xml

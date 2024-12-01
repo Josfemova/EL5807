@@ -1,0 +1,11 @@
+-oa2dspf
+-oa_lib_name tarea2
+-oa_cell_name oai22
+-oa_view_name starrc_RC
+-o ../starrc_RC.dspf
+-oa_output_file ../starrc_RC.oa.out
+-netlist_header_file netlist.hdr
+-oa_lib_def /mnt/vol_NFS_rh003/Est_VLSI_II_2024/jmorales/EL5807/Tarea2/synopsys_custom/oai22.starrc.lpe/lib.defs
+-layer_info layer_info
+-ground_node_name gnd
+-inter_pic_level_connections
