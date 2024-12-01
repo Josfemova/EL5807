@@ -1,0 +1,31 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "U-2023.03-SP2 linux64"
+* "format" "HSP"
+* "rundate" "20:45:30 11/30/2024 "
+* "netlist" "crit_path_asc.spi "
+* "runtitle" "*  generated for: finesimpro"
+* time =    0.            
+* temperature =   25.000000      
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.000000p     
+.nodeset
++ a =   1.800000      
++ b =   1.800000      
++ ci =   1.800000      
++ co =   1.800000      
++ s =   1.800000      
++ vdd! =   1.800000      
++ xi27.net107 = 604.326957m     
++ xi27.net125 =   1.797763      
++ xi27.net129 =   1.789661      
++ xi27.net151 =   2.797292n     
++ xi27.net159 =  45.571389n     
++ xi27.net163 =   1.864861n     
++ xi27.net167 =   5.594584n     
++ xi27.net171 =  30.380926n     
++ xi27.net175 =  33.393506a     
++ xi27.net179 =  15.190463n     
++ xi27.net97 =   1.790294      
++ xi27.net99 =   1.793498      
+***   END: Saved Operating Point ***                     

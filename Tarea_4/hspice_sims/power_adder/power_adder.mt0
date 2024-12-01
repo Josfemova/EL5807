@@ -1,0 +1,5 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='U-2023.03-SP2 linux6' PARAM_COUNT=0
+$OPTION MEASFORM=1
+.TITLE '*  generated for: finesimpro'
+pwr temper alter#
+-9.152e-06   25.0000 1

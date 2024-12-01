@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version U-2023.03-SP2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="saFineSimProVCSEnvOptsCommandLineOptions" value=""/>
+	<pref name="saFineSimProVCSEnvOptsCompilationOptions" value=""/>
+	<pref name="saFineSimProVCSEnvOptsElaborationOptions" value=""/>
+	<pref name="saFineSimProVCSEnvOptsVhdlanOptions" value=""/>
+	<pref name="saFineSimProVCSMsOptsConnectModulesInstallDirFilePatterns" value="snps_cm_*.vams"/>
+	<pref name="saFineSimProVCSMsOptsConnectModulesUserDir" value=""/>
+	<pref name="saFineSimProVCSMsOptsConnectModulesUserDirFilePatterns" value=""/>
+	<pref name="saFineSimProVCSMsOptsConnectRulesInstallDirFilePatterns" value="snps_cr_*.vams"/>
+	<pref name="saFineSimProVCSMsOptsConnectRulesUserDirFilePatterns" value=""/>
+	<pref name="saFineSimProVCSMsOptsDisciplineResolutionDefault" value="basic"/>
+	<pref name="saFineSimProVCSMsOptsEnableAMSIEReport" value="false"/>
+	<pref name="saFineSimProVCSMsOptsNetDisciplineDefault" value="ddiscrete"/>
+</preferences>
+

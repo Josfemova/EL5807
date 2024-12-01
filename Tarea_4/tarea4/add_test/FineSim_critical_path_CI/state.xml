@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sat Nov 30 17:04:09 2024-->
+<file-format name="stateData" version="1.0">
+ <attribute name="description" value="" type="giString"/>
+ <attribute name="design" value="tarea4/add_test/schematic" type="dmCellView"/>
+ <attribute name="enabled" value="1" type="giBoolean"/>
+ <attribute name="enabledJobClass" value="0" type="giBoolean"/>
+ <attribute name="migratedSimulator" value="" type="giString"/>
+ <attribute name="name" value="FineSim_critical_path_CI" type="giString"/>
+ <attribute name="openaccessState" value="tarea4/add_test/FineSim_critical_path_CI" type="dmCellView"/>
+ <attribute name="simulator" value="FineSimPro" type="giString"/>
+ <comment></comment>
+ <resultsDir>~/simulation</resultsDir>
+ <enableTestbenchHistory>0</enableTestbenchHistory>
+ <integration version="1"/>
+</file-format>

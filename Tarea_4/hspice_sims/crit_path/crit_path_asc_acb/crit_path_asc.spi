@@ -1,0 +1,182 @@
+*  Generated for: FineSimPro
+*  Design library name: tarea4
+*  Design cell name: add_test
+*  Design view name: schematic
+
+.option finesim_output=wdf
+.option post
+
+
+.temp 25
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/Hspice/lp5mos/xt018.lib' tm
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/Hspice/lp5mos/param.lib' 3s
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/Hspice/lp5mos/config.lib' default
+
+*PrimeWave Design Environment Version U-2023.03-SP2
+*Sat Nov 30 17:04:40 2024
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : GATES_HD
+* Cell             : invr
+* View             : schematic
+* View Search List : hspice hspiceD schematic cmos_sch spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt invr in out vt_ground_gnd_gnd! vt_power_vdd_vdd! GT_PDL=180.00n GT_PUL=180.00n
++  lc=2.7e-07 sx=4.8e-07
+xne out in vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w='GT_PDW' l='GT_PDL' as='sx*GT_PDW'
++ ad='sx*GT_PDW' ps='2*(sx+GT_PDW)' pd='2*(sx+GT_PDW)' nrs='lc/GT_PDW' nrd='lc/GT_PDW'
++ m='1*1' par1='1*1' xf_subext=0
+xpe out in vt_power_vdd_vdd! vt_power_vdd_vdd! pe w='GT_PUW' l='GT_PUL' as='sx*GT_PUW'
++ ad='sx*GT_PUW' ps='2*(sx+GT_PUW)' pd='2*(sx+GT_PUW)' nrs='lc/GT_PUW' nrd='lc/GT_PUW'
++ m='1*1' par1='1*1' xf_subext=0
+.ends invr
+
+********************************************************************************
+* Library          : D_CELLS_HDLL
+* Cell             : FAHDLLX0
+* View             : cmos_sch
+* View Search List : hspice hspiceD schematic cmos_sch spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt fahdllx0 a b ci co s vt_ground_gnd_gnd! vt_power_vdd_vdd!
+xm8 net175 a vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm10 net179 a vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm6 net175 ci vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm11 net171 b net179 vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13
++ ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm1 net167 b net151 vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13
++ ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm4 net163 a vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm9 net159 net167 net175 vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm3 net167 ci net163 vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13
++ ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm2 net151 a vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm12 net159 ci net171 vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13 ad=2.016e-13
++ ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1' xf_subext=0
+xm7 net175 b vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm5 net163 b vt_ground_gnd_gnd! vt_ground_gnd_gnd! ne w=420.0n l=210.0n as=2.016e-13
++ ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m='1*1' par1='1*1'
++ xf_subext=0
+xm19 net167 ci net99 vt_power_vdd_vdd! pe w=700n l=210.0n as=3.36e-13 ad=3.36e-13
++ ps=2.36e-06 pd=2.36e-06 nrs=0.385714 nrd=0.385714 m='1*1' par1='1*1'
++ xf_subext=0
+xm27 net125 a vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=700n l=210.0n as=3.36e-13
++ ad=3.36e-13 ps=2.36e-06 pd=2.36e-06 nrs=0.385714 nrd=0.385714 m='1*1' par1='1*1'
++ xf_subext=0
+xm26 net159 ci net129 vt_power_vdd_vdd! pe w=700n l=210.0n as=3.36e-13 ad=3.36e-13
++ ps=2.36e-06 pd=2.36e-06 nrs=0.385714 nrd=0.385714 m='1*1' par1='1*1'
++ xf_subext=0
+xm25 net129 b net125 vt_power_vdd_vdd! pe w=700n l=210.0n as=3.36e-13 ad=3.36e-13
++ ps=2.36e-06 pd=2.36e-06 nrs=0.385714 nrd=0.385714 m='1*1' par1='1*1'
++ xf_subext=0
+xm24 net159 net167 net107 vt_power_vdd_vdd! pe w=580.0n l=210.0n as=2.784e-13
++ ad=2.784e-13 ps=2.12e-06 pd=2.12e-06 nrs=0.465517 nrd=0.465517 m='1*1' par1='1*1'
++ xf_subext=0
+xm23 net107 b vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=700n l=210.0n as=3.36e-13
++ ad=3.36e-13 ps=2.36e-06 pd=2.36e-06 nrs=0.385714 nrd=0.385714 m='1*1' par1='1*1'
++ xf_subext=0
+xm22 net107 a vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=700n l=210.0n as=3.36e-13
++ ad=3.36e-13 ps=2.36e-06 pd=2.36e-06 nrs=0.385714 nrd=0.385714 m='1*1' par1='1*1'
++ xf_subext=0
+xm21 net107 ci vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=700n l=210.0n as=3.36e-13
++ ad=3.36e-13 ps=2.36e-06 pd=2.36e-06 nrs=0.385714 nrd=0.385714 m='1*1' par1='1*1'
++ xf_subext=0
+xm20 net99 b vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=700n l=210.0n as=3.36e-13
++ ad=3.36e-13 ps=2.36e-06 pd=2.36e-06 nrs=0.385714 nrd=0.385714 m='1*1' par1='1*1'
++ xf_subext=0
+xm18 net99 a vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=700n l=210.0n as=3.36e-13
++ ad=3.36e-13 ps=2.36e-06 pd=2.36e-06 nrs=0.385714 nrd=0.385714 m='1*1' par1='1*1'
++ xf_subext=0
+xm17 net167 b net97 vt_power_vdd_vdd! pe w=700n l=210.0n as=3.36e-13 ad=3.36e-13
++ ps=2.36e-06 pd=2.36e-06 nrs=0.385714 nrd=0.385714 m='1*1' par1='1*1'
++ xf_subext=0
+xm16 net97 a vt_power_vdd_vdd! vt_power_vdd_vdd! pe w=700n l=210.0n as=3.36e-13
++ ad=3.36e-13 ps=2.36e-06 pd=2.36e-06 nrs=0.385714 nrd=0.385714 m='1*1' par1='1*1'
++ xf_subext=0
+xinvr_2 net159 s vt_ground_gnd_gnd! vt_power_vdd_vdd! invr GT_PDL=210.00n
++ GT_PDW=420.00n GT_PUL=210.00n GT_PUW=700.0n
+xinvr_1 net167 co vt_ground_gnd_gnd! vt_power_vdd_vdd! invr GT_PDL=210.00n
++ GT_PDW=420.00n GT_PUL=210.00n GT_PUW=700.0n
+.ends fahdllx0
+
+********************************************************************************
+* Library          : tarea4
+* Cell             : add_test
+* View             : schematic
+* View Search List : hspice hspiceD schematic cmos_sch spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi27 a b ci co s gnd! vdd! fahdllx0
+v34 ci gnd! dc=0 pulse ( 1.8 0 0 100p 100p 9.9n 20n )
+v40 a gnd! dc=0 pulse ( 1.8 0 0 100p 100p 19.9n 40n )
+v41 b gnd! dc=0 pulse ( 1.8 0 0 100p 100p 4.9n 10n )
+v3 vdd! gnd! dc=1.8
+c19 co gnd! c=5f
+c18 s gnd! c=5f
+
+
+
+.param time_offset=2n
+
+
+.tran 1p 48n start=0 sweep time_offset 2n 42n 5n
+
+
+.MEASURE TRAN a_to_s 
++ TRIG V(a) VAL=0.9 TD='time_offset' 
++ TARG V(s) VAL=0.9 TD='time_offset'
+
+.MEASURE TRAN a_to_co 
++ TRIG V(a) VAL=0.9 TD='time_offset' 
++ TARG V(co) VAL=0.9 TD='time_offset'
+
+
+.MEASURE TRAN b_to_s 
++ TRIG V(b) VAL=0.9 TD='time_offset' 
++ TARG V(s) VAL=0.9 TD='time_offset'
+
+.MEASURE TRAN b_to_co 
++ TRIG V(b) VAL=0.9 TD='time_offset' 
++ TARG V(co) VAL=0.9 TD='time_offset'
+
+
+.MEASURE TRAN ci_to_s 
++ TRIG V(ci) VAL=0.9 TD='time_offset' 
++ TARG V(s) VAL=0.9 TD='time_offset'
+
+.MEASURE TRAN ci_to_co 
++ TRIG V(ci) VAL=0.9 TD='time_offset' 
++ TARG V(co) VAL=0.9 TD='time_offset'
+
+
+
+.probe tran v(*) level=1
+.probe tran v(a) v(b) v(ci) v(co) v(s)
+
+.option PARHIER = LOCAL
+.option finesim_mode = spicead
+.option s_elem_cache_dir = "/home/sfallas_II_2024_vlsi/.synopsys_custom/sparam_dir"
+.option pva_output_dir = "/home/sfallas_II_2024_vlsi/.synopsys_custom/pva_dir"
+
+
+.option measform=1
+.option numdgt=6
+
+
+.end
