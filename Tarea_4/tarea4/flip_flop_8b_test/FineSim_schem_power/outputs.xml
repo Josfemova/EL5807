@@ -1,0 +1,784 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Dec  1 12:13:37 2024-->
+<file-format name="stateCategory" version="1.0">
+ <object name="outputs" type="saOutputs" version="1">
+  <collection name="customPlotModes">
+   <object name="customPlotModes" type="wfCustomPlotMode">
+    <attribute name="config" type="giString" value="### Custom WaveView session file (version U-2023.03-SP2 build Aug 24, ) ###&#xa;### saved at 12:08:03 on Sun Dec  1 2024 ###&#xa;wdf 0 &quot;/home/sfallas_II_2024_vlsi/simulation/tarea4,flip_flop_8b_test,schematic/history_1/simulation/FineSim_schem_power/FineSimPro/nominal/results/resultsMap.xml&quot; load=used &quot;title=tran:tran&quot; &quot;atype=tran:tran&quot; &#xa;wdf 1 &quot;/home/sfallas_II_2024_vlsi/simulation/tarea4,flip_flop_8b_test,schematic/history_1/simulation/FineSim_schem_power/FineSimPro/nominal/results/resultsMap.xml&quot; load=used &quot;title=tranMeasure:tranMeasure&quot; &quot;atype=tranMeasure:tranMeasure&quot; &#xa;wdf 2 &quot;/home/sfallas_II_2024_vlsi/simulation/tarea4,flip_flop_8b_test,schematic/history_1/simulation/FineSim_schem_power/FineSimPro/nominal/results/postResultsMap.xml&quot; load=open &quot;title=tranMeasure:tranMeasureMeasure1&quot; &quot;atype=tranMeasure:tranMeasureMeasure1&quot; &#xa;scalar list&#xa;waveview_begin 1  stack  offset=0 name_b=81 mntr_b=81 name_width=66 &quot;name=tran&quot; &#xa;  panel_begin linear pidx=0 spath=name+file xlabel=&quot;sec&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(cn)&quot; attr=0:0:1:0 autoset=true disp=show &#xa;  panel_end&#xa;  panel_begin linear pidx=1 spath=name+file xlabel=&quot;sec&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(d)&quot; attr=1:1:1:0 autoset=true disp=show &#xa;  panel_end&#xa;  panel_begin linear pidx=2 spath=name+file xlabel=&quot;sec&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(q1)&quot; attr=2:2:1:0 autoset=true disp=show &#xa;  panel_end&#xa;  panel_begin linear pidx=3 spath=name+file xlabel=&quot;sec&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(q2)&quot; attr=3:3:1:0 autoset=true disp=show &#xa;  panel_end&#xa;  panel_begin linear pidx=4 spath=name+file xlabel=&quot;sec&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(q3)&quot; attr=4:4:1:0 autoset=true disp=show &#xa;  panel_end&#xa;  panel_begin linear pidx=5 spath=name+file xlabel=&quot;sec&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(q4)&quot; attr=5:5:1:0 autoset=true disp=show &#xa;  panel_end&#xa;  panel_begin linear pidx=6 spath=name+file xlabel=&quot;sec&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(q5)&quot; attr=6:6:1:0 autoset=true disp=show &#xa;  panel_end&#xa;  panel_begin linear pidx=7 spath=name+file xlabel=&quot;sec&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(q6)&quot; attr=7:7:1:0 autoset=true disp=show &#xa;  panel_end&#xa;  panel_begin linear pidx=8 spath=name+file xlabel=&quot;sec&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(q7)&quot; attr=0:0:1:0 autoset=true disp=show &#xa;  panel_end&#xa;  panel_begin linear pidx=9 spath=name+file xlabel=&quot;sec&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(q8)&quot; attr=1:0:1:0 autoset=true disp=show &#xa;  panel_end&#xa;  panel_begin linear pidx=10 spath=name+file xlabel=&quot;sec&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.&quot; sigtype=1 &quot;name=v(qn8)&quot; attr=2:1:1:0 autoset=true disp=show &#xa;  panel_end&#xa;waveview_end&#xa;browserOpened&#xa;&#xa;#Custom Plot Section&#xa;simulation_begin test=FineSim_schem_power history=1 idx=18&#xa;run_type 1&#xa;view_list&#xa;  1 tran&#xa;end_view_list&#xa;probe_list&#xa;  v(/D) alias=&#xa;  v(/CN) alias=&#xa;  v(/Q1) alias=&#xa;  v(/Q2) alias=&#xa;  v(/Q3) alias=&#xa;  v(/Q4) alias=&#xa;  v(/Q5) alias=&#xa;  v(/Q6) alias=&#xa;  v(/Q7) alias=&#xa;  v(/Q8) alias=&#xa;  v(/QN8) alias=&#xa;end_probe_list&#xa;equation_list&#xa;end_equation_list&#xa;original_sim&#xa;sim_id=FineSim_schem_power&#xa;history_point=1&#xa;sim_idx=18&#xa;sim_dir=/home/sfallas_II_2024_vlsi/simulation/tarea4,flip_flop_8b_test,schematic/history_1/simulation/FineSim_schem_power/FineSimPro/nominal/results&#xa;from_virtuoso=0&#xa;is_output=1&#xa;is_mtb=0&#xa;hasViewer=0&#xa;{&quot;sim_id&quot;:&quot;FineSim_schem_power&quot;,&quot;sae_session&quot;:&quot;saeSession3&quot;,&quot;sae_session_desc&quot;:&quot;&quot;,&quot;directory&quot;:&quot;/home/sfallas_II_2024_vlsi/simulation/tarea4,flip_flop_8b_test,schematic/history_1/simulation/FineSim_schem_power/FineSimPro/nominal/results&quot;,&quot;results_directory&quot;:&quot;~/simulation&quot;,&quot;results_absdirectory&quot;:&quot;/home/sfallas_II_2024_vlsi/simulation&quot;,&quot;post_results_dir&quot;:&quot;/home/sfallas_II_2024_vlsi/simulation/tarea4,flip_flop_8b_test,schematic/history_1/simulation/FineSim_schem_power/FineSimPro/nominal/results&quot;,&quot;save_post_results_in_session&quot;:&quot;0&quot;,&quot;is_mc_multiple_run&quot;:&quot;0&quot;,&quot;is_sim_sweep_run&quot;:&quot;0&quot;,&quot;is_data_driven_sweep&quot;:&quot;false&quot;,&quot;runDirDelimiter&quot;:&quot;,&quot;,&quot;test_suite_info&quot;:&quot;tarea4:flip_flop_8b_test:schematic&quot;,&quot;history_index&quot;:&quot;1&quot;,&quot;history_name&quot;:&quot;history_1&quot;,&quot;history_desc&quot;:&quot;Run Simulation&quot;,&quot;is_mtb&quot;:&quot;0&quot;,&quot;id&quot;:&quot;18&quot;,&quot;child&quot;:&quot;0&quot;,&quot;description&quot;:&quot;&quot;,&quot;design_str&quot;:&quot;tarea4:flip_flop_8b_test:schematic&quot;,&quot;simulator&quot;:&quot;FineSimPro&quot;,&quot;newResultsFormat&quot;:&quot;0&quot;,&quot;is_initial&quot;:&quot;0&quot;,&quot;sim_wave_removed&quot;:&quot;0&quot;,&quot;isSaeAging&quot;:&quot;0&quot;,&quot;saeAgingSimMode&quot;:&quot;3&quot;,&quot;sonoma&quot;:&quot;1&quot;,&quot;sonomaInc&quot;:&quot;0&quot;,&quot;incPartial&quot;:&quot;full&quot;,&quot;sim_netlist_removed&quot;:&quot;0&quot;,&quot;modelIncPath&quot;:&quot;&quot;,&quot;isbreviate_historyname&quot;:&quot;false&quot;,&quot;history_check&quot;:&quot;false&quot;,&quot;ischange_historyname&quot;:&quot;false&quot;,&quot;autoPlot&quot;:&quot;1&quot;,&quot;isDirPlot&quot;:&quot;0&quot;,&quot;invokeFrom&quot;:&quot;SIM_DONE&quot;,&quot;save_format&quot;:&quot;&quot;,&quot;incomplete_type&quot;:&quot;&quot;,&quot;corparams&quot;:&quot;&quot;,&quot;exportImageSize&quot;:&quot;636*254&quot;,&quot;isWorstCaseAnalysis&quot;:&quot;0&quot;,&quot;dspfIncludeOptions&quot;:&quot;0&quot;,&quot;equation_list&quot;:[{&quot;equa_id&quot;:&quot;equa#0&quot;,&quot;index&quot;:&quot;1&quot;,&quot;equa_name&quot;:&quot;&quot;,&quot;equa_schem&quot;:&quot;&quot;,&quot;type&quot;:&quot;&quot;,&quot;resultType&quot;:&quot;&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;true&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;goal&quot;:&quot;&quot;,&quot;show_in_rv&quot;:&quot;0&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;precision&quot;:&quot;0&quot;,&quot;poor&quot;:&quot;&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;measExpr&quot;:&quot;&quot;,&quot;eqnIdx&quot;:&quot;&quot;,&quot;specEqu&quot;:false,&quot;forceRecal&quot;:false,&quot;originalExpr&quot;:&quot;&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;&quot;},{&quot;equa_id&quot;:&quot;equa#1&quot;,&quot;index&quot;:&quot;13&quot;,&quot;equa_name&quot;:&quot;pwr_ff_8b&quot;,&quot;equa_schem&quot;:&quot;meas(pwr_ff_8b)&quot;,&quot;type&quot;:&quot;measureValue&quot;,&quot;resultType&quot;:&quot;tranMeasure&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:false,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;goal&quot;:&quot;&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;measExpr&quot;:&quot;&quot;,&quot;eqnIdx&quot;:&quot;12&quot;,&quot;specEqu&quot;:false,&quot;forceRecal&quot;:false,&quot;originalExpr&quot;:&quot;&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;12&quot;,&quot;is_meas&quot;:3,&quot;is_ra_equation&quot;:0}],&quot;probe_list&quot;:[{&quot;probe_id&quot;:&quot;probe#0&quot;,&quot;index&quot;:&quot;2&quot;,&quot;signal_alias&quot;:&quot;&quot;,&quot;signal_name&quot;:&quot;v(/D)&quot;,&quot;signal_type&quot;:&quot;net&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;255:0:0&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;eqnIdx&quot;:&quot;1&quot;,&quot;specEqu&quot;:false,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;goal&quot;:&quot;&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;1&quot;},{&quot;probe_id&quot;:&quot;probe#1&quot;,&quot;index&quot;:&quot;3&quot;,&quot;signal_alias&quot;:&quot;&quot;,&quot;signal_name&quot;:&quot;v(/CN)&quot;,&quot;signal_type&quot;:&quot;net&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;204:0:255&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;eqnIdx&quot;:&quot;2&quot;,&quot;specEqu&quot;:false,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;goal&quot;:&quot;&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;2&quot;},{&quot;probe_id&quot;:&quot;probe#2&quot;,&quot;index&quot;:&quot;4&quot;,&quot;signal_alias&quot;:&quot;&quot;,&quot;signal_name&quot;:&quot;v(/Q1)&quot;,&quot;signal_type&quot;:&quot;net&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;0:255:102&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;eqnIdx&quot;:&quot;3&quot;,&quot;specEqu&quot;:false,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;goal&quot;:&quot;&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;3&quot;},{&quot;probe_id&quot;:&quot;probe#3&quot;,&quot;index&quot;:&quot;5&quot;,&quot;signal_alias&quot;:&quot;&quot;,&quot;signal_name&quot;:&quot;v(/Q2)&quot;,&quot;signal_type&quot;:&quot;net&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;204:255:0&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;eqnIdx&quot;:&quot;4&quot;,&quot;specEqu&quot;:false,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;goal&quot;:&quot;&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;4&quot;},{&quot;probe_id&quot;:&quot;probe#4&quot;,&quot;index&quot;:&quot;6&quot;,&quot;signal_alias&quot;:&quot;&quot;,&quot;signal_name&quot;:&quot;v(/Q3)&quot;,&quot;signal_type&quot;:&quot;net&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;0:102:255&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;eqnIdx&quot;:&quot;5&quot;,&quot;specEqu&quot;:false,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;goal&quot;:&quot;&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;5&quot;},{&quot;probe_id&quot;:&quot;probe#5&quot;,&quot;index&quot;:&quot;7&quot;,&quot;signal_alias&quot;:&quot;&quot;,&quot;signal_name&quot;:&quot;v(/Q4)&quot;,&quot;signal_type&quot;:&quot;net&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;255:153:0&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;eqnIdx&quot;:&quot;6&quot;,&quot;specEqu&quot;:false,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;goal&quot;:&quot;&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;6&quot;},{&quot;probe_id&quot;:&quot;probe#6&quot;,&quot;index&quot;:&quot;8&quot;,&quot;signal_alias&quot;:&quot;&quot;,&quot;signal_name&quot;:&quot;v(/Q5)&quot;,&quot;signal_type&quot;:&quot;net&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;255:0:153&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;eqnIdx&quot;:&quot;7&quot;,&quot;specEqu&quot;:false,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;goal&quot;:&quot;&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;7&quot;},{&quot;probe_id&quot;:&quot;probe#7&quot;,&quot;index&quot;:&quot;9&quot;,&quot;signal_alias&quot;:&quot;&quot;,&quot;signal_name&quot;:&quot;v(/Q6)&quot;,&quot;signal_type&quot;:&quot;net&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;0:255:255&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;eqnIdx&quot;:&quot;8&quot;,&quot;specEqu&quot;:false,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;goal&quot;:&quot;&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;8&quot;},{&quot;probe_id&quot;:&quot;probe#8&quot;,&quot;index&quot;:&quot;10&quot;,&quot;signal_alias&quot;:&quot;&quot;,&quot;signal_name&quot;:&quot;v(/Q7)&quot;,&quot;signal_type&quot;:&quot;net&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;51:255:0&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;eqnIdx&quot;:&quot;9&quot;,&quot;specEqu&quot;:false,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;goal&quot;:&quot;&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;9&quot;},{&quot;probe_id&quot;:&quot;probe#9&quot;,&quot;index&quot;:&quot;11&quot;,&quot;signal_alias&quot;:&quot;&quot;,&quot;signal_name&quot;:&quot;v(/Q8)&quot;,&quot;signal_type&quot;:&quot;net&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;51:0:255&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;eqnIdx&quot;:&quot;10&quot;,&quot;specEqu&quot;:false,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;goal&quot;:&quot;&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;10&quot;},{&quot;probe_id&quot;:&quot;probe#10&quot;,&quot;index&quot;:&quot;12&quot;,&quot;signal_alias&quot;:&quot;&quot;,&quot;signal_name&quot;:&quot;v(/QN8)&quot;,&quot;signal_type&quot;:&quot;net&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;anaName&quot;:&quot;&quot;,&quot;enable&quot;:true,&quot;is_plot&quot;:true,&quot;plotType&quot;:&quot;auto&quot;,&quot;logicRadix&quot;:&quot;auto&quot;,&quot;color&quot;:&quot;255:153:153&quot;,&quot;units&quot;:&quot;&quot;,&quot;ParamConditions&quot;:&quot;&quot;,&quot;isGlobal&quot;:&quot;false&quot;,&quot;x_axis&quot;:&quot;&quot;,&quot;x_axis_scale&quot;:&quot;auto&quot;,&quot;y_axis_scale&quot;:&quot;auto&quot;,&quot;show_in_rv&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;saveImage&quot;:&quot;0&quot;,&quot;eqnIdx&quot;:&quot;11&quot;,&quot;specEqu&quot;:false,&quot;poor&quot;:&quot;0%&quot;,&quot;poorHigh&quot;:&quot;&quot;,&quot;poorLow&quot;:&quot;&quot;,&quot;goal&quot;:&quot;&quot;,&quot;precision&quot;:&quot;6&quot;,&quot;measWaveDep&quot;:false,&quot;lineIdx&quot;:&quot;11&quot;}],&quot;model_list&quot;:[{&quot;file&quot;:&quot;./Hspice/lp5mos/xt018.lib:tm&quot;},{&quot;file&quot;:&quot;./Hspice/lp5mos/param.lib:3s&quot;},{&quot;file&quot;:&quot;./Hspice/lp5mos/config.lib:default&quot;}],&quot;globalModel_list&quot;:[],&quot;globalTemperature_list&quot;:[{&quot;file&quot;:&quot;25:Celsius&quot;}],&quot;design_variables_list&quot;:[],&quot;corner_group_params_list&quot;:[],&quot;analyses_list&quot;:[[&quot;tran&quot;,&quot;{Output Start Time: 0 Time Step: 1p Stop Time: 150n }&quot;]],&quot;modelGrp_list&quot;:[],&quot;corner_list&quot;:[],&quot;monte_list&quot;:[],&quot;monteSigma&quot;:&quot;&quot;,&quot;sweep_list&quot;:[],&quot;chart_list&quot;:[],&quot;job_list&quot;:[]}&#xa;end_original_sim&#xa;original_map&#xa;{&quot;sae_session&quot;:&quot;saeSession3&quot;,&quot;win_id&quot;:&quot;34&quot;,&quot;map_list&quot;:[{&quot;schemName&quot;:&quot;v(/D)&quot;,&quot;waveName&quot;:&quot;v(d)&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;analysisName&quot;:&quot;tran&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;2&quot;,&quot;is_expression&quot;:false},{&quot;schemName&quot;:&quot;v(/CN)&quot;,&quot;waveName&quot;:&quot;v(cn)&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;analysisName&quot;:&quot;tran&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;3&quot;,&quot;is_expression&quot;:false},{&quot;schemName&quot;:&quot;v(/Q1)&quot;,&quot;waveName&quot;:&quot;v(q1)&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;analysisName&quot;:&quot;tran&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;4&quot;,&quot;is_expression&quot;:false},{&quot;schemName&quot;:&quot;v(/Q2)&quot;,&quot;waveName&quot;:&quot;v(q2)&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;analysisName&quot;:&quot;tran&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;5&quot;,&quot;is_expression&quot;:false},{&quot;schemName&quot;:&quot;v(/Q3)&quot;,&quot;waveName&quot;:&quot;v(q3)&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;analysisName&quot;:&quot;tran&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;6&quot;,&quot;is_expression&quot;:false},{&quot;schemName&quot;:&quot;v(/Q4)&quot;,&quot;waveName&quot;:&quot;v(q4)&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;analysisName&quot;:&quot;tran&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;7&quot;,&quot;is_expression&quot;:false},{&quot;schemName&quot;:&quot;v(/Q5)&quot;,&quot;waveName&quot;:&quot;v(q5)&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;analysisName&quot;:&quot;tran&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;8&quot;,&quot;is_expression&quot;:false},{&quot;schemName&quot;:&quot;v(/Q6)&quot;,&quot;waveName&quot;:&quot;v(q6)&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;analysisName&quot;:&quot;tran&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;9&quot;,&quot;is_expression&quot;:false},{&quot;schemName&quot;:&quot;v(/Q7)&quot;,&quot;waveName&quot;:&quot;v(q7)&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;analysisName&quot;:&quot;tran&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;10&quot;,&quot;is_expression&quot;:false},{&quot;schemName&quot;:&quot;v(/Q8)&quot;,&quot;waveName&quot;:&quot;v(q8)&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;analysisName&quot;:&quot;tran&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;11&quot;,&quot;is_expression&quot;:false},{&quot;schemName&quot;:&quot;v(/QN8)&quot;,&quot;waveName&quot;:&quot;v(qn8)&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tran&quot;,&quot;analysisName&quot;:&quot;tran&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;12&quot;,&quot;is_expression&quot;:false},{&quot;schemName&quot;:&quot;meas(pwr_ff_8b)&quot;,&quot;waveName&quot;:&quot;pwr_ff_8b&quot;,&quot;resultID&quot;:&quot;resFile0&quot;,&quot;resultType&quot;:&quot;tranMeasure&quot;,&quot;analysisName&quot;:&quot;tranMeasure&quot;,&quot;dataType&quot;:&quot;&quot;,&quot;time&quot;:&quot;&quot;,&quot;paramName&quot;:&quot;&quot;,&quot;type&quot;:&quot;anytype&quot;,&quot;display_type&quot;:&quot;analogv&quot;,&quot;paramConditions&quot;:&quot;&quot;,&quot;bits&quot;:&quot;&quot;,&quot;lo&quot;:&quot;0.0&quot;,&quot;hi&quot;:&quot;0.0&quot;,&quot;percent&quot;:false,&quot;expr_index&quot;:&quot;13&quot;,&quot;is_expression&quot;:false}],&quot;result_list&quot;:[{&quot;file_name&quot;:&quot;resultsMap.xml&quot;,&quot;resultID&quot;:&quot;resFile0&quot;},{&quot;file_name&quot;:&quot;postResultsMap.xml&quot;,&quot;is_post&quot;:&quot;TRUE&quot;}]}&#xa;end_original_map&#xa;simulation_end&#xa;"/>
+    <attribute name="isAlltbs" type="giBoolean" value="0"/>
+    <attribute name="isGlobal" type="giBoolean" value="0"/>
+    <attribute name="name" type="giString" value="last"/>
+   </object>
+  </collection>
+  <attribute name="importMeasures" type="giBoolean" value="1"/>
+  <attribute name="outputSet" type="giString" value="default"/>
+  <collection name="outputSets">
+   <object name="outputSets" type="saOutputSet" version="1">
+    <collection name="histogramCharts"/>
+    <attribute name="name" type="giString" value="default"/>
+    <collection name="outputs">
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value="tran"/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="v(/D)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value="255:0:0"/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="2"/>
+        <attribute name="expression" type="giString" value="v(/D)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value=""/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="1"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tran"/>
+        <attribute name="type" type="enOutputType" value="net"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value=""/>
+      <attribute name="outputType" type="enOutputType" value="net"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="1"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value="plotpacket0"/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value="tran"/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="v(/CN)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value="204:0:255"/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="3"/>
+        <attribute name="expression" type="giString" value="v(/CN)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value=""/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="1"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tran"/>
+        <attribute name="type" type="enOutputType" value="net"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value=""/>
+      <attribute name="outputType" type="enOutputType" value="net"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="1"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value="plotpacket1"/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value="tran"/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="v(/Q1)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value="0:255:102"/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="4"/>
+        <attribute name="expression" type="giString" value="v(/Q1)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value=""/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="1"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tran"/>
+        <attribute name="type" type="enOutputType" value="net"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value=""/>
+      <attribute name="outputType" type="enOutputType" value="net"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="1"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value="plotpacket2"/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value="tran"/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="v(/Q2)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value="204:255:0"/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="5"/>
+        <attribute name="expression" type="giString" value="v(/Q2)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value=""/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="1"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tran"/>
+        <attribute name="type" type="enOutputType" value="net"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value=""/>
+      <attribute name="outputType" type="enOutputType" value="net"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="1"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value="plotpacket3"/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value="tran"/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="v(/Q3)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value="0:102:255"/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="6"/>
+        <attribute name="expression" type="giString" value="v(/Q3)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value=""/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="1"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tran"/>
+        <attribute name="type" type="enOutputType" value="net"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value=""/>
+      <attribute name="outputType" type="enOutputType" value="net"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="1"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value="plotpacket4"/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value="tran"/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="v(/Q4)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value="255:153:0"/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="7"/>
+        <attribute name="expression" type="giString" value="v(/Q4)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value=""/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="1"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tran"/>
+        <attribute name="type" type="enOutputType" value="net"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value=""/>
+      <attribute name="outputType" type="enOutputType" value="net"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="1"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value="plotpacket5"/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value="tran"/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="v(/Q5)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value="255:0:153"/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="8"/>
+        <attribute name="expression" type="giString" value="v(/Q5)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value=""/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="1"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tran"/>
+        <attribute name="type" type="enOutputType" value="net"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value=""/>
+      <attribute name="outputType" type="enOutputType" value="net"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="1"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value="plotpacket6"/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value="tran"/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="v(/Q6)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value="0:255:255"/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="9"/>
+        <attribute name="expression" type="giString" value="v(/Q6)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value=""/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="1"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tran"/>
+        <attribute name="type" type="enOutputType" value="net"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value=""/>
+      <attribute name="outputType" type="enOutputType" value="net"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="1"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value="plotpacket7"/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value="tran"/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="v(/Q7)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value="51:255:0"/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="10"/>
+        <attribute name="expression" type="giString" value="v(/Q7)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value=""/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="1"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tran"/>
+        <attribute name="type" type="enOutputType" value="net"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value=""/>
+      <attribute name="outputType" type="enOutputType" value="net"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="1"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value="plotpacket8"/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value="tran"/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="v(/Q8)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value="51:0:255"/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="11"/>
+        <attribute name="expression" type="giString" value="v(/Q8)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value=""/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="1"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tran"/>
+        <attribute name="type" type="enOutputType" value="net"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value=""/>
+      <attribute name="outputType" type="enOutputType" value="net"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="1"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value="plotpacket9"/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value="tran"/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="v(/QN8)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value="255:153:153"/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="12"/>
+        <attribute name="expression" type="giString" value="v(/QN8)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value=""/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="1"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tran"/>
+        <attribute name="type" type="enOutputType" value="net"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value=""/>
+      <attribute name="outputType" type="enOutputType" value="net"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="1"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value="plotpacket10"/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+     <object name="outputs" type="saOutput" version="1">
+      <attribute name="addDefaultOP" type="giBoolean" value="1"/>
+      <attribute name="analyses" type="giString" value=""/>
+      <attribute name="copy_index" type="giInt" value="0"/>
+      <attribute name="description" type="giString" value=""/>
+      <attribute name="errorMessage" type="giString" value=""/>
+      <attribute name="expr" type="giString" value="meas(pwr_ff_8b)"/>
+      <attribute name="goalExpression" type="giString" value=" None "/>
+      <attribute name="hasSpec" type="giBoolean" value="0"/>
+      <attribute name="imageTitle" type="giString" value="%e %c %s %m %t"/>
+      <collection name="mappedExpressions">
+       <object name="mappedExpressions" type="wfExpression">
+        <attribute name="analysisName" type="giString" value=""/>
+        <attribute name="color" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="exprIndex" type="giInt" value="13"/>
+        <attribute name="expression" type="giString" value="meas(pwr_ff_8b)"/>
+        <attribute name="global" type="giBoolean" value="0"/>
+        <attribute name="isPlotted" type="giBoolean" value="0"/>
+        <attribute name="logicRadix" type="enLogicRadixType" value="auto"/>
+        <attribute name="modifier" type="giString" value=""/>
+        <attribute name="name" type="giString" value="pwr_ff_8b"/>
+        <attribute name="params" type="giString" value=""/>
+        <attribute name="plot" type="giBoolean" value="0"/>
+        <attribute name="plotType" type="enGraphType" value="auto"/>
+        <attribute name="resultType" type="giString" value="tranMeasure"/>
+        <attribute name="type" type="enOutputType" value="expression"/>
+        <attribute name="units" type="giString" value=""/>
+        <collection name="values"/>
+       </object>
+      </collection>
+      <attribute name="name" type="giString" value="pwr_ff_8b"/>
+      <attribute name="outputType" type="enOutputType" value="expression"/>
+      <collection name="overrideSpecs"/>
+      <attribute name="plot" type="giBoolean" value="0"/>
+      <attribute name="plotType" type="enGraphType" value="auto"/>
+      <attribute name="precision" type="giInt" value="6"/>
+      <attribute name="probe" type="giString" value=""/>
+      <attribute name="resultsViewer" type="giBoolean" value="1"/>
+      <attribute name="save" type="giBoolean" value="1"/>
+      <attribute name="saveImage" type="giBoolean" value="0"/>
+      <collection name="specs">
+       <object name="specs" type="saSpecification" version="1">
+        <attribute name="analysis" type="giString" value=""/>
+        <attribute name="cornerName" type="giString" value=""/>
+        <attribute name="enabled" type="giBoolean" value="1"/>
+        <attribute name="extGoalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="goal" type="giString" value=""/>
+        <attribute name="goalExpression" type="giString" value=" None "/>
+        <attribute name="goalHigh" type="giString" value=""/>
+        <attribute name="goalLow" type="giString" value=""/>
+        <attribute name="goalType" type="enGoalType" value="Greater Than"/>
+        <attribute name="poor" type="giString" value="0%"/>
+        <attribute name="poorHigh" type="giString" value="0%"/>
+        <attribute name="poorLow" type="giString" value="0%"/>
+        <attribute name="tailType" type="enTailType" value="Both"/>
+        <attribute name="weight" type="giString" value="1"/>
+       </object>
+      </collection>
+      <attribute name="suffix" type="giString" value=""/>
+      <attribute name="units" type="giString" value=""/>
+      <attribute name="valueChangeEnabled" type="giBoolean" value="1"/>
+     </object>
+    </collection>
+    <collection name="qqCharts"/>
+    <attribute name="reductionString" type="giString" value=""/>
+    <collection name="scatterCharts"/>
+   </object>
+  </collection>
+  <attribute name="plotMode" type="giString" value="replace"/>
+ </object>
+</file-format>
