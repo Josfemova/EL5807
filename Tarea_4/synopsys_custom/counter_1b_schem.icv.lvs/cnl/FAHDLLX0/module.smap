@@ -1,0 +1,114 @@
+<module name="vsl: D_CELLS_HDLL FAHDLLX0 cmos_sch vl: auCdl cmos_sch schematic">
+<scope name="Instance">
+<forward>
+<mapping src="invr_1" dst="Xinvr_1"/>
+<mapping src="M16" dst="MM16"/>
+<mapping src="M17" dst="MM17"/>
+<mapping src="M18" dst="MM18"/>
+<mapping src="M20" dst="MM20"/>
+<mapping src="M21" dst="MM21"/>
+<mapping src="M24" dst="MM24"/>
+<mapping src="M25" dst="MM25"/>
+<mapping src="M23" dst="MM23"/>
+<mapping src="M26" dst="MM26"/>
+<mapping src="invr_2" dst="Xinvr_2"/>
+<mapping src="M27" dst="MM27"/>
+<mapping src="M5" dst="MM5"/>
+<mapping src="M2" dst="MM2"/>
+<mapping src="M19" dst="MM19"/>
+<mapping src="M4" dst="MM4"/>
+<mapping src="M9" dst="MM9"/>
+<mapping src="M12" dst="MM12"/>
+<mapping src="M1" dst="MM1"/>
+<mapping src="M11" dst="MM11"/>
+<mapping src="M22" dst="MM22"/>
+<mapping src="M6" dst="MM6"/>
+<mapping src="M3" dst="MM3"/>
+<mapping src="M10" dst="MM10"/>
+<mapping src="M7" dst="MM7"/>
+<mapping src="M8" dst="MM8"/>
+</forward>
+<reverse>
+<mapping src="Xinvr_1" dst="invr_1"/>
+<mapping src="MM16" dst="M16"/>
+<mapping src="MM17" dst="M17"/>
+<mapping src="MM18" dst="M18"/>
+<mapping src="MM21" dst="M21"/>
+<mapping src="Xinvr_2" dst="invr_2"/>
+<mapping src="MM22" dst="M22"/>
+<mapping src="MM23" dst="M23"/>
+<mapping src="MM24" dst="M24"/>
+<mapping src="MM25" dst="M25"/>
+<mapping src="MM20" dst="M20"/>
+<mapping src="MM26" dst="M26"/>
+<mapping src="MM7" dst="M7"/>
+<mapping src="MM12" dst="M12"/>
+<mapping src="MM19" dst="M19"/>
+<mapping src="MM3" dst="M3"/>
+<mapping src="MM9" dst="M9"/>
+<mapping src="MM1" dst="M1"/>
+<mapping src="MM2" dst="M2"/>
+<mapping src="MM27" dst="M27"/>
+<mapping src="MM11" dst="M11"/>
+<mapping src="MM4" dst="M4"/>
+<mapping src="MM5" dst="M5"/>
+<mapping src="MM10" dst="M10"/>
+<mapping src="MM6" dst="M6"/>
+<mapping src="MM8" dst="M8"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="vdd!" dst="vt_power_vdd_vdd!"/>
+<mapping src="gnd!" dst="vt_ground_gnd_gnd!"/>
+</forward>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward/>
+<reverse/>
+</scope>
+<scope name="simInfo">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A B CI CO S vt_ground_gnd_gnd! vt_power_vdd_vdd!"/>
+<mapping src="&lt;termOrder>" dst="A B CI CO S vt_ground_gnd_gnd! vt_power_vdd_vdd!"/>
+</forward>
+<reverse>
+<mapping src="A B CI CO S vt_ground_gnd_gnd! vt_power_vdd_vdd!" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="invr">
+<instance name="invr_1"/>
+<instance name="invr_2"/>
+</instance_header>
+<instance_header master="ne">
+<instance name="M1"/>
+<instance name="M10"/>
+<instance name="M11"/>
+<instance name="M12"/>
+<instance name="M2"/>
+<instance name="M3"/>
+<instance name="M4"/>
+<instance name="M5"/>
+<instance name="M6"/>
+<instance name="M7"/>
+<instance name="M8"/>
+<instance name="M9"/>
+</instance_header>
+<instance_header master="pe">
+<instance name="M16"/>
+<instance name="M17"/>
+<instance name="M18"/>
+<instance name="M19"/>
+<instance name="M20"/>
+<instance name="M21"/>
+<instance name="M22"/>
+<instance name="M23"/>
+<instance name="M24"/>
+<instance name="M25"/>
+<instance name="M26"/>
+<instance name="M27"/>
+</instance_header>
+</master_instances>
+</module>

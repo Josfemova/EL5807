@@ -1,0 +1,42 @@
+$VERSION 1
+
+$INFO_BLOCK counter_1b_schem
+
+$NMOS NE 
+$PMOS PE 
+$NPN  
+$PNP  
+
+$POWER 
+$GROUND 
+
+$INOUT_PORT
+$CELL P_DNW
+$TYPE DIODE
+$INPUT 
+$OUTPUT 
+$PINCLASS ANODE 14 CATHODE 15 
+$BULKPINS 
+
+$CELL NE
+$TYPE MOS
+$INPUT GATE 
+$OUTPUT DRN SRC 
+$PINCLASS DRN 1 SRC 1 GATE 4 BULK 42 
+$BULKPINS BULK 
+
+$CELL PE
+$TYPE MOS
+$INPUT GATE 
+$OUTPUT DRN SRC 
+$PINCLASS DRN 1 SRC 1 GATE 4 BULK 42 
+$BULKPINS BULK 
+
+$CELL counter_1b_schem
+$TYPE CELL
+$INPUT clock_n reset_n ci hold_n q down_up load data 
+$OUTPUT vdd! gnd! co q qn 
+$PINCLASS clock_n 7 reset_n 9 ci 4 vdd! 3 gnd! 5 co 10 hold_n 11 q 1 down_up 2 
+	qn 6 load 12 data 8 
+
+$TRIMMED_NET

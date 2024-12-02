@@ -1,0 +1,15 @@
+********************************************************************************
+* Library          : D_CELLS_HDLL
+* Cell             : AND2HDLLX0
+* View             : cmos_sch
+* View Search List : auCdl cmos_sch schematic
+* View Stop List   : auCdl
+********************************************************************************
+.subckt AND2HDLLX0 A B Q vt_ground_gnd_gnd! vt_power_vdd_vdd!
+*.PININFO A:I B:I Q:O vt_ground_gnd_gnd!:B vt_power_vdd_vdd!:B
+Xnand2_1 A B net10 vt_ground_gnd_gnd! vt_power_vdd_vdd! / nand2 GT_PDL=210.00n
++ GT_PDW=420.00n GT_PUL=210.00n GT_PUW=720.00n lc=2.7e-07 sx=4.8e-07
+Xinvr_1 net10 Q vt_ground_gnd_gnd! vt_power_vdd_vdd! / invr GT_PDL=210.00n
++ GT_PDW=420.00n GT_PUL=210.00n GT_PUW=720.00n lc=2.7e-07 sx=4.8e-07
+.ends AND2HDLLX0
+

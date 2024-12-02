@@ -1,0 +1,319 @@
+create_xin_writer; sort_xin_in_memory YES cut_trap NO track_fill_detection NO
+Size: 365 : 5000, 5000
+Size: 366 : 5000, 5000
+Size: 330 : 100, 100
+Size: 332 : 100, 100
+Size: 333 : 100, 100
+Size: 331 : 100, 100
+Size: 368 : 100, 100
+Size: 329 : 100, 100
+Size: 357 : 5000, 5000
+Size: 358 : 5000, 5000
+Size: 326 : 100, 100
+Size: 327 : 100, 100
+Size: 328 : 100, 100
+Size: 349 : 5000, 5000
+Size: 350 : 5000, 5000
+Size: 272 : 100, 100
+Size: 273 : 100, 100
+Size: 271 : 100, 100
+Size: 297 : 10, 10
+Size: 298 : 10, 10
+Size: 299 : 10, 10
+Size: 300 : 10, 10
+Size: 296 : 10, 10
+Size: 291 : 10, 10
+Size: 292 : 10, 10
+Size: 293 : 10, 10
+Size: 294 : 10, 10
+Size: 295 : 10, 10
+Size: 314 : 100, 100
+Size: 351 : 5000, 5000
+Size: 352 : 5000, 5000
+Size: 353 : 5000, 5000
+Size: 354 : 5000, 5000
+Size: 355 : 5000, 5000
+Size: 356 : 5000, 5000
+Size: 322 : 100, 100
+Size: 323 : 100, 100
+Size: 324 : 100, 100
+Size: 325 : 100, 100
+Size: 317 : 100, 100
+Size: 316 : 100, 100
+Size: 341 : 5000, 5000
+Size: 342 : 5000, 5000
+Size: 344 : 5000, 5000
+Size: 345 : 5000, 5000
+Size: 346 : 5000, 5000
+Size: 347 : 5000, 5000
+Size: 348 : 5000, 5000
+Size: 367 : 100, 100
+Size: 321 : 100, 100
+Size: 275 : 100, 100
+Size: 276 : 100, 100
+Size: 274 : 100, 100
+Size: 281 : 10, 10
+Size: 282 : 10, 10
+Size: 283 : 10, 10
+Size: 284 : 10, 10
+Size: 285 : 10, 10
+Size: 277 : 10, 10
+Size: 278 : 10, 10
+Size: 279 : 10, 10
+Size: 280 : 10, 10
+Size: 288 : 10, 10
+Size: 289 : 10, 10
+Size: 290 : 10, 10
+Size: 286 : 10, 10
+Size: 287 : 10, 10
+Size: 315 : 100, 100
+Size: 359 : 5000, 5000
+Size: 360 : 5000, 5000
+Size: 361 : 5000, 5000
+Size: 362 : 5000, 5000
+Size: 363 : 5000, 5000
+Size: 364 : 5000, 5000
+Size: 318 : 100, 100
+Size: 319 : 100, 100
+Size: 320 : 100, 100
+Size: 334 : 5000, 5000
+Size: 335 : 5000, 5000
+Size: 336 : 5000, 5000
+Size: 337 : 5000, 5000
+Size: 338 : 5000, 5000
+Size: 339 : 5000, 5000
+Size: 340 : 5000, 5000
+BLOCK Boundary: 89 -38300 -13100 457900 62100
+BLOCK Boundary: 90 5800 12200 10600 16400
+BLOCK Boundary: 91 5800 25000 10600 32000
+BLOCK Boundary: 92 10000 -1200 21200 4000
+BLOCK Boundary: 93 10000 42600 32400 47800
+BLOCK Boundary: 94 11000 4000 15900 16400
+BLOCK Boundary: 95 18700 10500 23500 14700
+BLOCK Boundary: 96 25600 10500 28100 14700
+BLOCK Boundary: 97 11000 25000 31850 42600
+BLOCK Boundary: 98 30200 10500 32700 14700
+BLOCK Boundary: 99 32400 -1200 38000 3000
+BLOCK Boundary: 100 33950 28900 39400 35900
+BLOCK Boundary: 101 34800 10500 40200 14700
+BLOCK Boundary: 102 42300 10500 47700 14700
+BLOCK Boundary: 103 41500 28900 47700 39250
+BLOCK Boundary: 104 43600 43600 49200 47800
+BLOCK Boundary: 105 49200 -1200 54800 3000
+BLOCK Boundary: 106 49800 28900 52300 35900
+BLOCK Boundary: 107 49800 6800 56200 14700
+BLOCK Boundary: 108 54400 28900 56900 35900
+BLOCK Boundary: 109 58300 10500 63700 14700
+BLOCK Boundary: 110 60400 43600 66000 47800
+BLOCK Boundary: 111 59000 26400 65200 36100
+BLOCK Boundary: 112 65800 10500 70600 14700
+BLOCK Boundary: 113 66000 -1200 71600 3000
+BLOCK Boundary: 114 67300 30300 72500 39800
+BLOCK Boundary: 115 71650 23300 76500 30300
+BLOCK Boundary: 116 73400 10500 78200 14700
+BLOCK Boundary: 117 77200 43600 82800 47800
+BLOCK Boundary: 118 77600 23300 82800 39800
+BLOCK Boundary: 119 80300 10500 85700 14700
+BLOCK Boundary: 120 82800 -1200 88400 3000
+BLOCK Boundary: 121 84900 25450 90300 32450
+BLOCK Boundary: 122 87800 10500 90300 14700
+BLOCK Boundary: 123 92400 10500 97900 14700
+BLOCK Boundary: 124 92400 25450 97850 38900
+BLOCK Boundary: 125 94000 43600 99600 47800
+BLOCK Boundary: 126 98400 26100 103200 33100
+BLOCK Boundary: 127 99600 -1200 105200 3000
+BLOCK Boundary: 128 100000 10500 105400 14700
+BLOCK Boundary: 129 105300 26100 110700 33100
+BLOCK Boundary: 130 107500 6800 113700 14700
+BLOCK Boundary: 131 112800 26100 115300 33100
+BLOCK Boundary: 132 115800 10500 120600 14700
+BLOCK Boundary: 133 116400 -1200 122000 3000
+BLOCK Boundary: 134 116400 42600 122000 47800
+BLOCK Boundary: 135 116400 26100 120600 42600
+BLOCK Boundary: 136 130250 -1200 135850 3000
+BLOCK Boundary: 137 130250 43600 135850 47800
+BLOCK Boundary: 138 131650 12200 136450 16400
+BLOCK Boundary: 139 131650 28100 136450 35300
+BLOCK Boundary: 140 138550 28100 143950 35300
+BLOCK Boundary: 141 138550 6900 144750 16400
+BLOCK Boundary: 142 146050 28100 148550 35300
+BLOCK Boundary: 143 146850 12200 149350 16400
+BLOCK Boundary: 144 147050 -1200 152650 3000
+BLOCK Boundary: 145 147050 43600 152650 47800
+BLOCK Boundary: 146 150650 28100 156050 35300
+BLOCK Boundary: 147 151450 12200 156850 16400
+BLOCK Boundary: 148 158150 28100 160650 35300
+BLOCK Boundary: 149 158950 12200 161450 16400
+BLOCK Boundary: 150 163550 12200 169450 16400
+BLOCK Boundary: 151 163850 -1200 169450 3000
+BLOCK Boundary: 152 163850 42600 169450 47800
+BLOCK Boundary: 153 162750 25000 169750 42600
+BLOCK Boundary: 154 171550 12200 176350 16400
+BLOCK Boundary: 155 171850 25000 176650 32150
+BLOCK Boundary: 156 189000 -1200 194600 3000
+BLOCK Boundary: 157 189000 43600 194600 47800
+BLOCK Boundary: 158 190400 12200 195200 16400
+BLOCK Boundary: 159 190400 28100 195200 35300
+BLOCK Boundary: 160 197300 28100 202700 35300
+BLOCK Boundary: 161 197300 6900 203500 16400
+BLOCK Boundary: 162 204800 28100 207300 35300
+BLOCK Boundary: 163 205600 12200 208100 16400
+BLOCK Boundary: 164 205800 -1200 211400 3000
+BLOCK Boundary: 165 205800 43600 211400 47800
+BLOCK Boundary: 166 209400 28100 214800 35300
+BLOCK Boundary: 167 210200 12200 215600 16400
+BLOCK Boundary: 168 216900 28100 219400 35300
+BLOCK Boundary: 169 217700 12200 220200 16400
+BLOCK Boundary: 170 222300 12200 228200 16400
+BLOCK Boundary: 171 222600 -1200 228200 3000
+BLOCK Boundary: 172 222600 42600 228200 47800
+BLOCK Boundary: 173 221500 25000 228500 42600
+BLOCK Boundary: 174 230300 12200 235100 16400
+BLOCK Boundary: 175 230600 25000 235400 32150
+BLOCK Boundary: 176 248800 12200 253600 16400
+BLOCK Boundary: 177 247400 42600 269800 47800
+BLOCK Boundary: 178 255700 12200 258200 16400
+BLOCK Boundary: 179 264200 -1200 269800 4000
+BLOCK Boundary: 180 260300 4000 274000 16400
+BLOCK Boundary: 181 248800 26700 274000 42600
+BLOCK Boundary: 182 283200 -1200 288800 3000
+BLOCK Boundary: 183 283200 43600 288800 47800
+BLOCK Boundary: 184 284600 10500 289400 14700
+BLOCK Boundary: 185 284600 32050 289400 39100
+BLOCK Boundary: 186 291500 10500 294000 14700
+BLOCK Boundary: 187 291500 32050 294000 39100
+BLOCK Boundary: 188 296100 10500 301500 14700
+BLOCK Boundary: 189 296100 30800 303650 39100
+BLOCK Boundary: 190 303600 10500 306100 14700
+BLOCK Boundary: 191 305600 -1200 316800 4000
+BLOCK Boundary: 192 305750 30800 308250 35000
+BLOCK Boundary: 193 311200 42600 316800 47800
+BLOCK Boundary: 194 310350 27600 321150 42600
+BLOCK Boundary: 195 305600 4000 321450 16000
+BLOCK Boundary: 196 322400 42600 333600 47800
+BLOCK Boundary: 197 322400 27600 329450 42600
+BLOCK Boundary: 198 327750 14800 332550 19000
+BLOCK Boundary: 199 328000 -1200 333600 3000
+BLOCK Boundary: 200 331550 27600 336350 34800
+BLOCK Boundary: 201 334650 11100 341050 19000
+BLOCK Boundary: 202 337550 28900 342750 39800
+BLOCK Boundary: 203 343150 14800 349050 19000
+BLOCK Boundary: 204 344800 43600 350400 47800
+BLOCK Boundary: 205 344850 28900 351200 39800
+BLOCK Boundary: 206 350400 -1200 356000 4000
+BLOCK Boundary: 207 350400 4000 356100 15650
+BLOCK Boundary: 208 353300 28950 355800 36100
+BLOCK Boundary: 209 357900 28950 363300 36100
+BLOCK Boundary: 210 358200 11450 360700 15650
+BLOCK Boundary: 211 361600 43600 367200 47800
+BLOCK Boundary: 212 362800 11450 368200 15650
+BLOCK Boundary: 213 365400 31900 367900 36100
+BLOCK Boundary: 214 370300 11450 372800 15650
+BLOCK Boundary: 215 370000 31900 375200 39100
+BLOCK Boundary: 216 372800 -1200 384000 4000
+BLOCK Boundary: 217 378000 32150 382800 39100
+BLOCK Boundary: 218 378400 43600 384000 47800
+BLOCK Boundary: 219 372800 4000 386000 16400
+BLOCK Boundary: 220 384900 25000 390300 39650
+BLOCK Boundary: 221 388800 12200 393750 16400
+BLOCK Boundary: 222 392400 25000 397200 32200
+BLOCK Boundary: 223 395200 -1200 400800 4000
+BLOCK Boundary: 224 395200 43600 400800 47800
+BLOCK Boundary: 225 395200 4000 400700 16400
+BLOCK Boundary: 226 398000 25000 403200 39600
+BLOCK Boundary: 227 402800 12200 407600 16400
+BLOCK Boundary: 228 405300 25000 410100 32200
+pcell name :px_hwafer_t
+m_layerMap:px_hwafer_t:ndiff ndiff 1
+m_layerMap:px_hwafer_t:pdiff pdiff 1
+m_layerMap:px_hwafer_t:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_hwafer_t:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_hwafer_t:ntap ntap 1
+m_layerMap:px_hwafer_t:ptap ptap 1
+m_layerMap:px_hwafer_t:npdtap npdtap 1
+m_layerMap:px_hwafer_t:nwtrm nwtrm 1
+m_layerMap:px_hwafer_t:bulk bulk 1
+m_layerMap:px_hwafer_t:hwafer_t hwafer_t 1
+DELETE px_hwafer_t
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,372,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,372,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 1062
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.9 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.9 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=498.0 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+pcell name :px_ndiff
+m_layerMap:px_ndiff:ndiff ndiff 1
+m_layerMap:px_ndiff:pdiff pdiff 1
+m_layerMap:px_ndiff:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_ndiff:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_ndiff:ntap ntap 1
+m_layerMap:px_ndiff:ptap ptap 1
+m_layerMap:px_ndiff:npdtap npdtap 1
+m_layerMap:px_ndiff:nwtrm nwtrm 1
+m_layerMap:px_ndiff:bulk bulk 1
+m_layerMap:px_ndiff:hwafer_t hwafer_t 1
+DELETE px_ndiff
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,369,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,369,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 1489
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Prepare Layer       Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+pcell name :px_pdiff
+m_layerMap:px_pdiff:ndiff ndiff 1
+m_layerMap:px_pdiff:pdiff pdiff 1
+m_layerMap:px_pdiff:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_pdiff:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_pdiff:ntap ntap 1
+m_layerMap:px_pdiff:ptap ptap 1
+m_layerMap:px_pdiff:npdtap npdtap 1
+m_layerMap:px_pdiff:nwtrm nwtrm 1
+m_layerMap:px_pdiff:bulk bulk 1
+m_layerMap:px_pdiff:hwafer_t hwafer_t 1
+DELETE px_pdiff
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,370,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,370,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 1584
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.6 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.6 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.6 
+WARNING: Some blocking regions are not blocked any port, device terminal, or probe_text. (SX-3197)
+----------------------------------------------
+Blocking shape:px_hwafer_t (-38300 -13100 457900 62100)
+ Blocked layer name:hwafer_t
+ Net name:N__generated_58
+ ----------------------------------------------
+
+Pcell Layers Polygons Summary:
+
+Blocked Layer                           Count
+---------------------------------------------
+ndiff                                   109
+pdiff                                   132
+ntap                                    26
+ptap                                    22
+npdtap                                  13
+nwtrm                                   5
+bulk                                    1
+hwafer_t                                1
+---------------------------------------------
+BLOCKING_Layer: 309
+
+
+End Time: Mon Dec  2 13:59:18 2024
+

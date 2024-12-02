@@ -1,0 +1,10 @@
+counter_1b_schem
+	Cell Level Device Counts
+		NMOS[ne] = 43
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 43
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = counter_1b_schem  *******
+		NMOS[ne] = 43
+		DIODE[p_dnw] = 1
+		PMOS[pe] = 43

@@ -1,0 +1,58 @@
+
+                                  StarRC (TM)
+
+               Version U-2022.12-SP5 for linux64 - Jul 11, 2023 
+
+                    Copyright (c) 1999 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+ExecName: /mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/bin/StarXtract
+Version: U-2022.12-SP5
+Built on: Jul 11 2023 20:05:46
+Start Time: Mon Dec  2 13:59:17 2024
+
+Host ............ redhat003
+
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.9 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.9 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=498.0 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Prepare Layer       Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.5 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.6 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.6 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.6 
+WARNING: Some blocking regions are not blocked any port, device terminal, or probe_text. (SX-3197)
+----------------------------------------------
+Blocking shape:px_hwafer_t (-38300 -13100 457900 62100)
+ Blocked layer name:hwafer_t
+ Net name:N__generated_58
+ ----------------------------------------------

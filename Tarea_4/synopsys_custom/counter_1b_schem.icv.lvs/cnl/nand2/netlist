@@ -1,0 +1,23 @@
+********************************************************************************
+* Library          : GATES_HD
+* Cell             : nand2
+* View             : schematic
+* View Search List : auCdl cmos_sch schematic
+* View Stop List   : auCdl
+********************************************************************************
+.subckt nand2 a b out vt_ground_gnd_gnd! vt_power_vdd_vdd! GT_PDL=180.00n
++ GT_PUL=180.00n lc=2.7e-07 sx=4.8e-07
+*.PININFO a:I b:I out:O vt_ground_gnd_gnd!:B vt_power_vdd_vdd!:B
+MMN1 out a net11 vt_ground_gnd_gnd! NE W='GT_PDW' L='GT_PDL' M='1*1' AD='sx*GT_PDW'
++  AS='sx*GT_PDW' NRD='lc/GT_PDW' NRS='lc/GT_PDW' PD='2*(sx+GT_PDW)' PS='2*(sx+GT_PDW)'
+MMN2 net11 b vt_ground_gnd_gnd! vt_ground_gnd_gnd! NE W='GT_PDW' L='GT_PDL' M='1*1'
++  AD='sx*GT_PDW' AS='sx*GT_PDW' NRD='lc/GT_PDW' NRS='lc/GT_PDW' PD='2*(sx+GT_PDW)'
++  PS='2*(sx+GT_PDW)'
+MMP1 out a vt_power_vdd_vdd! vt_power_vdd_vdd! PE W='GT_PUW' L='GT_PUL' M='1*1'
++ AD='sx*GT_PUW' AS='sx*GT_PUW' NRD='lc/GT_PUW' NRS='lc/GT_PUW' PD='2*(sx+GT_PUW)'
++  PS='2*(sx+GT_PUW)'
+MMP2 out b vt_power_vdd_vdd! vt_power_vdd_vdd! PE W='GT_PUW' L='GT_PUL' M='1*1'
++ AD='sx*GT_PUW' AS='sx*GT_PUW' NRD='lc/GT_PUW' NRS='lc/GT_PUW' PD='2*(sx+GT_PUW)'
++  PS='2*(sx+GT_PUW)'
+.ends nand2
+

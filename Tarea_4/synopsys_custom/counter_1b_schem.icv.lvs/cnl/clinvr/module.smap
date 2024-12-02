@@ -1,0 +1,49 @@
+<module name="vsl: GATES_HD clinvr schematic vl: auCdl cmos_sch schematic">
+<scope name="Instance">
+<forward>
+<mapping src="MP1" dst="MMP1"/>
+<mapping src="MP2" dst="MMP2"/>
+<mapping src="MN2" dst="MMN2"/>
+<mapping src="MN1" dst="MMN1"/>
+</forward>
+<reverse>
+<mapping src="MMP1" dst="MP1"/>
+<mapping src="MMP2" dst="MP2"/>
+<mapping src="MMN2" dst="MN2"/>
+<mapping src="MMN1" dst="MN1"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="vdd!" dst="vt_power_vdd_vdd!"/>
+<mapping src="gnd!" dst="vt_ground_gnd_gnd!"/>
+</forward>
+<reverse>
+<mapping src="vt_power_vdd_vdd!" dst="vdd!"/>
+<mapping src="vt_ground_gnd_gnd!" dst="gnd!"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward/>
+<reverse/>
+</scope>
+<scope name="simInfo">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="clk in out xclk vt_ground_gnd_gnd! vt_power_vdd_vdd!"/>
+<mapping src="&lt;termOrder>" dst="clk in out xclk vt_ground_gnd_gnd! vt_power_vdd_vdd!"/>
+</forward>
+<reverse>
+<mapping src="clk in out xclk vt_ground_gnd_gnd! vt_power_vdd_vdd!" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="ne">
+<instance name="MN1"/>
+<instance name="MN2"/>
+</instance_header>
+<instance_header master="pe">
+<instance name="MP1"/>
+<instance name="MP2"/>
+</instance_header>
+</master_instances>
+</module>

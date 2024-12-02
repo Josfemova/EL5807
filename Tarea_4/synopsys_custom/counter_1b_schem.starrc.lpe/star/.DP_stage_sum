@@ -1,0 +1,36 @@
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                      | END TIME        | HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup        Elp=00:00:03 Cpu=00:00:01 Mem=656.3  | Dec  2 13:59:10 | redhat003
+CPU_01 |*Layers        Elp=00:00:00 Cpu=00:00:00 Mem=664.9  | Dec  2 13:59:10 | redhat003
+CPU_01 |*Models        Elp=00:00:00 Cpu=00:00:00 Mem=656.3  | Dec  2 13:59:10 | redhat003
+CPU_01 |*HN            Elp=00:00:01 Cpu=00:00:00 Mem=675.6  | Dec  2 13:59:13 | redhat003
+CPU_01 |*Cells         Elp=00:00:00 Cpu=00:00:00 Mem=656.4  | Dec  2 13:59:14 | redhat003
+CPU_01 |*Translate     Elp=00:00:00 Cpu=00:00:00 Mem=656.3  | Dec  2 13:59:15 | redhat003
+CPU_01 |*BulkLayerHandling Elp=00:00:00 Cpu=00:00:00 Mem=497.5  | Dec  2 13:59:15 | redhat003
+CPU_01 |*XtractPreP    Elp=00:00:01 Cpu=00:00:00 Mem=940.9  | Dec  2 13:59:17 | redhat003
+CPU_01 |*PcellLayers   Elp=00:00:01 Cpu=00:00:00 Mem=563.6  | Dec  2 13:59:18 | redhat003
+CPU_01 |*NetlistSetup  Elp=00:00:01 Cpu=00:00:00 Mem=490.3  | Dec  2 13:59:19 | redhat003
+CPU_01 |*GPD_XtractSetup Elp=00:00:00 Cpu=00:00:00 Mem=656.3  | Dec  2 13:59:21 | redhat003
+CPU_01 |*GPD_Instance_Setup Elp=00:00:00 Cpu=00:00:00 Mem=490.3  | Dec  2 13:59:23 | redhat003
+CPU_01 |*GPD_NameMap   Elp=00:00:00 Cpu=00:00:00 Mem=493.0  | Dec  2 13:59:25 | redhat003
+CPU_01 |*xTract        Elp=00:00:01 Cpu=00:00:00 Mem=419.7  | Dec  2 13:59:28 | redhat003
+CPU_01 |*GPD_Instance  Elp=00:00:00 Cpu=00:00:00 Mem=491.8  | Dec  2 13:59:30 | redhat003
+CPU_01 |*xTractPP      Elp=00:00:00 Cpu=00:00:00 Mem=347.1  | Dec  2 13:59:34 | redhat003
+CPU_01 |*Netlist       Elp=00:00:01 Cpu=00:00:00 Mem=363.2  | Dec  2 13:59:37 | redhat003
+CPU_01 |*ReportViolations Elp=00:00:00 Cpu=00:00:00 Mem=490.3  | Dec  2 13:59:39 | redhat003
+CPU_01 |*ReportOpens   Elp=00:00:00 Cpu=00:00:00 Mem=490.3  | Dec  2 13:59:41 | redhat003
+CPU_01 |*GPD_PostProcess Elp=00:00:00 Cpu=00:00:00 Mem=490.3  | Dec  2 13:59:43 | redhat003
+CPU_01 |*GPD_CouplingReport Elp=00:00:00 Cpu=00:00:00 Mem=490.3  | Dec  2 13:59:45 | redhat003
+CPU_01 |*GPD_Converter1 Elp=00:00:03 Cpu=00:00:00 Mem=490.7  | Dec  2 13:59:50 | redhat003
+CPU_01 |*GPD_Converter_Instance Elp=00:00:00 Cpu=00:00:00 Mem=336.4  | Dec  2 13:59:52 | redhat003
+CPU_01 |*GPD_Converter_merge Elp=00:00:00 Cpu=00:00:00 Mem=336.4  | Dec  2 13:59:54 | redhat003
+----------------------------------------------------------------------------------------------
+Start Time: Mon Dec  2 13:59:10 2024
+End Time: Mon Dec  2 13:59:58 2024
+Total Wall Time: 00:00:41
+Time on PreXtraction:  00:00:17
+Time on Xtraction:     00:00:01
+Time on PostXtraction: 00:00:23
+Time on Spef Output: 00:00:07
+----------------------------------------------------------------------------------------------

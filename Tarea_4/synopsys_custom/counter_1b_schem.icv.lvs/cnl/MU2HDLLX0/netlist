@@ -1,0 +1,19 @@
+********************************************************************************
+* Library          : D_CELLS_HDLL
+* Cell             : MU2HDLLX0
+* View             : cmos_sch
+* View Search List : auCdl cmos_sch schematic
+* View Stop List   : auCdl
+********************************************************************************
+.subckt MU2HDLLX0 IN0 IN1 Q S vt_ground_gnd_gnd! vt_power_vdd_vdd!
+*.PININFO IN0:I IN1:I Q:O S:I vt_ground_gnd_gnd!:B vt_power_vdd_vdd!:B
+Xclinvr_1 S IN1 net26 net20 vt_ground_gnd_gnd! vt_power_vdd_vdd! / clinvr
++ GT_PDL=210.00n GT_PDW=420.00n GT_PUL=210.00n GT_PUW=720.0n lc=2.7e-07 sx=4.8e-07
+Xclinvr_2 net20 IN0 net26 S vt_ground_gnd_gnd! vt_power_vdd_vdd! / clinvr
++ GT_PDL=210.00n GT_PDW=420.0n GT_PUL=210.00n GT_PUW=720.0n lc=2.7e-07 sx=4.8e-07
+Xinvr_1 S net20 vt_ground_gnd_gnd! vt_power_vdd_vdd! / invr GT_PDL=210.00n
++ GT_PDW=420.00n GT_PUL=210.00n GT_PUW=720.0n lc=2.7e-07 sx=4.8e-07
+Xinvr_2 net26 Q vt_ground_gnd_gnd! vt_power_vdd_vdd! / invr GT_PDL=210.00n
++ GT_PDW=420.00n GT_PUL=210.00n GT_PUW=720.00n lc=2.7e-07 sx=4.8e-07
+.ends MU2HDLLX0
+

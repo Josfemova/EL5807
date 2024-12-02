@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Dec  2 13:21:40 2024-->
+<file-format version="2.0" name="netlisting-timestamps">
+<module contextID="switched: D_CELLS_HDLL DFFHDLLX0 cmos_sch vl: auCdl cmos_sch schematic sl: auCdl" isSubcircuit="1" viewStopList="auCdl" viewSearchList="auCdl cmos_sch schematic" timestamp="133240">
+<LineageParams/>
+<ParentParams/>
+<parameterizedConnections>
+<connectDefs timestamp="133218"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="37"/>
+<lib_parameters timestamp="57"/>
+<Terms timestamp="132984"/>
+<PortOrder><![CDATA[CNDQQNvt_ground_gnd_gnd!vt_power_vdd_vdd!]]></PortOrder>
+<ShortOptions timestamp="1009512283"/>
+</module>
+</file-format>
