@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Dec  2 03:26:13 2024-->
+<file-format name="stateCategory" version="1.0">
+ <collection name="includeFiles">
+  <object name="includeFiles" version="1" type="saIncludeFile">
+   <attribute name="enabled" value="1" type="giBoolean"/>
+   <attribute name="filename" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/tarea4/u_mx2/functional/verilog.v" type="giString"/>
+   <attribute name="fromCorner" value="0" type="giBoolean"/>
+   <attribute name="includeType" value="Verilog Source" type="giString"/>
+   <attribute name="name" value="Verilog Source|/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/tarea4/u_mx2/functional/verilog.v" type="giString"/>
+   <attribute name="section" value="" type="giString"/>
+  </object>
+  <object name="includeFiles" version="1" type="saIncludeFile">
+   <attribute name="enabled" value="1" type="giBoolean"/>
+   <attribute name="filename" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/tarea4/u1_fd5/functional/verilog.v" type="giString"/>
+   <attribute name="fromCorner" value="0" type="giBoolean"/>
+   <attribute name="includeType" value="Verilog Source" type="giString"/>
+   <attribute name="name" value="Verilog Source|/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/tarea4/u1_fd5/functional/verilog.v" type="giString"/>
+   <attribute name="section" value="" type="giString"/>
+  </object>
+ </collection>
+</file-format>

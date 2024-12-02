@@ -22,7 +22,7 @@
 ExecName: /mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/bin/StarXtract
 Version: U-2022.12-SP5
 Built on: Jul 11 2023 20:05:46
-Start Time: Sun Dec  1 13:39:05 2024
+Start Time: Sun Dec  1 21:45:43 2024
 
 Host ............ redhat003
 
@@ -33,15 +33,15 @@ Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=498.0
 Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
 Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
   
-Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=563.4 
   
 xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
 Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
 Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
-Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Execute Command     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
 Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
   
-Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
   
 xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
 Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 

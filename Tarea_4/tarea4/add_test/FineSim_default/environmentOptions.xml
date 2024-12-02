@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Sun Dec  1 14:17:29 2024-->
-<file-format version="1.0" name="stateCategory">
- <object version="1" type="saEnvironmentOptions" name="environmentOptions">
-  <attribute type="giBoolean" name="auto" value="0"/>
-  <attribute type="giString" name="commandLineOptions" value=""/>
-  <attribute type="giBoolean" name="enableParallelSim" value="0"/>
-  <attribute type="giBoolean" name="ignoreParasitics" value="0"/>
-  <attribute type="giString" name="includePath" value=""/>
-  <attribute type="giString" name="netlistLanguage" value="HSPICE"/>
-  <attribute type="giInt" name="numProcesses" value="1"/>
-  <attribute type="giString" name="outputDataFormat" value="wdf"/>
-  <attribute type="giString" name="stopViewList" value="hspice hspiceD"/>
-  <attribute type="giString" name="switchViewList" value="hspice hspiceD schematic cmos_sch spice veriloga"/>
-  <attribute type="giBoolean" name="use64Bit" value="1"/>
+<!--Created by Custom Compiler (TM), build , on Sun Dec  1 15:42:38 2024-->
+<file-format name="stateCategory" version="1.0">
+ <object name="environmentOptions" version="1" type="saEnvironmentOptions">
+  <attribute name="auto" value="0" type="giBoolean"/>
+  <attribute name="commandLineOptions" value="" type="giString"/>
+  <attribute name="enableParallelSim" value="0" type="giBoolean"/>
+  <attribute name="ignoreParasitics" value="0" type="giBoolean"/>
+  <attribute name="includePath" value="" type="giString"/>
+  <attribute name="netlistLanguage" value="HSPICE" type="giString"/>
+  <attribute name="numProcesses" value="1" type="giInt"/>
+  <attribute name="outputDataFormat" value="wdf" type="giString"/>
+  <attribute name="stopViewList" value="hspice hspiceD" type="giString"/>
+  <attribute name="switchViewList" value="hspice hspiceD schematic cmos_sch spice veriloga" type="giString"/>
+  <attribute name="use64Bit" value="1" type="giBoolean"/>
  </object>
 </file-format>

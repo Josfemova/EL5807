@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<!--Created by Custom Compiler (TM), build , on Sun Dec  1 13:33:36 2024-->
-<file-format version="2.0" name="netlisting-timestamps">
-<module contextID="switched: GATES_HD invr schematic vl: auCdl cmos_sch schematic sl: auCdl" isSubcircuit="1" viewStopList="auCdl" timestamp="4329" viewSearchList="auCdl cmos_sch schematic">
+<!--Created by Custom Compiler (TM), build , on Sun Dec  1 21:44:05 2024-->
+<file-format name="netlisting-timestamps" version="2.0">
+<module contextID="switched: GATES_HD invr schematic vl: auCdl cmos_sch schematic sl: auCdl" timestamp="4329" viewStopList="auCdl" isSubcircuit="1" viewSearchList="auCdl cmos_sch schematic">
 <LineageParams/>
 <ParentParams>
 <map name="GT_PDL" value=""/>

@@ -1,33 +1,33 @@
-[793055:2024-12-01 13:33:37.431] Starting service 'launcher' (Node ID=0, Host Name=redhat003)
-[793055:2024-12-01 13:33:37.432] Service Launcher starting
-[793055:2024-12-01 13:33:37.432] Starting service mapper
-[793055:2024-12-01 13:33:37.432] Started service mapper with PID 793056
-[793055:2024-12-01 13:33:37.432] Loading service mapper info
-[793055:2024-12-01 13:33:37.483] Starting services
-[793055:2024-12-01 13:33:37.483] Started service license_manager with PID 793062
-[793055:2024-12-01 13:33:37.484] Started service cluster with PID 793063
-[793055:2024-12-01 13:33:37.484] Started service hdb with PID 793064
-[793055:2024-12-01 13:33:37.484] Started service lock_manager with PID 793065
-[793055:2024-12-01 13:33:37.484] Started service log_manager with PID 793066
-[793055:2024-12-01 13:33:37.500] Service 'log_manager' with PID 793066 exited with exit status 33
-[793055:2024-12-01 13:34:03.689] Received signal 15. Shutting down.
-[793055:2024-12-01 13:34:03.689] Shutting down service 'cluster'
-[793055:2024-12-01 13:34:03.689]     Closing die FD
-[793055:2024-12-01 13:34:03.689] Shutting down service 'hdb'
-[793055:2024-12-01 13:34:03.689]     Closing die FD
-[793055:2024-12-01 13:34:03.689] Shutting down service 'license_manager'
-[793055:2024-12-01 13:34:03.689]     Closing die FD
-[793055:2024-12-01 13:34:03.689] Shutting down service 'lock_manager'
-[793055:2024-12-01 13:34:03.689]     Closing die FD
-[793055:2024-12-01 13:34:03.689] Waiting for service shutdown
-[793055:2024-12-01 13:34:03.691] Service 'cluster' with PID 793063 exited with exit status 0
-[793055:2024-12-01 13:34:03.691] Service 'lock_manager' with PID 793065 exited with exit status 0
-[793055:2024-12-01 13:34:03.692] Service 'hdb' with PID 793064 exited with exit status 0
-[793055:2024-12-01 13:34:03.694] Service 'license_manager' with PID 793062 exited with exit status 0
-[793055:2024-12-01 13:34:03.694] Waited 0 seconds on services to shutdown
-[793055:2024-12-01 13:34:03.694] Shutting down service 'mapper'
-[793055:2024-12-01 13:34:03.694]     Sending SIGTERM to PID 793056
-[793055:2024-12-01 13:34:03.694] Waiting for service shutdown
-[793055:2024-12-01 13:34:03.699] Service 'mapper' with PID 793056 exited with exit status 0
-[793055:2024-12-01 13:34:03.699] Waited 0 seconds on services to shutdown
-[793055:2024-12-01 13:34:03.699] Service Launcher exiting
+[944337:2024-12-01 21:44:07.125] Starting service 'launcher' (Node ID=0, Host Name=redhat003)
+[944337:2024-12-01 21:44:07.126] Service Launcher starting
+[944337:2024-12-01 21:44:07.126] Starting service mapper
+[944337:2024-12-01 21:44:07.126] Started service mapper with PID 944338
+[944337:2024-12-01 21:44:07.126] Loading service mapper info
+[944337:2024-12-01 21:44:07.178] Starting services
+[944337:2024-12-01 21:44:07.179] Started service license_manager with PID 944344
+[944337:2024-12-01 21:44:07.179] Started service cluster with PID 944345
+[944337:2024-12-01 21:44:07.179] Started service hdb with PID 944346
+[944337:2024-12-01 21:44:07.179] Started service lock_manager with PID 944347
+[944337:2024-12-01 21:44:07.179] Started service log_manager with PID 944348
+[944337:2024-12-01 21:44:07.194] Service 'log_manager' with PID 944348 exited with exit status 33
+[944337:2024-12-01 21:44:33.358] Received signal 15. Shutting down.
+[944337:2024-12-01 21:44:33.358] Shutting down service 'cluster'
+[944337:2024-12-01 21:44:33.358]     Closing die FD
+[944337:2024-12-01 21:44:33.358] Shutting down service 'hdb'
+[944337:2024-12-01 21:44:33.358]     Closing die FD
+[944337:2024-12-01 21:44:33.358] Shutting down service 'license_manager'
+[944337:2024-12-01 21:44:33.358]     Closing die FD
+[944337:2024-12-01 21:44:33.358] Shutting down service 'lock_manager'
+[944337:2024-12-01 21:44:33.358]     Closing die FD
+[944337:2024-12-01 21:44:33.358] Waiting for service shutdown
+[944337:2024-12-01 21:44:33.360] Service 'lock_manager' with PID 944347 exited with exit status 0
+[944337:2024-12-01 21:44:33.360] Service 'cluster' with PID 944345 exited with exit status 0
+[944337:2024-12-01 21:44:33.361] Service 'hdb' with PID 944346 exited with exit status 0
+[944337:2024-12-01 21:44:33.363] Service 'license_manager' with PID 944344 exited with exit status 0
+[944337:2024-12-01 21:44:33.363] Waited 0 seconds on services to shutdown
+[944337:2024-12-01 21:44:33.363] Shutting down service 'mapper'
+[944337:2024-12-01 21:44:33.363]     Sending SIGTERM to PID 944338
+[944337:2024-12-01 21:44:33.363] Waiting for service shutdown
+[944337:2024-12-01 21:44:33.370] Service 'mapper' with PID 944338 exited with exit status 0
+[944337:2024-12-01 21:44:33.370] Waited 0 seconds on services to shutdown
+[944337:2024-12-01 21:44:33.370] Service Launcher exiting

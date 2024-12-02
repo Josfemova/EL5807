@@ -109,6 +109,6 @@ Reduced to 352 nodes,  (30.572%)
 Reduced to 356 resistors,  (44.2879%)
 Reduced to 742 capacitors: 390 Cc and 352 Cg (22.3849%)
   
-xTractor      Elp=00:00:01 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=419.7 
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=419.7 
   
-Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=419.7 
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=419.7 

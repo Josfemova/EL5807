@@ -1,21 +1,21 @@
-run_in_same_process: start time = 1733081940
+run_in_same_process: start time = 1733111138
 sortTrie = 0
 _sort_def = 0
-combine_loc (794164) = 0
-run_in_same_process: start time = 1733081940
+combine_loc (945709) = 0
+run_in_same_process: start time = 1733111138
 sortTrie = 0
 _sort_def = 0
 checks = 0
 sortTrie = 0
 _sortInsArray = 0
 idxInit = 0
-token_task (794163) = 0
 dumpSigTokens = 0
 _open = 0
 _write_globals = 0
 _write_defs = 0
+token_task (945707) = 0
 _close = 0
-main_thread (794163) = 0
+main_thread (945707) = 0
 free = 0
   
 InitDB        Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=656.3 

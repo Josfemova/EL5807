@@ -152,7 +152,7 @@ Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=498.0
 Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
 Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
   
-Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=563.4 
 pcell name :px_ndiff
 m_layerMap:px_ndiff:ndiff ndiff 1
 m_layerMap:px_ndiff:pdiff pdiff 1
@@ -172,10 +172,10 @@ PreprocessLayerManager output bypassed trapezoid count: 445
 xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
 Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
 Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
-Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Execute Command     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
 Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
   
-Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
 pcell name :px_pdiff
 m_layerMap:px_pdiff:ndiff ndiff 1
 m_layerMap:px_pdiff:pdiff pdiff 1
@@ -222,5 +222,5 @@ hwafer_t                                1
 BLOCKING_Layer: 99
 
 
-End Time: Sun Dec  1 13:39:06 2024
+End Time: Sun Dec  1 21:45:44 2024
 

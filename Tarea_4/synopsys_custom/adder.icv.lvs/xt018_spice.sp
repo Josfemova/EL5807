@@ -1,4 +1,4 @@
-* SPICE	Sun Dec  1 13:34:00 2024	adder
+* SPICE	Sun Dec  1 21:44:29 2024	adder
 * icv_netlist Version RHEL64 U-2022.12-SP4.9133772 2023/08/28
 
 * Hierarchy Level 0

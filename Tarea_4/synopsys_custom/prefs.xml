@@ -9,8 +9,10 @@
 	<pref name="dbLastPrefsFilePath" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/mixed_preferences.xml"/>
 	<pref name="dbViewWordWrap" value="true"/>
 	<pref name="deActiveObjectToolbarProc" value="printInfo"/>
-	<pref name="deConfigEditor" value="design"/>
+	<pref name="deConfigEditor" value="config"/>
 	<pref name="deCrossCheckViews" value="cmos_sch schematic symbol hspice verilog veriloga"/>
+	<pref name="deDescendMode" value="readOnly"/>
+	<pref name="deDescendRead" value="true"/>
 	<pref name="dmNewLibTechLib" value="TECH_XT018"/>
 	<pref name="dmNewLibTechType" value="lib"/>
 	<pref name="giShowFrameTabs" value="false"/>

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<!-- created by Custom Compiler (TM), build #, on Sun Dec  1 14:56:02 2024
+<!-- created by Custom Compiler (TM), build #, on Mon Dec  2 10:52:43 2024
 -->
 <synopsysFile version="1.1" name="synopsysRecentFiles">
         <recentFiles>
-                <file view="config" file="config.xml" mode="read" library="tarea4" cell="flip_flop_8b_test_layout"/>
-                <file view="schematic" file="schematic" mode="write" library="tarea4" cell="flip_flop_8b_test_layout"/>
-                <file view="schematic" file="schematic" mode="write" library="tarea4" cell="flip_flop_8b_test"/>
-                <file view="schematic" file="schematic" mode="write" library="tarea4" cell="flip_flop_1b_test"/>
-                <file view="schematic" file="schematic" mode="write" library="tarea4" cell="flip_flop_1b_test_layout"/>
+                <file mode="write" view="schematic" library="tarea4" cell="counter_8b_test" file="schematic"/>
+                <file mode="read" view="schematic" library="tarea4" cell="counter_8b_test_schem_power" file="schematic"/>
+                <file mode="read" view="schematic" library="tarea4" cell="counter_8b_test_mix" file="schematic"/>
+                <file mode="write" view="FineSim_VCS_default" library="tarea4" cell="counter_8b_test_mix" file="saeState"/>
+                <file mode="write" view="schematic" library="tarea4" cell="counter_8b_full_schem" file="schematic"/>
         </recentFiles>
 </synopsysFile>
