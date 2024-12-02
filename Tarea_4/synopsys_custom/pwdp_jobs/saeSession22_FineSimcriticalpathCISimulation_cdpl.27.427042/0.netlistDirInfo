@@ -1,0 +1,23 @@
+total 52
+lrwxrwxrwx 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi   63 2024-11-30 17:04:40.010627177 -0600 cnl -> ../../../../../netlist/tarea4/add_test/schematic/FineSimPro/cnl
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi  120 2024-11-30 17:04:40.518638865 -0600 .netlistHeader
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi   27 2024-11-30 17:04:40.519638888 -0600 .optionsFormat
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi    0 2024-11-30 17:04:40.520638911 -0600 .optionsSearch
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi  218 2024-11-30 17:04:41.896670572 -0600 .globalOptions
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi  284 2024-11-30 17:04:41.903670733 -0600 .modelFiles
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi    0 2024-11-30 17:04:41.904670756 -0600 .designVariables
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi    0 2024-11-30 17:04:41.906670802 -0600 .convergence
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi   33 2024-11-30 17:04:41.913670963 -0600 .analyses
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi   64 2024-11-30 17:04:41.983672573 -0600 .outputs
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi    0 2024-11-30 17:04:41.984672597 -0600 .variation
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi    8 2024-11-30 17:04:41.984672597 -0600 .temperature
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi    0 2024-11-30 17:04:41.986672643 -0600 .circuitCheck
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi    0 2024-11-30 17:04:41.990672734 -0600 .dataBlock
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi    0 2024-11-30 17:04:41.991672758 -0600 .endOfNetlist
+lrwxrwxrwx 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi    9 2024-11-30 17:04:41.992672780 -0600 .netlist -> ./netlist
+drwxrwxr-x 6 sfallas_II_2024_vlsi sfallas_II_2024_vlsi 4096 2024-11-30 17:21:41.717129641 -0600 ..
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi 7256 2024-11-30 17:29:32.937928248 -0600 finesim.spi
+lrwxrwxrwx 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi   67 2024-11-30 17:29:41.034113782 -0600 netlist -> ../../../../../netlist/tarea4/add_test/schematic/FineSimPro/netlist
+-rwxrw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi  476 2024-11-30 17:29:43.789176918 -0600 runSimulation
+drwxrwxr-x 2 sfallas_II_2024_vlsi sfallas_II_2024_vlsi 4096 2024-11-30 17:29:44.320189087 -0600 .
+-rw-rw-r-- 1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi  543 2024-11-30 17:29:44.998204624 -0600 .simRun.xml

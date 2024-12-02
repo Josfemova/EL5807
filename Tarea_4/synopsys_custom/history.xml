@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Mon Dec  2 14:51:05 2024
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file mode="write" cell="counter_8b_test_schem_power" view="config" library="tarea4" file="config.xml"/>
+                <file mode="write" cell="counter_8b_test_schem_power" view="FineSim_default" library="tarea4" file="saeState"/>
+                <file mode="write" cell="counter_8b_test_mix" view="FineSim_VCS_default" library="tarea4" file="saeState"/>
+                <file mode="write" cell="counter_8b_test_mix" view="config" library="tarea4" file="config.xml"/>
+                <file mode="write" cell="counter_1b_schem" view="starrc_RC" library="tarea4" file="maskLayout"/>
+        </recentFiles>
+</synopsysFile>

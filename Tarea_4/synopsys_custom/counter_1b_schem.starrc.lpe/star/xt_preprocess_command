@@ -1,0 +1,192 @@
+LAYER_FILE layers
+** Generated layers
+OP tub1_hvnw_t AND pcap_tub1_hvnwt => tub1_hvnw_t:pcap_tub1_hvnwt:p_cap
+DELETE pcap_tub1_hvnwt
+OP hwafer_t AND pcap_tub1_hvnwt => hwafer_t:pcap_tub1_hvnwt:p_cap
+DELETE pcap_tub1_hvnwt
+OP tub1_hvnw_t AND pcap_tub1_hvnwb => tub1_hvnw_t:pcap_tub1_hvnwb:p_cap:%:pcap_tub1_hvnwb:%::%:0
+DELETE pcap_tub1_hvnwb
+OP hwafer_b AND pcap_tub1_hvnwb => hwafer_b:pcap_tub1_hvnwb:p_cap:%:pcap_tub1_hvnwb:%::%:0
+DELETE pcap_tub1_hvnwb
+OP bulk AND pcap_tub1_bulkt => bulk:pcap_tub1_bulkt:p_cap:%:pcap_tub1_bulkt:%::%:0
+DELETE pcap_tub1_bulkt
+OP hwafer_t AND pcap_tub1_bulkt => hwafer_t:pcap_tub1_bulkt:p_cap:%:pcap_tub1_bulkt:%::%:0
+DELETE pcap_tub1_bulkt
+OP bulk AND pcap_tub1_bulkb => bulk:pcap_tub1_bulkb:p_cap:%:pcap_tub1_bulkb:%::%:0
+DELETE pcap_tub1_bulkb
+OP hwafer_b AND pcap_tub1_bulkb => hwafer_b:pcap_tub1_bulkb:p_cap:%:pcap_tub1_bulkb:%::%:0
+DELETE pcap_tub1_bulkb
+OP m1atrm AND d_csf2p => m1atrm:d_csf2p:csf2p
+DELETE d_csf2p
+OP m1btrm AND d_csf2p => m1btrm:d_csf2p:csf2p
+DELETE d_csf2p
+OP m1atrm AND d_csf3 => m1atrm:d_csf3:csf3
+DELETE d_csf3
+OP m1btrm AND d_csf3 => m1btrm:d_csf3:csf3
+DELETE d_csf3
+OP m1atrm AND d_csf3p => m1atrm:d_csf3p:csf3p
+DELETE d_csf3p
+OP m1btrm AND d_csf3p => m1btrm:d_csf3p:csf3p
+DELETE d_csf3p
+OP m1atrm AND d_csf3a => m1atrm:d_csf3a:csf3a
+DELETE d_csf3a
+OP m1btrm AND d_csf3a => m1btrm:d_csf3a:csf3a
+DELETE d_csf3a
+OP m1trm AND d_cswt3 => m1trm:d_cswt3:csandwt3
+DELETE d_cswt3
+OP p1trm AND d_cswt3 => p1trm:d_cswt3:csandwt3
+DELETE d_cswt3
+OP m1aftrm AND d_cif3 => m1aftrm:d_cif3:cif3
+DELETE d_cif3
+OP m1bftrm AND d_cif3 => m1bftrm:d_cif3:cif3
+DELETE d_cif3
+OP m1aftrm AND d_cif3a => m1aftrm:d_cif3a:cif3a
+DELETE d_cif3a
+OP m1bftrm AND d_cif3a => m1bftrm:d_cif3a:cif3a
+DELETE d_cif3a
+OP m1atrm AND d_csf4 => m1atrm:d_csf4:csf4
+DELETE d_csf4
+OP m1btrm AND d_csf4 => m1btrm:d_csf4:csf4
+DELETE d_csf4
+OP m1atrm AND d_csf4a => m1atrm:d_csf4a:csf4a
+DELETE d_csf4a
+OP m1btrm AND d_csf4a => m1btrm:d_csf4a:csf4a
+DELETE d_csf4a
+OP m1trm AND d_cswt4 => m1trm:d_cswt4:csandwt4
+DELETE d_cswt4
+OP p1trm AND d_cswt4 => p1trm:d_cswt4:csandwt4
+DELETE d_cswt4
+OP m1aftrm AND d_cif4 => m1aftrm:d_cif4:cif4
+DELETE d_cif4
+OP m1bftrm AND d_cif4 => m1bftrm:d_cif4:cif4
+DELETE d_cif4
+OP m1aftrm AND d_cif4a => m1aftrm:d_cif4a:cif4a
+DELETE d_cif4a
+OP m1bftrm AND d_cif4a => m1bftrm:d_cif4a:cif4a
+DELETE d_cif4a
+OP m1atrm AND d_csft5 => m1atrm:d_csft5:csft5
+DELETE d_csft5
+OP m1btrm AND d_csft5 => m1btrm:d_csft5:csft5
+DELETE d_csft5
+OP m1atrm AND d_csft5a => m1atrm:d_csft5a:csft5a
+DELETE d_csft5a
+OP m1btrm AND d_csft5a => m1btrm:d_csft5a:csft5a
+DELETE d_csft5a
+OP m1aftrm AND d_cift5 => m1aftrm:d_cift5:cift5
+DELETE d_cift5
+OP m1bftrm AND d_cift5 => m1bftrm:d_cift5:cift5
+DELETE d_cift5
+OP m1aftrm AND d_cift5a => m1aftrm:d_cift5a:cift5a
+DELETE d_cift5a
+OP m1bftrm AND d_cift5a => m1bftrm:d_cift5a:cift5a
+DELETE d_cift5a
+OP capm23f AND cmim23f => capm23f:cmim23f:cmm3
+DELETE cmim23f
+OP m2trm AND cmim23f => m2trm:cmim23f:cmm3
+DELETE cmim23f
+OP capmh23f AND cmimh23f => capmh23f:cmimh23f:cmmh3
+DELETE cmimh23f
+OP m2trm AND cmimh23f => m2trm:cmimh23f:cmmh3
+DELETE cmimh23f
+OP capm34f AND cmim34f => capm34f:cmim34f:cmm4
+DELETE cmim34f
+OP m3trm AND cmim34f => m3trm:cmim34f:cmm4
+DELETE cmim34f
+OP capmh34f AND cmimh34f => capmh34f:cmimh34f:cmmh4
+DELETE cmimh34f
+OP m3trm AND cmimh34f => m3trm:cmimh34f:cmmh4
+DELETE cmimh34f
+OP capm2_b AND cdmm => capm2_b:cdmm:cdmm4
+DELETE cdmm
+OP m2trm AND cdmm => m2trm:cdmm:cdmm4
+DELETE cdmm
+OP capmh2_b AND cdmmh => capmh2_b:cdmmh:cdmmh4
+DELETE cdmmh
+OP m2trm AND cdmmh => m2trm:cdmmh:cdmmh4
+DELETE cdmmh
+OP capm AND cmim => capm:cmim:cmm5t
+DELETE cmim
+OP m4trm AND cmim => m4trm:cmim:cmm5t
+DELETE cmim
+OP capmh AND cmimh => capmh:cmimh:cmmh5t
+DELETE cmimh
+OP m4trm AND cmimh => m4trm:cmimh:cmmh5t
+DELETE cmimh
+OP capm3_b AND ctmm => capm3_b:ctmm:ctmm5t
+DELETE ctmm
+OP m2trm AND ctmm => m2trm:ctmm:ctmm5t
+DELETE ctmm
+OP capmh3_b AND ctmmh => capmh3_b:ctmmh:ctmmh5t
+DELETE ctmmh
+OP m2trm AND ctmmh => m2trm:ctmmh:ctmmh5t
+DELETE ctmmh
+OP capm2a_b AND cdmma => capm2a_b:cdmma:cdmm5t
+DELETE cdmma
+OP m3trm AND cdmma => m3trm:cdmma:cdmm5t
+DELETE cdmma
+OP capmh2a_b AND cdmmha => capmh2a_b:cdmmha:cdmmh5t
+DELETE cdmmha
+OP m3trm AND cdmmha => m3trm:cdmmha:cdmmh5t
+DELETE cdmmha
+OP m1trm AND d_csp5tl => m1trm:d_csp5tl:csp5tl_3
+DELETE d_csp5tl
+OP ndiff AND d_csp5tl => ndiff:d_csp5tl:csp5tl_3
+DELETE d_csp5tl
+OP m2trm AND d_csp5tla => m2trm:d_csp5tla:csp5tla_3
+DELETE d_csp5tla
+OP ndiff AND d_csp5tla => ndiff:d_csp5tla:csp5tla_3
+DELETE d_csp5tla
+
+** Layers separation
+OP p1trm NOT d_cswt3 d_cswt4 => p1trm
+DELETE p1trm
+OP m1trm NOT d_cswt3 d_cswt4 d_csp5tl => m1trm
+DELETE m1trm
+OP m2trm NOT d_csp5tla cdmm cdmmh ctmm ctmmh cmim23f cmimh23f => m2trm
+DELETE m2trm
+OP m3trm NOT cmimh34f cdmma cdmmha cmim34f => m3trm
+DELETE m3trm
+OP m4trm NOT cmim cmimh => m4trm
+DELETE m4trm
+OP ndiff NOT d_csp5tl d_csp5tla => ndiff
+DELETE ndiff
+OP bulk NOT pcap_tub1_bulkt pcap_tub1_bulkb => bulk
+DELETE bulk
+OP tub1_hvnw_t NOT pcap_tub1_hvnwt pcap_tub1_hvnwb => tub1_hvnw_t
+DELETE tub1_hvnw_t
+OP hwafer_t NOT pcap_tub1_hvnwt pcap_tub1_bulkt => hwafer_t
+DELETE hwafer_t
+OP hwafer_b NOT pcap_tub1_hvnwb pcap_tub1_bulkb => hwafer_b
+DELETE hwafer_b
+OP m1atrm NOT d_csf2p d_csf3 d_csf3a d_csf3p d_csf4 d_csf4a d_csft5 d_csft5a => m1atrm
+DELETE m1atrm
+OP m1btrm NOT d_csf2p d_csf3 d_csf3a d_csf3p d_csf4 d_csf4a d_csft5 d_csft5a => m1btrm
+DELETE m1btrm
+OP m1aftrm NOT d_cif3 d_cif3a d_cif4 d_cif4a d_cift5 d_cift5a => m1aftrm
+DELETE m1aftrm
+OP m1bftrm NOT d_cif3 d_cif3a d_cif4 d_cif4a d_cift5 d_cift5a => m1bftrm
+DELETE m1bftrm
+OP capm NOT cmim => capm
+DELETE capm
+OP capmh NOT cmimh => capmh
+DELETE capmh
+OP capmh3_b NOT ctmmh => capmh3_b
+DELETE capmh3_b
+OP capm3_b NOT ctmm => capm3_b
+DELETE capm3_b
+OP capmh2_b NOT cdmmh => capmh2_b
+DELETE capmh2_b
+OP capm2_b NOT cdmm => capm2_b
+DELETE capm2_b
+OP capmh2a_b NOT cdmmha => capmh2a_b
+DELETE capmh2a_b
+OP capm2a_b NOT cdmma => capm2a_b
+DELETE capm2a_b
+OP capm23f NOT cmim23f => capm23f
+DELETE capm23f
+OP capmh23f NOT cmimh23f => capmh23f
+DELETE capmh23f
+OP capm34f NOT cmim34f => capm34f
+DELETE capm34f
+OP capmh34f NOT cmimh34f => capmh34f
+DELETE capmh34f

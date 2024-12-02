@@ -1,0 +1,4 @@
+PE::PE { }
+NE::NE { }
+P_DNW::P_DNW { }
+adder::adder { P_DNW::P_DNW NE::NE PE::PE }

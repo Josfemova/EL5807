@@ -1,0 +1,22 @@
+create_xin_writer; sort_xin_in_memory YES cut_trap YES track_fill_detection NO
+Completed   0%  Time=00:00:00  RemainingTime=00:00:00  Mem=587.242
+Registered Preprocess Layers: 1,2,3,4,5,8,15,34,35,36,39,40,41,42,57,58,61,64,66,68,70,72,73,74,75,76,80,82,83,84,86,87,89,90,235,236,237,238,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,
+Registered Suppress Layers: 1,2,3,4,5,8,15,34,35,36,39,40,41,42,57,58,61,64,66,68,70,72,73,74,75,76,80,82,83,84,86,87,89,90,235,236,237,238,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,
+PreprocessLayerManager output bypassed trapezoid count: 277
+Completed  10%  Time=00:00:00  RemainingTime=00:00:01  Mem=940.891
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=940.891
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=940.891
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=940.891
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=940.891
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=940.891
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=581.5 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=586.6 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=587.2 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.2    Mem=940.9 
+Flush Writer        Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=940.9 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.2    Mem=940.9 
+
+End Time: Sun Dec  1 21:45:43 2024
+

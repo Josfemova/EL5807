@@ -1,0 +1,7 @@
+# Master Broadcast File
+time 1733008639
+pid 427042
+log /mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/synopsys_custom/pwdp_jobs/saeSession22_FineSimcriticalpathCISimulation_cdpl.25.427042/logs/master.redhat003.427042.log.gz
+tcp 172.21.8.7:36841
+wlog /dev/null
+status done

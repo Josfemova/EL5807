@@ -1,0 +1,18 @@
+********************************************************************************
+* Library          : tarea4
+* Cell             : counter_1b_schem
+* View             : schematic
+* View Search List : auCdl cmos_sch schematic
+* View Stop List   : auCdl
+********************************************************************************
+.subckt counter_1b_schem ci clock_n co data down_up hold_n load q qn reset_n
++ gnd! vdd!
+*.PININFO ci:I clock_n:I co:O data:I down_up:I hold_n:I load:I q:O qn:O
+*.PININFO reset_n:I gnd!:B vdd!:B
+XI0 down_up q ci co net8 gnd! vdd! / FAHDLLX0
+XI4 q net20 net17 hold_n gnd! vdd! / MU2HDLLX0
+XI1 net8 data net20 load gnd! vdd! / MU2HDLLX0
+XI2 net17 reset_n d gnd! vdd! / AND2HDLLX0
+XI3 clock_n d q qn gnd! vdd! / DFFHDLLX0
+.ends counter_1b_schem
+

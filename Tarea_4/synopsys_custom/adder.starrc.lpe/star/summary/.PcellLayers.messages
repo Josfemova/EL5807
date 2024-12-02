@@ -1,0 +1,226 @@
+create_xin_writer; sort_xin_in_memory YES cut_trap NO track_fill_detection NO
+Size: 365 : 5000, 5000
+Size: 366 : 5000, 5000
+Size: 330 : 100, 100
+Size: 332 : 100, 100
+Size: 333 : 100, 100
+Size: 331 : 100, 100
+Size: 368 : 100, 100
+Size: 329 : 100, 100
+Size: 357 : 5000, 5000
+Size: 358 : 5000, 5000
+Size: 326 : 100, 100
+Size: 327 : 100, 100
+Size: 328 : 100, 100
+Size: 349 : 5000, 5000
+Size: 350 : 5000, 5000
+Size: 272 : 100, 100
+Size: 273 : 100, 100
+Size: 271 : 100, 100
+Size: 297 : 10, 10
+Size: 298 : 10, 10
+Size: 299 : 10, 10
+Size: 300 : 10, 10
+Size: 296 : 10, 10
+Size: 291 : 10, 10
+Size: 292 : 10, 10
+Size: 293 : 10, 10
+Size: 294 : 10, 10
+Size: 295 : 10, 10
+Size: 314 : 100, 100
+Size: 351 : 5000, 5000
+Size: 352 : 5000, 5000
+Size: 353 : 5000, 5000
+Size: 354 : 5000, 5000
+Size: 355 : 5000, 5000
+Size: 356 : 5000, 5000
+Size: 322 : 100, 100
+Size: 323 : 100, 100
+Size: 324 : 100, 100
+Size: 325 : 100, 100
+Size: 317 : 100, 100
+Size: 316 : 100, 100
+Size: 341 : 5000, 5000
+Size: 342 : 5000, 5000
+Size: 344 : 5000, 5000
+Size: 345 : 5000, 5000
+Size: 346 : 5000, 5000
+Size: 347 : 5000, 5000
+Size: 348 : 5000, 5000
+Size: 367 : 100, 100
+Size: 321 : 100, 100
+Size: 275 : 100, 100
+Size: 276 : 100, 100
+Size: 274 : 100, 100
+Size: 281 : 10, 10
+Size: 282 : 10, 10
+Size: 283 : 10, 10
+Size: 284 : 10, 10
+Size: 285 : 10, 10
+Size: 277 : 10, 10
+Size: 278 : 10, 10
+Size: 279 : 10, 10
+Size: 280 : 10, 10
+Size: 288 : 10, 10
+Size: 289 : 10, 10
+Size: 290 : 10, 10
+Size: 286 : 10, 10
+Size: 287 : 10, 10
+Size: 315 : 100, 100
+Size: 359 : 5000, 5000
+Size: 360 : 5000, 5000
+Size: 361 : 5000, 5000
+Size: 362 : 5000, 5000
+Size: 363 : 5000, 5000
+Size: 364 : 5000, 5000
+Size: 318 : 100, 100
+Size: 319 : 100, 100
+Size: 320 : 100, 100
+Size: 334 : 5000, 5000
+Size: 335 : 5000, 5000
+Size: 336 : 5000, 5000
+Size: 337 : 5000, 5000
+Size: 338 : 5000, 5000
+Size: 339 : 5000, 5000
+Size: 340 : 5000, 5000
+BLOCK Boundary: 31 -14300 -14000 131900 61200
+BLOCK Boundary: 32 1400 11300 6200 15500
+BLOCK Boundary: 33 1400 24100 6200 31100
+BLOCK Boundary: 34 5600 -2100 16800 3100
+BLOCK Boundary: 35 5600 41700 28000 46900
+BLOCK Boundary: 36 6600 3100 11500 15500
+BLOCK Boundary: 37 14300 9600 19100 13800
+BLOCK Boundary: 38 21200 9600 23700 13800
+BLOCK Boundary: 39 6600 24100 27450 41700
+BLOCK Boundary: 40 25800 9600 28300 13800
+BLOCK Boundary: 41 28000 -2100 33600 2100
+BLOCK Boundary: 42 29550 28000 35000 35000
+BLOCK Boundary: 43 30400 9600 35800 13800
+BLOCK Boundary: 44 37900 9600 43300 13800
+BLOCK Boundary: 45 37100 28000 43300 38350
+BLOCK Boundary: 46 39200 42700 44800 46900
+BLOCK Boundary: 47 44800 -2100 50400 2100
+BLOCK Boundary: 48 45400 28000 47900 35000
+BLOCK Boundary: 49 45400 5900 51800 13800
+BLOCK Boundary: 50 50000 28000 52500 35000
+BLOCK Boundary: 51 53900 9600 59300 13800
+BLOCK Boundary: 52 56000 42700 61600 46900
+BLOCK Boundary: 53 54600 25500 60800 35200
+BLOCK Boundary: 54 61400 9600 66200 13800
+BLOCK Boundary: 55 61600 -2100 67200 2100
+BLOCK Boundary: 56 62900 29400 68100 38900
+BLOCK Boundary: 57 67250 22400 72100 29400
+BLOCK Boundary: 58 69000 9600 73800 13800
+BLOCK Boundary: 59 72800 42700 78400 46900
+BLOCK Boundary: 60 73200 22400 78400 38900
+BLOCK Boundary: 61 75900 9600 81300 13800
+BLOCK Boundary: 62 78400 -2100 84000 2100
+BLOCK Boundary: 63 80500 24550 85900 31550
+BLOCK Boundary: 64 83400 9600 85900 13800
+BLOCK Boundary: 65 88000 9600 93500 13800
+BLOCK Boundary: 66 88000 24550 93450 38000
+BLOCK Boundary: 67 89600 42700 95200 46900
+BLOCK Boundary: 68 94000 25200 98800 32200
+BLOCK Boundary: 69 95200 -2100 100800 2100
+BLOCK Boundary: 70 95600 9600 101000 13800
+BLOCK Boundary: 71 100900 25200 106300 32200
+BLOCK Boundary: 72 103100 5900 109300 13800
+BLOCK Boundary: 73 108400 25200 110900 32200
+BLOCK Boundary: 74 111400 9600 116200 13800
+BLOCK Boundary: 75 112000 -2100 117600 2100
+BLOCK Boundary: 76 112000 41700 117600 46900
+BLOCK Boundary: 77 112000 25200 116200 41700
+pcell name :px_hwafer_t
+m_layerMap:px_hwafer_t:ndiff ndiff 1
+m_layerMap:px_hwafer_t:pdiff pdiff 1
+m_layerMap:px_hwafer_t:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_hwafer_t:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_hwafer_t:ntap ntap 1
+m_layerMap:px_hwafer_t:ptap ptap 1
+m_layerMap:px_hwafer_t:npdtap npdtap 1
+m_layerMap:px_hwafer_t:nwtrm nwtrm 1
+m_layerMap:px_hwafer_t:bulk bulk 1
+m_layerMap:px_hwafer_t:hwafer_t hwafer_t 1
+DELETE px_hwafer_t
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,372,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,372,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 299
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.6 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.6 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=498.0 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=563.4 
+pcell name :px_ndiff
+m_layerMap:px_ndiff:ndiff ndiff 1
+m_layerMap:px_ndiff:pdiff pdiff 1
+m_layerMap:px_ndiff:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_ndiff:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_ndiff:ntap ntap 1
+m_layerMap:px_ndiff:ptap ptap 1
+m_layerMap:px_ndiff:npdtap npdtap 1
+m_layerMap:px_ndiff:nwtrm nwtrm 1
+m_layerMap:px_ndiff:bulk bulk 1
+m_layerMap:px_ndiff:hwafer_t hwafer_t 1
+DELETE px_ndiff
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,369,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,369,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 445
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Execute Command     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+pcell name :px_pdiff
+m_layerMap:px_pdiff:ndiff ndiff 1
+m_layerMap:px_pdiff:pdiff pdiff 1
+m_layerMap:px_pdiff:ndiff:d_csp5tl:csp5tl_3 ndiff:d_csp5tl:csp5tl_3 1
+m_layerMap:px_pdiff:ndiff:d_csp5tla:csp5tla_3 ndiff:d_csp5tla:csp5tla_3 1
+m_layerMap:px_pdiff:ntap ntap 1
+m_layerMap:px_pdiff:ptap ptap 1
+m_layerMap:px_pdiff:npdtap npdtap 1
+m_layerMap:px_pdiff:nwtrm nwtrm 1
+m_layerMap:px_pdiff:bulk bulk 1
+m_layerMap:px_pdiff:hwafer_t hwafer_t 1
+DELETE px_pdiff
+Registered Preprocess Layers: 8,9,11,12,13,14,15,35,370,461,463,
+Registered Suppress Layers: 8,9,11,12,13,14,15,35,370,461,463,
+PreprocessLayerManager output bypassed trapezoid count: 474
+  
+xTractor PreProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Parse Command       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Prepare Layer       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Execute Command     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+Flush Writer        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.4 
+WARNING: Some blocking regions are not blocked any port, device terminal, or probe_text. (SX-3197)
+----------------------------------------------
+Blocking shape:px_hwafer_t (-14300 -14000 131900 61200)
+ Blocked layer name:hwafer_t
+ Net name:N__generated_21
+ ----------------------------------------------
+
+Pcell Layers Polygons Summary:
+
+Blocked Layer                           Count
+---------------------------------------------
+ndiff                                   29
+pdiff                                   47
+ntap                                    8
+ptap                                    8
+npdtap                                  3
+nwtrm                                   2
+bulk                                    1
+hwafer_t                                1
+---------------------------------------------
+BLOCKING_Layer: 99
+
+
+End Time: Sun Dec  1 21:45:44 2024
+

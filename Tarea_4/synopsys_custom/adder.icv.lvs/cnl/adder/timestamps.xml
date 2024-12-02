@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Dec  1 21:44:05 2024-->
+<file-format name="netlisting-timestamps" version="2.0">
+<module contextID="switched: tarea4 adder schematic vl: auCdl cmos_sch schematic sl: auCdl" timestamp="118423" viewStopList="auCdl" isSubcircuit="1" viewSearchList="auCdl cmos_sch schematic">
+<LineageParams/>
+<ParentParams/>
+<parameterizedConnections>
+<connectDefs timestamp="118401"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters/>
+<lib_parameters timestamp="1"/>
+<Terms timestamp="118037"/>
+<PortOrder><![CDATA[ABCICOSgnd!vdd!]]></PortOrder>
+<ShortOptions timestamp="1009512283"/>
+</module>
+</file-format>

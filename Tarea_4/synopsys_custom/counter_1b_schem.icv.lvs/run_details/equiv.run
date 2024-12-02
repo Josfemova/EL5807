@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"counter_1b_schem", "counter_1b_schem"}});
+
+/* Generated system equivalence points are listed in this section */

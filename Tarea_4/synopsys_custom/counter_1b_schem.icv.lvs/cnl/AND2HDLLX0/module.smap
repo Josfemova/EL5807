@@ -1,0 +1,37 @@
+<module name="vsl: D_CELLS_HDLL AND2HDLLX0 cmos_sch vl: auCdl cmos_sch schematic">
+<scope name="Instance">
+<forward>
+<mapping src="invr_1" dst="Xinvr_1"/>
+<mapping src="nand2_1" dst="Xnand2_1"/>
+</forward>
+<reverse>
+<mapping src="Xinvr_1" dst="invr_1"/>
+<mapping src="Xnand2_1" dst="nand2_1"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward/>
+<reverse/>
+</scope>
+<scope name="simInfo">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A B Q vt_ground_gnd_gnd! vt_power_vdd_vdd!"/>
+<mapping src="&lt;termOrder>" dst="A B Q vt_ground_gnd_gnd! vt_power_vdd_vdd!"/>
+</forward>
+<reverse>
+<mapping src="A B Q vt_ground_gnd_gnd! vt_power_vdd_vdd!" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="invr">
+<instance name="invr_1"/>
+</instance_header>
+<instance_header master="nand2">
+<instance name="nand2_1"/>
+</instance_header>
+</master_instances>
+</module>

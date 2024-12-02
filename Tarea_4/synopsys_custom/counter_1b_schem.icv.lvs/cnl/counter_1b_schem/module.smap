@@ -1,0 +1,50 @@
+<module name="vsl: tarea4 counter_1b_schem schematic vl: auCdl cmos_sch schematic">
+<scope name="Instance">
+<forward>
+<mapping src="I3" dst="XI3"/>
+<mapping src="I2" dst="XI2"/>
+<mapping src="I1" dst="XI1"/>
+<mapping src="I4" dst="XI4"/>
+<mapping src="I0" dst="XI0"/>
+</forward>
+<reverse>
+<mapping src="XI3" dst="I3"/>
+<mapping src="XI2" dst="I2"/>
+<mapping src="XI1" dst="I1"/>
+<mapping src="XI4" dst="I4"/>
+<mapping src="XI0" dst="I0"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward/>
+<reverse/>
+</scope>
+<scope name="simInfo">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="ci clock_n co data down_up hold_n load q qn reset_n gnd! vdd!"/>
+<mapping src="&lt;termOrder>" dst="ci clock_n co data down_up hold_n load q qn reset_n gnd! vdd!"/>
+</forward>
+<reverse>
+<mapping src="ci clock_n co data down_up hold_n load q qn reset_n gnd! vdd!" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="AND2HDLLX0">
+<instance name="I2"/>
+</instance_header>
+<instance_header master="DFFHDLLX0">
+<instance name="I3"/>
+</instance_header>
+<instance_header master="FAHDLLX0">
+<instance name="I0"/>
+</instance_header>
+<instance_header master="MU2HDLLX0">
+<instance name="I1"/>
+<instance name="I4"/>
+</instance_header>
+</master_instances>
+</module>

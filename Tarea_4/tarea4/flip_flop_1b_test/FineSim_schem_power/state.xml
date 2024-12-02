@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Dec  1 11:30:27 2024-->
+<file-format name="stateData" version="1.0">
+ <attribute name="description" type="giString" value=""/>
+ <attribute name="design" type="dmCellView" value="tarea4/flip_flop_1b_test/schematic"/>
+ <attribute name="enabled" type="giBoolean" value="1"/>
+ <attribute name="enabledJobClass" type="giBoolean" value="0"/>
+ <attribute name="migratedSimulator" type="giString" value=""/>
+ <attribute name="name" type="giString" value="FineSim_schem_power"/>
+ <attribute name="openaccessState" type="dmCellView" value="tarea4/flip_flop_1b_test/FineSim_schem_power"/>
+ <attribute name="simulator" type="giString" value="FineSimPro"/>
+ <comment></comment>
+ <resultsDir>~/simulation</resultsDir>
+ <enableTestbenchHistory>0</enableTestbenchHistory>
+ <integration version="1"/>
+</file-format>

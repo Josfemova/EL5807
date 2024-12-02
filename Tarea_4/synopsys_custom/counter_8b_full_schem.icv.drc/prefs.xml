@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--Custom Compiler Version U-2023.03-SP2-->
+<file-format version="2.0" name="synopsysPrefs"/>
+<preferences>
+	<pref name="xtDRCICVControlVariablesTableConfig" value="1 222 0 100 0 100 1 727 1 100"/>
+	<pref name="xtDRCLayCell" value="counter_8b_full_schem"/>
+	<pref name="xtDRCLayLCV" value="tarea4/counter_8b_full_schem/layout"/>
+	<pref name="xtDRCLayOasisFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/synopsys_custom/counter_8b_full_schem.icv.drc/counter_8b_full_schem.custom_compiler.oas"/>
+	<pref name="xtDRCLayStreamFile" value="/mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/synopsys_custom/counter_8b_full_schem.icv.drc/counter_8b_full_schem.custom_compiler.gds"/>
+	<pref name="xtDRCTool" value="IC Validator"/>
+</preferences>
+

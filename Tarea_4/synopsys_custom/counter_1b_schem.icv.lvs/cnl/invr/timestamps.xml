@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Dec  2 13:21:40 2024-->
+<file-format version="2.0" name="netlisting-timestamps">
+<module contextID="switched: GATES_HD invr schematic vl: auCdl cmos_sch schematic sl: auCdl" isSubcircuit="1" viewStopList="auCdl" viewSearchList="auCdl cmos_sch schematic" timestamp="4329">
+<LineageParams/>
+<ParentParams>
+<map value="" name="GT_PDL"/>
+<map value="" name="GT_PDW"/>
+<map value="" name="GT_PUL"/>
+<map value="" name="GT_PUW"/>
+<map value="" name="lc"/>
+<map value="" name="sx"/>
+</ParentParams>
+<parameterizedConnections>
+<connectDefs timestamp="4311"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="1"/>
+<lib_parameters timestamp="23"/>
+<Terms timestamp="4255"/>
+<PortOrder><![CDATA[inoutvt_ground_gnd_gnd!vt_power_vdd_vdd!]]></PortOrder>
+<ShortOptions timestamp="1009512283"/>
+</module>
+</file-format>

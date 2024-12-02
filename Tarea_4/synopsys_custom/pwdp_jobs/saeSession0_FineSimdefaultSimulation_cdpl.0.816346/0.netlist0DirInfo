@@ -1,0 +1,6 @@
+total 16
+drwxrwxr-x  5 sfallas_II_2024_vlsi sfallas_II_2024_vlsi   67 2024-11-30 16:03:15.244550049 -0600 ..
+drwxrwxr-x 11 sfallas_II_2024_vlsi sfallas_II_2024_vlsi 4096 2024-12-01 14:15:12.186151332 -0600 cnl
+drwxrwxr-x  3 sfallas_II_2024_vlsi sfallas_II_2024_vlsi   51 2024-12-01 15:35:14.388412268 -0600 .
+-rw-rw-r--  1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi 6531 2024-12-01 15:35:14.482414394 -0600 netlist
+-rw-rw-r--  1 sfallas_II_2024_vlsi sfallas_II_2024_vlsi  700 2024-12-01 15:35:14.495414688 -0600 .simRun.xml

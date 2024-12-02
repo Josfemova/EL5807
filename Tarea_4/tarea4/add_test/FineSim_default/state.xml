@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sun Dec  1 15:42:38 2024-->
+<file-format name="stateData" version="1.0">
+ <attribute name="description" value="" type="giString"/>
+ <attribute name="design" value="tarea4/add_test/schematic" type="dmCellView"/>
+ <attribute name="enabled" value="1" type="giBoolean"/>
+ <attribute name="enabledJobClass" value="0" type="giBoolean"/>
+ <attribute name="migratedSimulator" value="" type="giString"/>
+ <attribute name="name" value="FineSim_default" type="giString"/>
+ <attribute name="openaccessState" value="tarea4/add_test/FineSim_default" type="dmCellView"/>
+ <attribute name="simulator" value="FineSimPro" type="giString"/>
+ <comment></comment>
+ <resultsDir>~/simulation</resultsDir>
+ <enableTestbenchHistory>0</enableTestbenchHistory>
+ <integration version="1"/>
+</file-format>

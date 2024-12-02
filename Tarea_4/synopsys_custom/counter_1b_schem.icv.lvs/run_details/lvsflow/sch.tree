@@ -1,0 +1,35 @@
+counter_1b_schem Level=0 Count=1
+   AND2HDLLX0 Level=1 Count=1
+   FAHDLLX0 Level=1 Count=1
+   DFFHDLLX0 Level=1 Count=1
+   MU2HDLLX0 Level=1 Count=2
+
++--------------------------------------------------------------------------+
+|                             CELL STATISTICS                              |
++--------------------------------------------------------------------------+
+
+
+CELL = counter_1b_schem
+	Flat Placements      =	1
+
+CELL = MU2HDLLX0
+	Flat Placements      =	2
+
+CELL = AND2HDLLX0
+	Flat Placements      =	1
+
+CELL = FAHDLLX0
+	Flat Placements      =	1
+
+CELL = DFFHDLLX0
+	Flat Placements      =	1
+
+TOP CELL = counter_1b_schem
+	Ports                =	12
+
++--------------------------------------------------------------------------+
+|                            DEVICE STATISTICS                             |
++--------------------------------------------------------------------------+
+
+	NMOS[NE] = 43
+	PMOS[PE] = 43

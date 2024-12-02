@@ -1,0 +1,4 @@
+PE { }
+adder { P_DNW NE PE }
+NE { }
+P_DNW { }

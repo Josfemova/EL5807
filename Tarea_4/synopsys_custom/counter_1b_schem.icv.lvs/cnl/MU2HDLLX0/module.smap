@@ -1,0 +1,43 @@
+<module name="vsl: D_CELLS_HDLL MU2HDLLX0 cmos_sch vl: auCdl cmos_sch schematic">
+<scope name="Instance">
+<forward>
+<mapping src="invr_2" dst="Xinvr_2"/>
+<mapping src="invr_1" dst="Xinvr_1"/>
+<mapping src="clinvr_2" dst="Xclinvr_2"/>
+<mapping src="clinvr_1" dst="Xclinvr_1"/>
+</forward>
+<reverse>
+<mapping src="Xinvr_2" dst="invr_2"/>
+<mapping src="Xinvr_1" dst="invr_1"/>
+<mapping src="Xclinvr_2" dst="clinvr_2"/>
+<mapping src="Xclinvr_1" dst="clinvr_1"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward/>
+<reverse/>
+</scope>
+<scope name="simInfo">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="IN0 IN1 Q S vt_ground_gnd_gnd! vt_power_vdd_vdd!"/>
+<mapping src="&lt;termOrder>" dst="IN0 IN1 Q S vt_ground_gnd_gnd! vt_power_vdd_vdd!"/>
+</forward>
+<reverse>
+<mapping src="IN0 IN1 Q S vt_ground_gnd_gnd! vt_power_vdd_vdd!" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="clinvr">
+<instance name="clinvr_1"/>
+<instance name="clinvr_2"/>
+</instance_header>
+<instance_header master="invr">
+<instance name="invr_1"/>
+<instance name="invr_2"/>
+</instance_header>
+</master_instances>
+</module>

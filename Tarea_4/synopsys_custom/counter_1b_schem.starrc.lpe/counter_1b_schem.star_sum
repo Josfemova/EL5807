@@ -1,0 +1,273 @@
+
+                                  StarRC (TM)
+
+               Version U-2022.12-SP5 for linux64 - Jul 11, 2023 
+
+                    Copyright (c) 1999 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+ExecName: /mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/bin/StarXtract
+Version: U-2022.12-SP5
+Built on: Jul 11 2023 20:05:46
+Start Time: Mon Dec  2 13:59:07 2024
+
+Host ............ redhat003
+
+xTractorName: /mnt/vol_synopsys2023/synopsys/starrc/U-2022.12-SP5/linux64_starrc/bin/xTractor
+Version: U-2022.12-SP5
+Built on: Jul 11 2023 20:05:39
+
+Called as: StarXtract /mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/synopsys_custom/counter_1b_schem.starrc.lpe/star_cmd.custom_compiler 
+Run Directory: /mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/synopsys_custom/counter_1b_schem.starrc.lpe
+
+Block ........... counter_1b_schem
+Star Directory ..
+ /mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/synopsys_custom/counter_1b_schem.starrc.lpe/star
+
+Milkyway DB .....
+ /mnt/vol_NFS_rh003/Est_VLSI_II_2024/sfallas/EL5807/Tarea_4/synopsys_custom/counter_1b_schem.icv.lvs/STARRC_XTR
+
+ Ref Libs Report is skipped.
+WARNING: DENSITY_BASED_THICKNESS: YES is ignored since there is no thickness variation modeling. (SX-0685)
+  Setup         Elp=00:00:03 Cpu=00:00:01 Usr=1.9    Sys=0.0    Mem=656.3 
+Done
+
+Map Layers:  Mon Dec  2 13:59:10 2024
+  Warnings: 0    Errors: 0
+  Layers        Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=664.9 
+Done
+
+Create Models:  Mon Dec  2 13:59:10 2024
+  Warnings: 0    Errors: 0
+  Models        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+Done
+
+Build HN:  Mon Dec  2 13:59:12 2024
+  Warnings: 0    Errors: 0
+  HN            Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=675.6 
+Done
+
+Process Cells:  Mon Dec  2 13:59:13 2024
+  Warnings: 0    Errors: 0
+  Cells         Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=656.4 
+Done
+
+Translate DB:  Mon Dec  2 13:59:14 2024
+  Warnings: 0    Errors: 0
+  Translate     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+Done
+
+Handle Bulk Layer:  Mon Dec  2 13:59:15 2024
+  Warnings: 0    Errors: 0
+  BulkLayerHandling Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.5 
+Done
+
+xTract Preprocess DB:  Mon Dec  2 13:59:15 2024
+Completed   0%  Time=00:00:00  RemainingTime=00:00:00  Mem=587.238
+Completed  10%  Time=00:00:00  RemainingTime=00:00:01  Mem=940.887
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=940.887
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=940.887
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=940.887
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=940.887
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=940.887
+  Warnings: 0    Errors: 0
+  XtractPreP    Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.2    Mem=940.9 
+Done
+
+Pcell Layers:  Mon Dec  2 13:59:17 2024
+WARNING: Some blocking regions are not blocked any port, device terminal, or probe_text. (SX-3197)
+  Warnings: 1    Errors: 0    (See file summary/pcelllayers.sum)
+  PcellLayers   Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.6 
+Done
+
+Netlist Setup:  Mon Dec  2 13:59:18 2024
+  Warnings: 0    Errors: 0
+  NetlistSetup  Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+Done
+
+GPD XtractSetup:  Mon Dec  2 13:59:21 2024
+  Warnings: 0    Errors: 0
+  GPD_XtractSetup Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+Done
+
+GPD Instance Setup:  Mon Dec  2 13:59:23 2024
+  Warnings: 0    Errors: 0
+  GPD_Instance_Setup Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+Done
+
+GPD NameMap:  Mon Dec  2 13:59:25 2024
+  Warnings: 0    Errors: 0
+  GPD_NameMap   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=493.0 
+Done
+
+xTract DB:  Mon Dec  2 13:59:27 2024
+Completed   1%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed   3%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed   5%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed   9%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Suppression: Message (EX-504) suppressed beyond 100 times
+Completed  14%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  18%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  23%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  27%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  31%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  36%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  45%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  49%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  53%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  58%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  69%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  78%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  86%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed  95%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=419.188
+Extracted 4182 capacitors, 2110 resistors, 1717 nodes
+Reduced to 1213 nodes,  (29.3535%)
+Reduced to 1214 resistors,  (42.4645%)
+Reduced to 2823 capacitors: 1610 Cc and 1213 Cg (32.4964%)
+  Warnings: 0    Errors: 0
+  xTract        Elp=00:00:01 Cpu=00:00:00 Usr=0.5    Sys=0.1    Mem=419.7 
+Done
+
+GPD Instance:  Mon Dec  2 13:59:30 2024
+  Warnings: 0    Errors: 0
+  GPD_Instance  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=491.8 
+Done
+
+xTract Post Process DB:  Mon Dec  2 13:59:34 2024
+  Warnings: 0    Errors: 0
+  xTractPP      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=347.1 
+Done
+
+Netlist DB:  Mon Dec  2 13:59:36 2024
+  Warnings: 0    Errors: 0
+  Netlist       Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=363.2 
+Done
+
+Report Violations:  Mon Dec  2 13:59:39 2024
+  Warnings: 0    Errors: 0
+  ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+Done
+
+Report Opens:  Mon Dec  2 13:59:41 2024
+  Warnings: 0    Errors: 0
+  ReportOpens   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+Done
+
+GPD Post Process:  Mon Dec  2 13:59:43 2024
+  Warnings: 0    Errors: 0
+  GPD_PostProcess Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+Done
+
+GPD Coupling Report:  Mon Dec  2 13:59:45 2024
+  Warnings: 0    Errors: 0
+  GPD_CouplingReport Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+Done
+
+GPD Converter Part 1:  Mon Dec  2 13:59:47 2024
+  Warnings: 0    Errors: 0
+  GPD_Converter1 Elp=00:00:03 Cpu=00:00:00 Usr=0.5    Sys=0.4    Mem=490.7 
+Done
+
+GPD Converter Instance :  Mon Dec  2 13:59:52 2024
+  Warnings: 0    Errors: 0
+  GPD_Converter_Instance Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=336.4 
+Done
+
+GPD Converter Merge:  Mon Dec  2 13:59:54 2024
+  Warnings: 0    Errors: 0
+  GPD_Converter_merge Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=336.4 
+Done
+  
+Setup                  Elp=00:00:03 Cpu=00:00:01 Usr=1.9    Sys=0.0    Mem=656.3 
+Layers                 Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=664.9 
+Models                 Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+HN                     Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=675.6 
+Cells                  Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=656.4 
+Translate              Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+BulkLayerHandling      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=497.5 
+XtractPreP             Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.2    Mem=940.9 
+PcellLayers            Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=563.6 
+NetlistSetup           Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+GPD_XtractSetup        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=656.3 
+GPD_Instance_Setup     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+GPD_NameMap            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=493.0 
+xTract                 Elp=00:00:01 Cpu=00:00:00 Usr=0.5    Sys=0.1    Mem=419.7 
+GPD_Instance           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=491.8 
+xTractPP               Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=347.1 
+Netlist                Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=363.2 
+ReportViolations       Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+ReportOpens            Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+GPD_PostProcess        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+GPD_CouplingReport     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=490.3 
+GPD_Converter1         Elp=00:00:03 Cpu=00:00:00 Usr=0.5    Sys=0.4    Mem=490.7 
+GPD_Converter_Instance Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=336.4 
+GPD_Converter_merge    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=336.4 
+  
+Done          Elp=00:00:12 Cpu=00:00:04 Usr=3.3    Sys=1.0    Mem=940.9 
+
+End Time: Mon Dec  2 13:59:58 2024
+
+
+
+RUN-TIME SUMMARY:
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                            |END TIME             |HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup                     Elp=00:00:03 Cpu=00:00:01 Mem=656.3  |Dec  2 13:59:10 |redhat003
+CPU_01 |*Models                    Elp=00:00:00 Cpu=00:00:00 Mem=656.3  |Dec  2 13:59:10 |redhat003
+CPU_01 |*Layers                    Elp=00:00:00 Cpu=00:00:00 Mem=664.9  |Dec  2 13:59:10 |redhat003
+CPU_01 |*HN                        Elp=00:00:01 Cpu=00:00:00 Mem=675.6  |Dec  2 13:59:13 |redhat003
+CPU_01 |*Cells                     Elp=00:00:01 Cpu=00:00:00 Mem=656.4  |Dec  2 13:59:14 |redhat003
+CPU_01 |*Translate                 Elp=00:00:01 Cpu=00:00:00 Mem=656.3  |Dec  2 13:59:15 |redhat003
+CPU_01 |*BulkLayerHandling         Elp=00:00:00 Cpu=00:00:00 Mem=497.5  |Dec  2 13:59:15 |redhat003
+CPU_01 |*XtractPreP                Elp=00:00:02 Cpu=00:00:00 Mem=940.9  |Dec  2 13:59:17 |redhat003
+CPU_01 |*PcellLayers               Elp=00:00:01 Cpu=00:00:00 Mem=563.6  |Dec  2 13:59:18 |redhat003
+CPU_01 |*NetlistSetup              Elp=00:00:01 Cpu=00:00:00 Mem=490.3  |Dec  2 13:59:19 |redhat003
+CPU_01 |*GPD_XtractSetup           Elp=00:00:00 Cpu=00:00:00 Mem=656.3  |Dec  2 13:59:21 |redhat003
+CPU_01 |*GPD_Instance_Setup        Elp=00:00:00 Cpu=00:00:00 Mem=490.3  |Dec  2 13:59:23 |redhat003
+CPU_01 |*GPD_NameMap               Elp=00:00:00 Cpu=00:00:00 Mem=493    |Dec  2 13:59:25 |redhat003
+CPU_01 |*xTract                    Elp=00:00:03 Cpu=00:00:00 Mem=419.7  |Dec  2 13:59:28 |redhat003
+CPU_01 |*GPD_Instance              Elp=00:00:02 Cpu=00:00:00 Mem=491.8  |Dec  2 13:59:30 |redhat003
+CPU_01 |*xTractPP                  Elp=00:00:00 Cpu=00:00:00 Mem=347.1  |Dec  2 13:59:34 |redhat003
+CPU_01 |*Netlist                   Elp=00:00:01 Cpu=00:00:00 Mem=363.2  |Dec  2 13:59:37 |redhat003
+CPU_01 |*ReportViolations          Elp=00:00:00 Cpu=00:00:00 Mem=490.3  |Dec  2 13:59:39 |redhat003
+CPU_01 |*ReportOpens               Elp=00:00:00 Cpu=00:00:00 Mem=490.3  |Dec  2 13:59:41 |redhat003
+CPU_01 |*GPD_PostProcess           Elp=00:00:00 Cpu=00:00:00 Mem=490.3  |Dec  2 13:59:43 |redhat003
+CPU_01 |*GPD_CouplingReport        Elp=00:00:00 Cpu=00:00:00 Mem=490.3  |Dec  2 13:59:45 |redhat003
+CPU_01 |*GPD_Converter_DP          Elp=00:00:03 Cpu=00:00:00 Mem=490.7  |Dec  2 13:59:50 |redhat003
+CPU_01 |*GPD_Converter_Instance    Elp=00:00:00 Cpu=00:00:00 Mem=336.4  |Dec  2 13:59:52 |redhat003
+CPU_01 |*GPD_Converter_merge       Elp=00:00:00 Cpu=00:00:00 Mem=336.4  |Dec  2 13:59:54 |redhat003
+----------------------------------------------------------------------------------------------
+Start Time: Mon Dec  2 13:59:07 2024
+End Time: Mon Dec  2 13:59:43 2024
+----------------------------------------------------------------------------------------------
+Overall:         Elp=00:00:36 Cpu= 00:00:03 Peak_Mem(MB)=940.9
+PreXtraction:    Elp=00:00:18 Cpu= 00:00:02 Peak_Mem(MB)=940.9
+Xtraction:       Elp=00:00:03 Cpu= 00:00:00 Peak_Mem(MB)=419.7
+PostXtraction:   Elp=00:00:15 Cpu= 00:00:00 Peak_Mem(MB)=491.8
+----------------------------------------------------------------------------------------------
+Spef Output:     Elp= 00:00:09 Cpu= 00:00:00 Peak_Mem(MB)=490.7
+----------------------------------------------------------------------------------------------
+
+
+
+Message Summary:
+----------------------------------------------------------------------------------------------
+SX-0685 (x   1)|Warning      |DENSITY_BASED_THICKNESS: YES IS IGNORED SINCE THERE IS NO THICKNESS VARIATION MODELING.
+SX-3197 (x   1)|Warning      |SOME BLOCKING REGIONS ARE NOT BLOCKED ANY PORT, DEVICE TERMINAL, OR PROBE_TEXT. 
+
